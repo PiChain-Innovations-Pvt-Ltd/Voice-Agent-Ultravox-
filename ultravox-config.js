@@ -134,7 +134,7 @@ const selectedTools = [
 export const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
     model: 'fixie-ai/ultravox',
-    voice: 'Anjali-Hindi-Urdu',
+    voice: 'Dakota Flash V2',
     temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     selectedTools: selectedTools,
