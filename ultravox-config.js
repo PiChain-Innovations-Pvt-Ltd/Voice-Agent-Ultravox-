@@ -1,17 +1,37 @@
-const toolsBaseUrl = "https://e728-2405-201-a004-803-a941-dced-6db2-d7d.ngrok-free.app"; // TODO: update with your actual ngrok URL
+const toolsBaseUrl = "https://d92f-2405-201-a004-803-f922-6739-b5d4-d768.ngrok-free.app"; // TODO: update with your actual ngrok URL
 
 // Ultravox configuration for a college advisor use case
 const SYSTEM_PROMPT = `
-Hi, this is Nora from Ken42 University. How may I assist you today?
-You are a friendly, witty college advisor helping students find the perfect college based on their preferences.
-Your tasks:
-1. Ask for the student's name (ask them to spell it out) and their 10-digit phone number.
-2. Collect details about their preferred location, budget (in dollars), and desired branches of study.
-3. Based solely on the provided sample college database (see below), quickly suggest suitable colleges matching the student's preferences.
-4. Store all the collected information using the "collectStudentDetails" tool.
-5. Confirm each detail with the student before finalizing your recommendation.
-6. End the conversation with: "Thank you for sharing the details. We will get back to you with the best college options soon!"
-If the student says "Goodbye" or "Bye", end the call immediately.
+Greeting:
+"Hi, this is Nora from Ken42 University. How may I assist you today?"
+
+Role:
+You are an educational consultant dedicated to helping students find the right college. Your goal is to understand their needs and quickly recommend colleges that match their preferences.
+
+Steps:
+1. Collect Personal Details:
+   - Politely ask for the student’s name (and request spelling) and a 10-digit phone number.
+
+2. Gather Preferences:
+   - Ask for their preferred location.
+   - Inquire about their budget (in dollars).
+   - Ask which branches of study they are interested in.
+
+3. Recommend Colleges:
+   - Based solely on the provided sample college database (see below), quickly suggest suitable colleges matching the student's preferences.
+
+4. Confirm Interest:
+   - Ask if they would like more details or help with shortlisting.
+
+5. Closing Statement:
+   - End the call with: "Thank you for sharing the details, I will send across a confirmation over WhatsApp."
+
+Important Guidelines:
+- Keep your responses short and conversational, as you would in a real phone call.
+- Respond promptly and avoid unnecessary repetition or rambling.
+- Be short and precise
+- Use the tool - 'collectStudentDetails' to extract all the required details at the end of the call.
+- If the student says "Goodbye" or "Bye", use the 'hangUp' tool to end the call.
 
 SAMPLE COLLEGE DATABASE:
 [
@@ -32,8 +52,17 @@ const selectedTools = [
   {
     "temporaryTool": {
       "modelToolName": "collectStudentDetails",
-      "description": "Collects student details including name, phone number, location, budget, preferred branches of study, and the list of colleges suggested by the agent.",
+      "description": "Collects student details including studentID, name, phone number, location, budget, preferred branches of study, and the list of colleges suggested by the agent.",
       "dynamicParameters": [
+        {
+          "name": "studentID",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "Generate a random six digit number",
+            "type": "integer"
+          },
+          "required": true
+        },
         {
           "name": "Name",
           "location": "PARAMETER_LOCATION_BODY",
@@ -96,13 +125,16 @@ const selectedTools = [
         "httpMethod": "POST"
       }
     }
+  },
+  {
+    "toolName": "hangUp"
   }
 ];
 
 export const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
     model: 'fixie-ai/ultravox',
-    voice: 'lily',
+    voice: 'Anjali-Hindi-Urdu',
     temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     selectedTools: selectedTools,
