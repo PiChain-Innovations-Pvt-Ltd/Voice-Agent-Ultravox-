@@ -1,4 +1,4 @@
-const toolsBaseUrl = "https://d92f-2405-201-a004-803-f922-6739-b5d4-d768.ngrok-free.app"; // TODO: update with your actual ngrok URL
+const toolsBaseUrl = "https://ef3c-103-44-97-109.ngrok-free.app"; // TODO: update with your actual ngrok URL
 
 // Ultravox configuration for a college advisor use case
 const SYSTEM_PROMPT = `
@@ -17,8 +17,8 @@ Steps:
    - Inquire about their budget (in dollars).
    - Ask which branches of study they are interested in.
 
-3. Recommend Colleges:
-   - Based solely on the provided sample college database (see below), quickly suggest suitable colleges matching the student's preferences.
+3. Recommend/Fetch/Suggest Colleges based on their preferences:
+   - Use the 'fetchCollegeData' tool to dynamically query the latest college details based on the student's preferences.
 
 4. Confirm Interest:
    - Ask if they would like more details or help with shortlisting.
@@ -30,22 +30,10 @@ Important Guidelines:
 - Keep your responses short and conversational, as you would in a real phone call.
 - Respond promptly and avoid unnecessary repetition or rambling.
 - Be short and precise
-- Use the tool - 'collectStudentDetails' to extract all the required details at the end of the call.
+- Please use the tool - 'collectStudentDetails' to extract all the required details after recommending the colleges.
 - If the student says "Goodbye" or "Bye", use the 'hangUp' tool to end the call.
+- Please speake in english language
 
-SAMPLE COLLEGE DATABASE:
-[
-  {"College Name": "Greenfield University", "Location": "Chicago", "Course Fee": "21732", "Branches Available": "Civil, Psychology, Electrical, Mechanical"},
-  {"College Name": "Riverside Institute of Technology", "Location": "Chicago", "Course Fee": "25397", "Branches Available": "Psychology, Physics, Mechanical, Biotechnology"},
-  {"College Name": "Summit College", "Location": "Los Angeles", "Course Fee": "41164", "Branches Available": "Physics, Computer Science, Biotechnology"},
-  {"College Name": "Horizon University", "Location": "San Francisco", "Course Fee": "9103", "Branches Available": "Psychology, Mathematics"},
-  {"College Name": "Maplewood College", "Location": "Chicago", "Course Fee": "25000", "Branches Available": "Mechanical, Mathematics"},
-  {"College Name": "Everest Engineering Institute", "Location": "Houston", "Course Fee": "39571", "Branches Available": "Civil, Psychology, Economics, Mathematics, Mechanical"},
-  {"College Name": "Sunrise Business School", "Location": "Miami", "Course Fee": "14080", "Branches Available": "Biotechnology, Physics, Business"},
-  {"College Name": "Westwood Academy", "Location": "Boston", "Course Fee": "38620", "Branches Available": "Civil, Business, Computer Science"},
-  {"College Name": "Silverlake University", "Location": "New York", "Course Fee": "28649", "Branches Available": "Computer Science, Economics"},
-  {"College Name": "Highland Institute of Science", "Location": "San Francisco", "Course Fee": "40873", "Branches Available": "Civil, Business, Electrical"}
-]
 `;
 
 const selectedTools = [
@@ -128,6 +116,46 @@ const selectedTools = [
   },
   {
     "toolName": "hangUp"
+  },
+  {
+    "temporaryTool": {
+        "modelToolName": "fetchCollegeData",
+        "description": "Fetches college details dynamically based on student preferences.",
+        "dynamicParameters": [
+            {
+                "name": "location",
+                "location": "PARAMETER_LOCATION_BODY",
+                "schema": {
+                    "description": "Preferred study location",
+                    "type": "string"
+                },
+                "required": false
+            },
+            {
+                "name": "budget",
+                "location": "PARAMETER_LOCATION_BODY",
+                "schema": {
+                    "description": "Maximum budget for college (in dollars)",
+                    "type": "integer"
+                },
+                "required": false
+            },
+            {
+                "name": "branches",
+                "location": "PARAMETER_LOCATION_BODY",
+                "schema": {
+                    "description": "Preferred branches of study",
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "required": false
+            }
+        ],
+        "http": {
+            "baseUrlPattern": `${toolsBaseUrl}/college/fetch`,
+            "httpMethod": "POST"
+        }
+    }
   }
 ];
 

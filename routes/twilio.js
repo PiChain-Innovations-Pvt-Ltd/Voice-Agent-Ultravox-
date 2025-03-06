@@ -19,13 +19,15 @@ router.post('/incoming', async (req, res) => {
 
         // Create the Ultravox call
         const response = await createUltravoxCall(ULTRAVOX_CALL_CONFIG);
-
+        console.log('Ultravox response:', response)
         activeCalls.set(response.callId, {
             twilioCallSid: twilioCallSid
         });
 
         const twiml = new twilio.twiml.VoiceResponse();
         const connect = twiml.connect();
+        
+
         connect.stream({
             url: response.joinUrl,
             name: 'ultravox'

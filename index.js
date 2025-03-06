@@ -10,8 +10,10 @@ app.use(express.urlencoded({ extended: true }));
 // Import our routes and mount them
 import { router as twilioRoutes } from './routes/twilio.js';
 import { router as makeRoutes } from './routes/make.js';
+import { router as fetchRoutes } from './routes/fetch.js';
 
 app.use('/twilio/', twilioRoutes);
+app.use('/college/', fetchRoutes);
 app.use('/make/', makeRoutes);
 
 

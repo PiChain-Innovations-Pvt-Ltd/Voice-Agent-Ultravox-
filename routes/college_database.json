@@ -1,0 +1,12 @@
+[
+    {"College Name": "Greenfield University", "Location": "Chicago", "Course Fee": "21732", "Branches Available": "Civil, Psychology, Electrical, Mechanical"},
+    {"College Name": "Riverside Institute of Technology", "Location": "Chicago", "Course Fee": "25397", "Branches Available": "Psychology, Physics, Mechanical, Biotechnology"},
+    {"College Name": "Summit College", "Location": "Los Angeles", "Course Fee": "41164", "Branches Available": "Physics, Computer Science, Biotechnology"},
+    {"College Name": "Horizon University", "Location": "San Francisco", "Course Fee": "9103", "Branches Available": "Psychology, Mathematics"},
+    {"College Name": "Maplewood College", "Location": "Chicago", "Course Fee": "25000", "Branches Available": "Mechanical, Mathematics"},
+    {"College Name": "Everest Engineering Institute", "Location": "Houston", "Course Fee": "39571", "Branches Available": "Civil, Psychology, Economics, Mathematics, Mechanical"},
+    {"College Name": "Sunrise Business School", "Location": "Miami", "Course Fee": "14080", "Branches Available": "Biotechnology, Physics, Business"},
+    {"College Name": "Westwood Academy", "Location": "Boston", "Course Fee": "38620", "Branches Available": "Civil, Business, Computer Science"},
+    {"College Name": "Silverlake University", "Location": "New York", "Course Fee": "28649", "Branches Available": "Computer Science, Economics"},
+    {"College Name": "Highland Institute of Science", "Location": "San Francisco", "Course Fee": "40873", "Branches Available": "Civil, Business, Electrical"}
+  ]
