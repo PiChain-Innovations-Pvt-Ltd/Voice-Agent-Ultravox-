@@ -1,161 +1,71 @@
-const toolsBaseUrl = "https://ef3c-103-44-97-109.ngrok-free.app"; // TODO: update with your actual ngrok URL
+import 'dotenv/config';
 
-// Ultravox configuration for a college advisor use case
+const toolsBaseUrl = process.env.BASE_URL; // Load from .env
+
+// Ultravox configuration for Physique 57 AI Assistant
 const SYSTEM_PROMPT = `
 Greeting:
-"Hi, this is Nora from Ken42 University. How may I assist you today?"
+"Hi, this is Nora from Physique 57. How may I assist you today?"
 
 Role:
-You are an educational consultant dedicated to helping students find the right college. Your goal is to understand their needs and quickly recommend colleges that match their preferences.
+You are a fitness assistant for Physique 57, helping users with workout details, class schedules, and general inquiries.
 
 Steps:
+
 1. Collect Personal Details:
-   - Politely ask for the student’s name (and request spelling) and a 10-digit phone number.
+  //  - Politely ask for the user’s name (and request spelling) and a 10-digit phone number.
+   - Politely ask for the user’s name.
+   
+2. Understand User's Inquiry:
+   - If they ask about workouts, explain the workout styles, methodology, or benefits.
+   - If they ask about schedules, provide class timings and availability.
+   - If they ask about private training, explain the options and benefits.
 
-2. Gather Preferences:
-   - Ask for their preferred location.
-   - Inquire about their budget (in dollars).
-   - Ask which branches of study they are interested in.
+3. Fetch Details:
+   - Use the 'fetchPhysiqueData' tool to dynamically retrieve workout and schedule information from the PDFs.
 
-3. Recommend/Fetch/Suggest Colleges based on their preferences:
-   - Use the 'fetchCollegeData' tool to dynamically query the latest college details based on the student's preferences.
-
-4. Confirm Interest:
-   - Ask if they would like more details or help with shortlisting.
+4. Provide a Clear Answer:
+   - Summarize key information.
+   - If needed, suggest a follow-up via WhatsApp.
 
 5. Closing Statement:
-   - End the call with: "Thank you for sharing the details, I will send across a confirmation over WhatsApp."
+   - End the call with: "Thank you for reaching out to Physique 57! Have a great day."
 
 Important Guidelines:
 - Keep your responses short and conversational, as you would in a real phone call.
 - Respond promptly and avoid unnecessary repetition or rambling.
-- Be short and precise
-- Please use the tool - 'collectStudentDetails' to extract all the required details after recommending the colleges.
-- If the student says "Goodbye" or "Bye", use the 'hangUp' tool to end the call.
-- Please speake in english language
+- Please use the tool - 'fetchPhysiqueData' to extract all required details.
+- If the user says "Goodbye" or "Bye", use the 'hangUp' tool to end the call.
+- Please speak in English language.
 
+PDF Data Summary:
+{PDF_SUMMARY}
 `;
 
 const selectedTools = [
   {
     "temporaryTool": {
-      "modelToolName": "collectStudentDetails",
-      "description": "Collects student details including studentID, name, phone number, location, budget, preferred branches of study, and the list of colleges suggested by the agent.",
+      "modelToolName": "fetchPhysiqueData",
+      "description": "Fetches Physique 57 details dynamically from the PDFs.",
       "dynamicParameters": [
         {
-          "name": "studentID",
+          "name": "query",
           "location": "PARAMETER_LOCATION_BODY",
           "schema": {
-            "description": "Generate a random six digit number",
-            "type": "integer"
-          },
-          "required": true
-        },
-        {
-          "name": "Name",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "student's name",
+            "description": "User's natural language query about workouts, schedule, or classes",
             "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "phoneNumber",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The student's 10-digit phone number",
-            "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "location",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The student's preferred study location",
-            "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "budget",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The student's budget for college (in dollars)",
-            "type": "integer"
-          },
-          "required": true
-        },
-        {
-          "name": "branches",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The student's preferred branches of study",
-            "type": "array",
-            "items": { "type": "string" }
-          },
-          "required": true
-        },
-        {
-          "name": "suggestedColleges",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "List of college names suggested by the agent based on the student's criteria",
-            "type": "array",
-            "items": { "type": "string" }
           },
           "required": true
         }
       ],
       "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/student/collectDetails`,
+        "baseUrlPattern": `${toolsBaseUrl}/phys/fetch_pdf`,
         "httpMethod": "POST"
       }
     }
   },
   {
     "toolName": "hangUp"
-  },
-  {
-    "temporaryTool": {
-        "modelToolName": "fetchCollegeData",
-        "description": "Fetches college details dynamically based on student preferences.",
-        "dynamicParameters": [
-            {
-                "name": "location",
-                "location": "PARAMETER_LOCATION_BODY",
-                "schema": {
-                    "description": "Preferred study location",
-                    "type": "string"
-                },
-                "required": false
-            },
-            {
-                "name": "budget",
-                "location": "PARAMETER_LOCATION_BODY",
-                "schema": {
-                    "description": "Maximum budget for college (in dollars)",
-                    "type": "integer"
-                },
-                "required": false
-            },
-            {
-                "name": "branches",
-                "location": "PARAMETER_LOCATION_BODY",
-                "schema": {
-                    "description": "Preferred branches of study",
-                    "type": "array",
-                    "items": { "type": "string" }
-                },
-                "required": false
-            }
-        ],
-        "http": {
-            "baseUrlPattern": `${toolsBaseUrl}/college/fetch`,
-            "httpMethod": "POST"
-        }
-    }
   }
 ];
 
