@@ -14,7 +14,7 @@ router.post('/webhook', async (req, res) => {
     if (data.event === "call.ended") {
       // Use CallID and use UV REST API to get transcript
       const transcript = await getCallTranscript(data.call.callId);
-      transcript = transcript.replace(/\bBar\b/g, "Barre");
+      // transcript = transcript.replace(/\bBar\b/g, "Barre");
       const postBody = {
         "callId": data.call.callId,
         "transcript": transcript
