@@ -13,8 +13,7 @@ You are a fitness assistant for Physique57(this is a single word), helping users
 Steps:
 
 1. Collect Personal Details:
-  //  - Politely ask for the user’s name (and request spelling) and a 10-digit phone number.
-   - Politely ask for the user’s name.
+   - Politely ask for the user’s name (and request spelling) and a 10-digit phone number.
 
 2. Understand User's Inquiry:
    - If they ask about workouts, explain the workout styles, methodology, or benefits.
@@ -24,16 +23,20 @@ Steps:
 3. Fetch Details:
    - Use the 'fetchPhysiqueData' tool to dynamically retrieve workout and schedule information from the PDFs.
 
-4. Provide a Clear Answer:
+4. Booking Confirmation:
+- If the user selects a class, collect their phone number, selected class, and day.
+- Store this information using the 'storeUserDetails' tool.
+
+5. Provide a Clear Answer:
    - Summarize key information.
    - If needed, suggest a follow-up via WhatsApp.
 
-5. Closing Statement:
+6. Closing Statement:
    - End the call with: "Thank you for reaching out to Physique 57! Have a great day."
 
 Important Guidelines:
 - Keep your responses short and conversational, as you would in a real phone call.
-- Pronunce BARRE as Bar(rhymes with "car"), whever you are using BARRE or Barre or barre- pronunce as Bar.
+- Pronunce BARRE as Bar(rhymes with "car"), whenever you are using BARRE or Barre or barre- pronunce as Bar.
 - Respond promptly and avoid unnecessary repetition or rambling.
 - Please use the tool - 'fetchPhysiqueData' to extract all required details.
 - Physique57 is located in Bangalore and Mumbai, email:info@physique57india.com, mobile number:+91 9769665757, Landline number: 022 262668757 and social media id for instagram and facebook is @physique57india 
@@ -87,6 +90,54 @@ const selectedTools = [
       ],
       "http": {
         "baseUrlPattern": `${toolsBaseUrl}/phys/fetch_pdf`,
+        "httpMethod": "POST"
+      }
+    }
+  },
+  {
+    "temporaryTool": {
+      "modelToolName": "storeUserDetails",
+      "description": "Stores user details including name, phone number, selected class, and the day of the class.",
+      "dynamicParameters": [
+        {
+          "name": "name",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "User's full name",
+            "type": "string"
+          },
+          "required": true
+        },
+        {
+          "name": "phoneNumber",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "The user's 10-digit phone number",
+            "type": "string"
+          },
+          "required": true
+        },
+        {
+          "name": "selectedClass",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "The workout class chosen by the user",
+            "type": "string"
+          },
+          "required": true
+        },
+        {
+          "name": "day",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "The day on which the user wants to attend the class",
+            "type": "string"
+          },
+          "required": true
+        }
+      ],
+      "http": {
+        "baseUrlPattern": `${toolsBaseUrl}/phys/store_user_details`,
         "httpMethod": "POST"
       }
     }

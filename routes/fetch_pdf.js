@@ -8,7 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const router = express.Router();
-let pdfContent = ''; // Stores full raw PDF content
+let pdfContent = ''; // Stores full raw PDF content (for AI)
+let pdfOriginalContent = ''; // Stores original content (for webhook)
 
 // Function to extract full text from PDFs
 const extractPDFs = async () => {
@@ -18,6 +19,7 @@ const extractPDFs = async () => {
     ];
 
     let fullText = [];
+    let originalText = [];
 
     for (let file of pdfFiles) {
         try {
@@ -27,20 +29,30 @@ const extractPDFs = async () => {
             if (!fs.existsSync(filePath)) {
                 console.error(`❌ File not found: ${filePath}`);
                 fullText.push(`${file.label}: [File not found]`);
+                originalText.push(`${file.label}: [File not found]`);
                 continue;
             }
 
             const dataBuffer = fs.readFileSync(filePath);
             const data = await pdf(dataBuffer);
 
-            fullText.push(`--- ${file.label} ---\n${data.text.trim()}\n`);
+            // Store original text for webhook
+            originalText.push(`--- ${file.label} ---\n${data.text.trim()}\n`);
+
+            // Replace variations of "BARRE" with "Bar" (for AI response)
+            const cleanedText = data.text.replace(/BARRE|Barre|barre/g, "Bar");
+            fullText.push(`--- ${file.label} ---\n${cleanedText.trim()}\n`);
         } catch (error) {
             console.error(`❌ Error reading ${file.path}:`, error);
             fullText.push(`${file.label}: [Error loading content]`);
+            originalText.push(`${file.label}: [Error loading content]`);
         }
     }
 
-    pdfContent = fullText.join("\n"); // Store extracted full text
+    pdfContent = fullText.join("\n"); // Store modified text for AI
+    pdfOriginalContent = originalText.join("\n"); // Store original text for webhook
+    console.log("📄 Extracted PDF Content for AI:\n", pdfContent);
+    console.log("📄 Extracted PDF Original Content for Webhook:\n", pdfOriginalContent);
 };
 
 extractPDFs(); // Run at startup
