@@ -1,8 +1,12 @@
 import express from 'express';
+import { GoogleSpreadsheet } from 'google-spreadsheet';
 import fs from 'fs';
 import path from 'path';
 import pdf from 'pdf-parse';
+import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
+import { JWT } from 'google-auth-library'; // ✅ Import JWT properly
+dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,6 +14,43 @@ const __dirname = path.dirname(__filename);
 const router = express.Router();
 let pdfContent = ''; // Stores full raw PDF content (for AI)
 let pdfOriginalContent = ''; // Stores original content (for webhook)
+const app = express();
+app.use(express.json()); // Middleware to parse JSON requests
+
+const SHEET_ID = process.env.GOOGLE_SHEET_ID; // Google Sheet ID
+const SERVICE_ACCOUNT_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_KEY 
+    ? JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY)
+    : null; // Ensure it’s not undefined
+
+if (!SHEET_ID || !SERVICE_ACCOUNT_JSON) {
+    console.error("❌ Missing required environment variables for Google Sheets.");
+    process.exit(1); // Exit if variables are missing
+}
+
+async function storeUserDetails(name, phoneNumber, selectedClass, day) {
+    try {
+        // ✅ Use JWT-based authentication
+        const auth = new JWT({
+            email: SERVICE_ACCOUNT_JSON.client_email,
+            key: SERVICE_ACCOUNT_JSON.private_key,
+            scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+        });
+
+        const doc = new GoogleSpreadsheet(SHEET_ID, auth); // ✅ Pass auth object
+        await doc.loadInfo(); // Load sheet info
+
+        const sheet = doc.sheetsByIndex[0]; // Use first sheet
+        await sheet.addRow({ Name: name, "Phone Number": phoneNumber, Class: selectedClass, Day: day });
+
+        console.log(`✅ Data stored successfully! Name: ${name}, Phone: ${phoneNumber}, Class: ${selectedClass}, Day: ${day}`);
+        return { success: true, message: 'User details stored successfully!' };
+    } catch (error) {
+        console.error('❌ Error storing data:', error);
+        return { success: false, message: 'Failed to store user details' };
+    }
+}
+
+export { storeUserDetails };
 
 // Function to extract full text from PDFs
 const extractPDFs = async () => {
@@ -79,6 +120,18 @@ router.post('/fetch_pdf', async (req, res) => {
     `;
 
     res.json({ response: prompt.trim() });
+});
+
+router.post('/store_user_details', async (req, res) => {
+    const { name, phoneNumber, selectedClass, day } = req.body;
+
+    if (!name || !phoneNumber || !selectedClass || !day) {
+        return res.status(400).json({ error: 'Missing required fields' });
+    }
+
+    const result = await storeUserDetails(name, phoneNumber, selectedClass, day);
+
+    res.status(result.success ? 200 : 500).json(result);
 });
 
 // ✅ Properly export the router
