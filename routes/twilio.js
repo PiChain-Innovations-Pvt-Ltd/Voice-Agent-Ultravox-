@@ -15,13 +15,17 @@ router.post('/incoming', async (req, res) => {
     try {
         console.log('Incoming call received');
         const twilioCallSid = req.body.CallSid;
+        const callerNumber = req.body.From;
         console.log('Twilio CallSid:', twilioCallSid);
+        console.log('Caller Phone Number:', callerNumber);
+
 
         // Create the Ultravox call
         const response = await createUltravoxCall(ULTRAVOX_CALL_CONFIG);
         console.log('Ultravox response:', response)
         activeCalls.set(response.callId, {
-            twilioCallSid: twilioCallSid
+            twilioCallSid: twilioCallSid,
+            callerNumber: callerNumber  
         });
 
         const twiml = new twilio.twiml.VoiceResponse();

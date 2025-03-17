@@ -91,9 +91,9 @@ const extractPDFs = async () => {
     }
 
     pdfContent = fullText.join("\n"); // Store modified text for AI
-    pdfOriginalContent = originalText.join("\n"); // Store original text for webhook
+    // pdfOriginalContent = originalText.join("\n"); // Store original text for webhook
     console.log("📄 Extracted PDF Content for AI:\n", pdfContent);
-    console.log("📄 Extracted PDF Original Content for Webhook:\n", pdfOriginalContent);
+    // console.log("📄 Extracted PDF Original Content for Webhook:\n", pdfOriginalContent);
 };
 
 extractPDFs(); // Run at startup
@@ -123,15 +123,16 @@ router.post('/fetch_pdf', async (req, res) => {
 });
 
 router.post('/store_user_details', async (req, res) => {
-    const { name, phoneNumber, selectedClass, day } = req.body;
+    // const { name, phoneNumber, selectedClass, day } = req.body;
 
-    if (!name || !phoneNumber || !selectedClass || !day) {
-        return res.status(400).json({ error: 'Missing required fields' });
-    }
+    // if (!name || !phoneNumber || !selectedClass || !day) {
+    //     return res.status(400).json({ error: 'Missing required fields' });
+    // }
 
-    const result = await storeUserDetails(name, phoneNumber, selectedClass, day);
+    // const result = await storeUserDetails(name, phoneNumber, selectedClass, day);
 
-    res.status(result.success ? 200 : 500).json(result);
+    // res.status(result.success ? 200 : 500).json(result);
+    res.sendStatus(200);
 });
 
 // ✅ Properly export the router
