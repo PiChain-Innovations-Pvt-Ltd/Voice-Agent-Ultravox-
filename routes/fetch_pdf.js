@@ -57,6 +57,7 @@ const extractPDFs = async () => {
     const pdfFiles = [
         { path: path.join(__dirname, "Physique 57 - Brand Infomation_2025.pdf"), label: "Workout Information" },
         { path: path.join(__dirname, "p57 - BLR Schedule - Q1-1.pdf"), label: "Class Schedule" }
+
     ];
 
     let fullText = [];
