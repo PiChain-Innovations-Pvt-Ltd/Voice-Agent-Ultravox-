@@ -7,7 +7,7 @@ const router = express.Router();
 // Function to load the latest college database
 const getCollegeDatabase = () => {
   try {
-    const data = fs.readFileSync('college_database.json', 'utf-8');
+    const data = fs.readFileSync('company_database.json', 'utf-8');
     return JSON.parse(data);
   } catch (error) {
     console.error('Error reading college database:', error);

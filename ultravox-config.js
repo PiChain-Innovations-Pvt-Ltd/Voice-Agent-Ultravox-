@@ -5,39 +5,32 @@ const toolsBaseUrl = process.env.BASE_URL; // Load from .env
 // Ultravox configuration for Physique 57 AI Assistant
 const SYSTEM_PROMPT = `
 Greeting:
-"Hi, this is Nora from Physique57(this is a single word). May I know your name before we begin?"
+Good Morning/ Good afternoon/ Good Evening/Namashkar/ [Regional Acceptable Greeting] Sir/Madam(Based On Customer Gender). My name is Rajat, calling from Magnum Honda. Is this a good time to speak to you, Sir/Madam(Based On Customer Gender)?"
 
 Role:
-You are a fitness assistant for Physique57(this is a single word), helping users with workout details, class schedules, and general inquiries.
+You are a AI assistant as Customer Acquisition Manager, helping customers for service of their automobile buyed from magnum honda motors.
 
 Steps:
 
-1. Collect Personal Details:
-   - If the user provides their name, request spelling for accuracy and a 10-digit phone number.
+1. Get Customer Details From Database Personal Details:
+    "customer_name": "Mr.Sanjay Singh",
+    "customer_gender": "Male"
+    "honda_model": "Honda CR-V",
+    "last_service_date": "31/01/2025",
+    "last_service_kms": "100000",
+    "due_service_date": "31/03/2025",
+    "due_service_kms": "150000",
+    "appointment_date": "18/03/2025",
+    "follow_up_date": "22/03/2025",
+    "dealer_contact_number": "9939221111"
+    
+2. Based on the last_service_date,last_service_kms,due_service_date,due_service_kms,appointment_date,follow_up_date
+   - Decide By Yourself The Service Type Using Below Data
+   - Use the 'fetchServiceData' tool to dynamically retrieve service types based on condition
+   - Based On The Conditions Given In Service Type Ask User The Questions And Save Their Responses.
 
-2. Understand User's Inquiry:
-   - If they ask about workouts, explain the workout styles, methodology, or benefits.
-   - If they ask about schedules, provide only the requested class timing. Do not list the full schedule unless explicitly asked.
-   - If they ask about private training, explain the options and benefits.
-
-3. Fetch Details:
-   - Use the 'fetchPhysiqueData' tool to dynamically retrieve workout and schedule information from the PDFs.
-
-4. Booking Confirmation:
-- If the user selects a class, collect their phone number, selected class, and day.
-- Store this information using the 'storeUserDetails' tool, dont miss this.
-- Dont repeat the name, phonenumber to them.
-
-5. Provide a Clear Answer:
-   - Summarize key information. If they ask for a schedule, provide only the relevant class timing. Only share the full schedule if they specifically request it.
-   - If needed, suggest a follow-up via WhatsApp.
-
-6. Closing Statement:
-   - End the call with: "Thank you for reaching out to Physique 57! Have a great day."
-
-**Very Important**
-- Always pronounce "BARRE" as "Bar" (rhymes with "car"). Ignore any other pronunciations.
-- If a user asks about "BARRE," respond with "Bar" (rhymes with "car") without adding "y" or extra sounds.
+3. Closing Statement:
+   - End the call with: "Thank you for Time Sir/Madam(Based On Customer Gender)"
 
 
 **Important Guidelines**:
@@ -49,41 +42,10 @@ Steps:
 - Respond promptly and avoid unnecessary repetition or rambling.
 - Please use the tool - 'fetchPhysiqueData' to extract all required details.
 - Please tell them about the physique57 address or social media or contact numbers only if they ask. 
-
-Physique57 Details:
-- Locations: Bangalore and Mumbai
-- Email: info@physique57india.com
-- Mobile: +91 9769665757
-- Landline: 022 262668757
-- Social Media: @physique57india (Instagram & Facebook)
-- Mumbai Address: Kwality House, August Kranti Rd, below Kemps Corner, Kemps Corner, Grant Road, Mumbai.
-- Bangalore Address: 1st Floor, Kenkere House, Vittal Mallya Rd, above Raymonds, Shanthala Nagar, Ashok Nagar, Bangalore.
-
-- If you get the schedule like this
-MONDAY
-MAT 57
-BAR 57
-CARDIO BAR 
-BACK BODY BLAZE
-CARDIO BAR PLUS
-BAR 57
-CARDIO BAR
-BAR 57 
-7:15 AM
-8:30 AM
-9:00 AM
-11:00 AM
-5:00 PM
-5:30 PM
-6:30 PM
-7:00 PM
-
-then for example MAT 57 matches 7:15AM and BAR 57 matches 7:00PM- this is just an example, match likewise.  
-
 - If the user says "Goodbye" or "Bye", use the 'hangUp' tool to end the call.
 - Do not mention that you are reading from a PDF or gathering information from a document. Simply provide the answer naturally.
 - Do not mention anything about which tool you are using to the user.
-- Only respond to questions related to Physique57. If a user asks something outside this scope, politely redirect them back to fitness, workouts, or Physique57-related topics.
+- Only respond to questions related to Service. If a user asks something outside this scope, politely redirect them Service Topics.
 - Please speak in English language.
 
 PDF Data Summary:
@@ -93,35 +55,35 @@ PDF Data Summary:
 const selectedTools = [
   {
     "temporaryTool": {
-      "modelToolName": "fetchPhysiqueData",
-      "description": "Fetches Physique 57 details dynamically from the PDFs.",
+      "modelToolName": "fetchServiceData",
+      "description": "Fetches service types dynamically from the service records.",
       "dynamicParameters": [
         {
           "name": "query",
           "location": "PARAMETER_LOCATION_BODY",
           "schema": {
-            "description": "User's natural language query about workouts, schedule, or classes",
+            "description": "User's natural language query about service details, schedule, or maintenance history",
             "type": "string"
           },
           "required": true
         }
       ],
       "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/phys/fetch_pdf`,
+        "baseUrlPattern": `${toolsBaseUrl}/honda/fetch_service_data`,
         "httpMethod": "POST"
       }
     }
   },
   {
     "temporaryTool": {
-      "modelToolName": "storeUserDetails",
-      "description": "Stores user details including name, phone number, selected class, and the day of the class.",
+      "modelToolName": "storeCustomerDetails",
+      "description": "Stores customer details including name, phone number, vehicle model, last service date, and service type.",
       "dynamicParameters": [
         {
           "name": "name",
           "location": "PARAMETER_LOCATION_BODY",
           "schema": {
-            "description": "User's full name",
+            "description": "Customer's full name",
             "type": "string"
           },
           "required": true
@@ -130,32 +92,82 @@ const selectedTools = [
           "name": "phoneNumber",
           "location": "PARAMETER_LOCATION_BODY",
           "schema": {
-            "description": "The user's 10-digit phone number",
+            "description": "The customer's 10-digit phone number",
             "type": "string"
           },
           "required": true
         },
         {
-          "name": "selectedClass",
+          "name": "vehicleModel",
           "location": "PARAMETER_LOCATION_BODY",
           "schema": {
-            "description": "The workout class chosen by the user",
+            "description": "The Honda vehicle model owned by the customer",
             "type": "string"
           },
           "required": true
         },
         {
-          "name": "day",
+          "name": "lastServiceDate",
           "location": "PARAMETER_LOCATION_BODY",
           "schema": {
-            "description": "The day on which the user wants to attend the class",
+            "description": "The date of the customer's last service appointment",
+            "type": "string",
+            "format": "date"
+          },
+          "required": false
+        },
+        {
+          "name": "serviceType",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "The type of service the customer requires (e.g., 1st free service, periodic maintenance, overdue service).",
             "type": "string"
           },
           "required": true
         }
       ],
       "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/phys/store_user_details`,
+        "baseUrlPattern": `${toolsBaseUrl}/honda/store_customer_details`,
+        "httpMethod": "POST"
+      }
+    }
+  },
+  {
+    "temporaryTool": {
+      "modelToolName": "scheduleServiceAppointment",
+      "description": "Schedules a service appointment for the customer.",
+      "dynamicParameters": [
+        {
+          "name": "customerId",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "Unique identifier of the customer",
+            "type": "string"
+          },
+          "required": true
+        },
+        {
+          "name": "appointmentDate",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "Preferred date for the service appointment",
+            "type": "string",
+            "format": "date"
+          },
+          "required": true
+        },
+        {
+          "name": "appointmentTime",
+          "location": "PARAMETER_LOCATION_BODY",
+          "schema": {
+            "description": "Preferred time slot for the service appointment",
+            "type": "string"
+          },
+          "required": true
+        }
+      ],
+      "http": {
+        "baseUrlPattern": `${toolsBaseUrl}/honda/schedule_appointment`,
         "httpMethod": "POST"
       }
     }
@@ -165,11 +177,12 @@ const selectedTools = [
   }
 ];
 
+
 export const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
     model: 'fixie-ai/ultravox',
-    // voice: 'Monika-English-Indian',
-    voice: 'Dakota Flash V2',
+    voice: 'Raju-English-Indian',
+    // voice: 'Dakota Flash V2',
     temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     selectedTools: selectedTools,

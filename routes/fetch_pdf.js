@@ -55,9 +55,7 @@ export { storeUserDetails };
 // Function to extract full text from PDFs
 const extractPDFs = async () => {
     const pdfFiles = [
-        { path: path.join(__dirname, "Physique 57 - Brand Infomation_2025.pdf"), label: "Workout Information" },
-        { path: path.join(__dirname, "p57 - BLR Schedule - Q1-1.pdf"), label: "Class Schedule" }
-
+        { path: path.join(__dirname, "Magnum_Motors_Calling_Scripts.pdf"), label: "Magnum Motors Calling Script" }
     ];
 
     let fullText = [];
@@ -109,7 +107,7 @@ router.post('/fetch_pdf', async (req, res) => {
     }
 
     const prompt = `
-    You are an AI assistant for Physique 57.
+    You are an AI assistant for Customer Assitant Call In Magnum Motors.
     Answer questions using the following full-text extracted from PDFs.
 
     --- PDF FULL TEXT ---
