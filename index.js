@@ -12,11 +12,14 @@ import { router as plivoRoutes } from './routes/plivo.js';
 import { router as makeRoutes } from './routes/make.js';
 import { router as fetchRoutes } from './routes/fetch.js';
 import { router as fetchpdfRoutes } from './routes/fetch_pdf.js';
+import { router as store_routes } from './routes/store.js';
 
 app.use('/plivo/', plivoRoutes);
 app.use('/college/', fetchRoutes);
 app.use('/make/', makeRoutes);
 app.use('/phys/', fetchpdfRoutes);
+app.use('/honda/', store_routes)
+
 
 
 // Start server

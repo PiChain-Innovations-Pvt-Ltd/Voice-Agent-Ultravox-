@@ -71,14 +71,14 @@ Steps:
 2. Tell Customer That His/Her Vehicle Is Due For Service, When Can Book An Appointment?.
 
 3. Based on the Customer Response:
-   - If Customer Want Service(Which Indicate He/She Need Service):
-    - Decide By Yourself The Service Type Using Below Data
-      - Use the 'fetchservicedata' tool to dynamically retrieve service types based on condition last_service_date,last_service_kms,due_service_date,due_service_kms,appointment_date,follow_up_date given in database.
-      - Take only one relvant service type based on condition given.Do not read symbols or brackets
-      - Based On The Conditions Given In The Selected Service Type Ask Customer Questions If Any Releted to that And Save Their Responses.
-      - Store Appointment detail using tool 'storeappointmentdetails'
-   - Else
-    - Ask What will be the good time to talk from the customer and note it down and asure connecting them at that time.
+  - If Customer Want Service(Which Indicate He/She Need Service):
+  - Decide By Yourself The Service Type Using Below Data
+    - Use the 'fetchservicedata' tool to dynamically retrieve service types based on condition last_service_date,last_service_kms,due_service_date,due_service_kms,appointment_date,follow_up_date given in database.
+    - Take only one relvant service type based on condition given.Do not read symbols or brackets
+    - Based On The Conditions Given In The Selected Service Type Ask Customer Questions If Any Releted to that And Save Their Responses.
+    - Store Appointment detail using tool 'storeappointmentdetails'
+  - Else
+  - Ask What will be the good time to talk from the customer and note it down and asure connecting them at that time.
 
 4. Closing Statement
   - Ask If Customer want any other help.First If Yes Then Answer That Else Proceed To Below Closing Call.
@@ -227,7 +227,7 @@ export const ULTRAVOX_CALL_CONFIG = {
     model: 'fixie-ai/ultravox',
     voice: 'Raju-English-Indian',
     // voice: 'Dakota Flash V2',
-    temperature: 0.2,
+    temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     selectedTools: selectedTools,
     medium: { "plivo": {} }
