@@ -195,5 +195,6 @@ export const ULTRAVOX_CALL_CONFIG = {
     temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     selectedTools: selectedTools,
-    medium: { "twilio": {} }
+    // medium: { "twilio": {} },
+    medium: { "plivo": {} }
 };
