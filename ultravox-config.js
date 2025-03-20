@@ -1,7 +1,9 @@
 import 'dotenv/config';
-
+import fs from 'fs';
 const toolsBaseUrl = process.env.BASE_URL; // Load from .env
-
+const rawData = fs.readFileSync('/home/turbostart-blr-lap0023/Documents/Voice-Agent-Ultravox-/routes/company_database.json', 'utf-8');
+const companyDatabase = JSON.parse(rawData);
+const customerDataString = JSON.stringify(companyDatabase, null, 2);
 // Ultravox configuration for Physique 57 AI Assistant
 // const SYSTEM_PROMPT = `
 // Greeting:
@@ -60,50 +62,49 @@ Role:
 You are a AI Customer Vehicle Service Agent, helping customers for servicing their automobile bought from Magnum Honda Motors.
 
 Greeting:
-Good Morning/ Good afternoon/ Good Evening/Namashkar/ [Regional Acceptable Greeting] Sir/Madam(Based On Customer Gender). My name is Rajat, calling from Magnum Honda. Is this a good time to speak to you, Sir/Madam(Based On Customer Gender)?"
-
+Good Morning/ Good afternoon/ Good Evening/Namashkar/ [Regional Acceptable Greeting] Sir/Madam(Based On Customer Gender). My name is David, calling from Magnum Honda. Is this a good time to speak to you, Sir/Madam(Based On Customer Gender)?"
 
 Steps:
+1.Get Customer Details From Database Personal Details:
+ - ${customerDataString}
 
-1. Get Customer Personal Details From Database:
-    "customer_name": "Mr.Sanjay Singh",
-    "customer_gender": "Male"
-    "honda_model": "Honda CR-V",
-    "last_service_date": "31/01/2025",
-    "last_service_kms": "100000",
-    "due_service_date": "31/03/2025",
-    "due_service_kms": "150000",
-    "appointment_date": "18/03/2025",
-    "follow_up_date": ["22/03/2025","25/03/2025","30/03/2025"]
-    "dealer_contact_number": "9939221111"
-
-2. Get Companies Service Workshop Details From Database:
-    "address": "No 27/2, Kanakapura Rd, next to KSIT College, Raghuvanahalli, Bengaluru, Karnataka 560062",
-    "email": "sales@magnumhonda.com",
-    "contact_number": "080-26322271",
+2. Tell Customer That His/Her Vehicle Is Due For Service, When Can Book An Appointment?.
 
 3. Based on the Customer Response:
    - If Customer Want Service(Which Indicate He/She Need Service):
     - Decide By Yourself The Service Type Using Below Data
-      - Use the 'fetchServiceData' tool to dynamically retrieve service types based on condition last_service_date,last_service_kms,due_service_date,due_service_kms,appointment_date,follow_up_date
+      - Use the 'fetchservicedata' tool to dynamically retrieve service types based on condition last_service_date,last_service_kms,due_service_date,due_service_kms,appointment_date,follow_up_date given in database.
       - Take only one relvant service type based on condition given.Do not read symbols or brackets
       - Based On The Conditions Given In The Selected Service Type Ask Customer Questions If Any Releted to that And Save Their Responses.
-      - Store Appointment detail using tool 'scheduleServiceAppointment'
+      - Store Appointment detail using tool 'storeappointmentdetails'
    - Else
     - Ask What will be the good time to talk from the customer and note it down and asure connecting them at that time.
 
-3. Closing Statement
-  - Close The Call With "Thanks For Your Time Sir/Madam(Based On Gender), Have A Great Day!"
+4. Closing Statement
+  - Ask If Customer want any other help.First If Yes Then Answer That Else Proceed To Below Closing Call.
+  - Close The Call With "Thanks For Your Time Sir/Madam(Based On Customer Gender), Have A Great Day!"
 
 **Important Guidelines**:
-- Keep responses short, natural, and conversational. Avoid long explanations—give only the necessary details.
-- Speak slowly and clearly, pausing slightly between key points.
+- Keep Conversation In Little Fast Speed Which can be understant by Humans.
+- Keep responses short, natural, and conversational. Avoid long explanations—give only the necessary details asked by Customer.
+- Don't Say I am calling, Say "This Call Is".
+- Speak in Little Fast Speed which matches natural conversation of an Customer Vehicle Service Agent.
 - Don't tell that you are storing the information.
+- Do not take name related any part of workflow you are doing in Steps.
 - Don't repeat anything.
+- Do Not Say "Pause" When U Check Any Document or something.
+- Do Not Read In One Go, Take Some Pause In Readings.
 - Answer Only Customer Questions if he ask, do not go ask for service again and again.
-- Do not call customer name again and again, go with Sir/Madam(Based On Gender)
+- Do not ask customer name again and again until customer ask anything related to that, go with Sir/Madam(Based On Customer Gender) always.
 - Don't tell steps to customer you are doing.
+- During Closing Statement If Customer Still Want to ask something tell him/her but do not again and again say closing statements, wait for customer to end his/her question.
+- Do not move to next part of question until user response particular question.
+- If User Ask Question Stop and listen to question and answer accordingly.
+- Read Address,Phone Number,email in a human like natural language like not too fast.
+- Do not tell customer that you are fetching any data using any tool.
 - Do not answer things in excitement just be polite.
+- Ignore Background noises or talks.
+- Do not repeat calling and scheduling again and again.just answer what asks.
 - Break down long sentences into smaller, easy-to-understand phrases.
 - Respond promptly and avoid unnecessary repetition or rambling.
 - If the user says "Goodbye" or "Bye", use the 'hangUp' tool to end the call.
@@ -119,7 +120,7 @@ PDF Data Summary:
 const selectedTools = [
   {
     "temporaryTool": {
-      "modelToolName": "fetchServiceData",
+      "modelToolName": "fetchservicedata",
       "description": "Fetches service types dynamically from the service records.",
       "dynamicParameters": [
         {
@@ -140,8 +141,8 @@ const selectedTools = [
   },
   {
     "temporaryTool": {
-      "modelToolName": "storeCustomerDetails",
-      "description": "Stores customer details including name, phone number, vehicle model, last service date, and service type.",
+      "modelToolName": "storeappointmentdetails",
+      "description": "Stores customer details including name, phone number, vehicle model, last service date,service type,appointmentDate,appointmentTime",
       "dynamicParameters": [
         {
           "name": "name",
@@ -188,27 +189,6 @@ const selectedTools = [
             "type": "string"
           },
           "required": true
-        }
-      ],
-      "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/honda/store_customer_details`,
-        "httpMethod": "POST"
-      }
-    }
-  },
-  {
-    "temporaryTool": {
-      "modelToolName": "scheduleServiceAppointment",
-      "description": "Schedules a service appointment for the customer.",
-      "dynamicParameters": [
-        {
-          "name": "customerId",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Unique identifier of the customer",
-            "type": "string"
-          },
-          "required": true
         },
         {
           "name": "appointmentDate",
@@ -231,7 +211,7 @@ const selectedTools = [
         }
       ],
       "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/honda/schedule_appointment`,
+        "baseUrlPattern": `${toolsBaseUrl}/honda/store_appointment_details`,
         "httpMethod": "POST"
       }
     }

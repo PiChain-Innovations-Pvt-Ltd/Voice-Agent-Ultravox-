@@ -1,14 +1,23 @@
 {
-  "cam_name": "Divya",
-  "dealer_name": "Magnum Motors",
-  "customer_name": "Mr.Sanjay Singh",
-  "honda_model": "Honda CR-V",
-  "service_type": "1st Free",
-  "last_service_date": "31/01/2025",
-  "last_service_kms": "100000",
-  "due_service_date": "31/03/2025",
-  "due_service_kms": "150000",
-  "appointment_date": "18/03/2025",
-  "follow_up_date": "22/03/2025",
-  "dealer_contact_number": "9939221111"
+  "Company_Workshop_Details": {
+    "Address": "No 27/2, Kanakapura Rd, next to KSIT College, Raghuvanahalli, Bengaluru, Karnataka 560062",
+    "Email": "sales@magnumhonda.com",
+    "Contact_Number": "08026322271"
+  },
+  "Customer_Personal_Details": {
+    "Name": "Mr. Sanjay Singh",
+    "Gender": "Male",
+    "Honda_Model": "Honda CR-V",
+    "Vehicle_Number": "KA 22 AN 1232",
+    "Last_Service_Date": "31/01/2025",
+    "Last_Service_KMs_Driven": 100000,
+    "Due_Service_Date": "31/03/2025",
+    "Due_Service_KMs_Driven": 150000,
+    "Follow_up_Dates": [
+      "22/03/2025",
+      "25/03/2025",
+      "30/03/2025"
+    ],
+    "Dealer_Contact_Number": "9939221111"
+  }
 }
