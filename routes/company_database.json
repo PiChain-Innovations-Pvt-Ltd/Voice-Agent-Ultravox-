@@ -1,23 +1,57 @@
 {
-  "Company_Workshop_Details": {
-    "Address": "No 27/2, Kanakapura Rd, next to KSIT College, Raghuvanahalli, Bengaluru, Karnataka 560062",
-    "Email": "sales@magnumhonda.com",
-    "Contact_Number": "08026322271"
+  "Company_Advisor_Details": {
+    "Address": "Light House Luxury, 11th Floor, BKC One, Bandra Kurla Complex, Mumbai, Maharashtra - 400051",
+    "Email": "luxury@lighthouseadvisory.in",
+    "Contact_Number": "02240089911"
   },
+  "Projects": [
+    {
+      "Project_Name": "Lodha Sea Breeze Villas",
+      "Location": "Mandwa, Alibaugh",
+      "Configuration": "4 BHK Villa",
+      "Area": "3800 sq. ft.",
+      "Price": "₹4.8 Cr",
+      "Developer": "Lodha Group",
+      "Status": "Ready to Move"
+    },
+    {
+      "Project_Name": "Godrej Horizon Estate",
+      "Location": "Kihim, Alibaugh",
+      "Configuration": "3 BHK Villa",
+      "Area": "2800 sq. ft.",
+      "Price": "₹3.9 Cr",
+      "Developer": "Godrej Properties",
+      "Status": "Under Construction"
+    },
+    {
+      "Project_Name": "Rustomjee Coastline Retreat",
+      "Location": "Revdanda, Alibaugh",
+      "Configuration": "5 BHK Villa with Pool",
+      "Area": "4200 sq. ft.",
+      "Price": "₹5.2 Cr",
+      "Developer": "Rustomjee",
+      "Status": "Possession in Dec 2025"
+    }
+  ],
   "Customer_Personal_Details": {
-    "Name": "Mr. Sanjay Singh",
+    "Name": "Mr. Sanjay",
     "Gender": "Male",
-    "Honda_Model": "Honda CR-V",
-    "Vehicle_Number": "KA 22 AN 1232",
-    "Last_Service_Date": "31/01/2025",
-    "Last_Service_KMs_Driven": 100000,
-    "Due_Service_Date": "31/03/2025",
-    "Due_Service_KMs_Driven": 150000,
-    "Follow_up_Dates": [
-      "22/03/2025",
-      "25/03/2025",
-      "30/03/2025"
+    "Preferred_Location": "Alibaugh",
+    "Interested_Property_Type": "Holiday Home",
+    "Preferred_Budget": "3–5 Cr",
+    "Preferred_Call_Time": "Evening",
+    "Preferred_Language": "English",
+    "Developer_Interest": [
+      "Lodha",
+      "Godrej",
+      "Rustomjee"
     ],
-    "Dealer_Contact_Number": "9939221111"
+    "Follow_up_Dates": [
+      "05/04/2025",
+      "07/04/2025",
+      "10/04/2025"
+    ],
+    "Lead_Source": "Call Campaign - WhatsApp Audio",
+    "Current_Status": "Interested in Options"
   }
 }
