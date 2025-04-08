@@ -7,38 +7,62 @@
   "Projects": [
     {
       "Project_Name": "Lodha Sea Breeze Villas",
-      "Location": "Mandwa, Alibaugh",
-      "Configuration": "4 BHK Villa",
-      "Area": "3800 sq. ft.",
-      "Price": "₹4.8 Cr",
+      "Location": "Mandwa, Alibaug",
+      "Configuration": "4 BHK Villa,5 BHK Villas",
+      "Super_Built_Up_Area": "3800 sq.ft.",
+      "Carpet_Area": "2900 sqft. (approx)",
+      "StartingPrice": "Rs 4.8 Crores All Inclusive",
       "Developer": "Lodha Group",
-      "Status": "Ready to Move"
+      "Status": "Ready to Move",
+      "Property_Type": "Luxury Villa",
+      "Project_Highlights": [
+        "Private Garden",
+        "Sea-Facing Views",
+        "Gated Community",
+        "Walkable distance to Mandwa Jetty"
+      ]
     },
     {
       "Project_Name": "Godrej Horizon Estate",
-      "Location": "Kihim, Alibaugh",
-      "Configuration": "3 BHK Villa",
-      "Area": "2800 sq. ft.",
-      "Price": "₹3.9 Cr",
+      "Location": "Kihim, Alibaug",
+      "Configuration": "3 BHK Villa,4 BHK Villas",
+      "Super_Built_Up_Area": "2800 sq. ft.",
+      "Carpet_Area": "2100 sq.ft. (approx)",
+      "StartingPrice": "Rs 3.9 Crores All Inclusive",
       "Developer": "Godrej Properties",
-      "Status": "Under Construction"
+      "Status": "Under Construction",
+      "Property_Type": "Premium Villa",
+      "Project_Highlights": [
+        "Clubhouse & Infinity Pool",
+        "5 mins from Kihim Beach",
+        "Private Landscaped Lawn",
+        "Completion by Q2 2026"
+      ]
     },
     {
       "Project_Name": "Rustomjee Coastline Retreat",
-      "Location": "Revdanda, Alibaugh",
-      "Configuration": "5 BHK Villa with Pool",
-      "Area": "4200 sq. ft.",
-      "Price": "₹5.2 Cr",
+      "Location": "Revdanda, Alibaug",
+      "Configuration": "5 BHK Villa with Pool,4 BHK Villas With Pool",
+      "Super_Built_Up_Area": "4200 sq.ft.",
+      "Carpet_Area": "3200 sq.ft. (approx)",
+      "StartingPrice": "Rs 5.2 Crores All Inclusive",
       "Developer": "Rustomjee",
-      "Status": "Possession in Dec 2025"
+      "Status": "Possession in Dec 2025",
+      "Property_Type": "Ultra-Luxury Villa",
+      "Project_Highlights": [
+        "Private Swimming Pool",
+        "Sea View Decks",
+        "Fully Automated Smart Home",
+        "Signature Interiors by Rustomjee Design Studio"
+      ]
     }
   ],
   "Customer_Personal_Details": {
     "Name": "Mr. Sanjay",
     "Gender": "Male",
-    "Preferred_Location": "Alibaugh",
+    "Preferred_Location": "Alibaug",
     "Interested_Property_Type": "Holiday Home",
-    "Preferred_Budget": "3–5 Cr",
+    "Preferred_Budget": "Rs 3–5 Cr",
     "Preferred_Call_Time": "Evening",
     "Preferred_Language": "English",
     "Developer_Interest": [
