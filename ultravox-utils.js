@@ -58,7 +58,7 @@ export async function getCallTranscript(callId) {
       nextCursor = data.next ? new URL(data.next).searchParams.get('cursor') : null;
 
     } while (nextCursor);
-
+    console.log("allMessages: ",allMessages)
     return allMessages;
 
   } catch (error) {
