@@ -123,15 +123,15 @@ router.post('/fetch_pdf', async (req, res) => {
 });
 
 router.post('/store_user_details', async (req, res) => {
-    const { name, phoneNumber, selectedClass, day } = req.body;
+    // const { name, phoneNumber, selectedClass, day } = req.body;
 
-    if (!name || !phoneNumber || !selectedClass || !day) {
-        return res.status(400).json({ error: 'Missing required fields' });
-    }
+    // if (!name || !phoneNumber || !selectedClass || !day) {
+    //     return res.status(400).json({ error: 'Missing required fields' });
+    // }
 
-    const result = await storeUserDetails(name, phoneNumber, selectedClass, day);
+    // const result = await storeUserDetails(name, phoneNumber, selectedClass, day);
 
-    res.status(result.success ? 200 : 500).json(result);
+    // res.status(result.success ? 200 : 500).json(result);
     res.sendStatus(200);
 });
 
