@@ -31,7 +31,6 @@ Do not proceed unless the number is exactly 10 digits.
 **Important Rule**:
 🚫 Do **not** add extra zeros or letters to names or numbers. Capture the data **exactly as the user provides**.
 
-
 Steps:
 
 1. **Understand User's Inquiry**:
