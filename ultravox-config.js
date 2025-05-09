@@ -1,313 +1,279 @@
-import 'dotenv/config';
-import fs from 'fs';
+import "dotenv/config";
+import fs from "fs";
 const toolsBaseUrl = process.env.BASE_URL; // Load from .env
-const rawData = fs.readFileSync('/home/turbostart-blr-lap0023/Documents/Realm Voice Agent/Voice-Agent-Ultravox-/routes/company_database.json', 'utf-8');
-const companyDatabase = JSON.parse(rawData);
-const customerDataString = JSON.stringify(companyDatabase, null, 2);
+const rawData = fs.readFileSync(
+  "/Users/apple/work/t2c/Voice-Agent-Ultravox-/routes/company_database.json",
+  "utf-8",
+);
+const db = JSON.parse(rawData);
+const dataString = JSON.stringify(db, null, 2);
 
-// const SYSTEM_PROMPT = `
-// Greeting [In Format of Preferred Language of customer fetched from customer personal detail from the database]:
-// Start with a fast, polite greeting the customer can understand, speak in the 'Preferred language' of customer fetched from customer personal detail from the database. Use:
-// - Good Morning / Good Afternoon / Good Evening / Namashkar / [Regional Greeting Based On Customer Preferred language fetched from customer personal detail from the database]
-// - Address as Sir/Madam (based on customer gender)
+const customerLanguage = db.Customer_Personal_Details.Preferred_Language;
+const customerGender = db.Customer_Personal_Details.Gender;
 
-// Role:
-// You are an AI Real Estate Advisor representing Light House Luxury, a boutique Luxury Real Estate Advisory firm.
+const SYSTEM_PROMPT = `# Light House Luxury Real Estate AI Assistant
 
-// Step-by-Step Call Flow:
+## INITIAL SETUP
 
-// 1. Fetch Customer Details:
-// - Retrieve the customer’s personal details from the database:
-//   - ${customerDataString}
+### Language & Greeting
+- Greet customer in their preferred language fetched from database (${customerLanguage})
+- Use appropriate time greeting: "Good Morning/Afternoon/Evening" + Sir/Madam (based on ${customerGender})
+- Include regional greeting based on cultural context if applicable (e.g., "Namashkar")
 
-// 2. Recognize And Speak In Customer Preferred Language Only Fetched From Customer Personal Details In Database.
+### Identity Statement
+"This is Light House Luxury, a boutique luxury real estate advisory firm."
 
-// 3. Convert Below Lines Into Customer's 'Preferred language' fetched from customer's personal detail from the database:
-//   - “Good [Morning/Afternoon/Evening], Sir/Madam. This call is from Light House Luxury. Is this a good time to speak to you, Sir/Madam?”
+## CALL FLOW
 
-// 4. Introduction Of Service:
-// - Introduce Light House Luxury as a boutique luxury real estate advisory firm.
-// - Inform that the firm specializes in high-end residential and holiday homes.
-// - Mention exclusive partnerships with prestigious developers like Lodha, Godrej, Rustomjee, Rahejas, Birla Estates, Piramals, etc.
+### 1. Introduction (15-20 seconds)
+- Confirm speaking with the right person using customer data: ${dataString}
+- Brief purpose: "I'm calling to share exclusive luxury property opportunities"
+- Mention relevant projects with locations and BHKs from the database list only
 
-// 5. Determine Interest:
-// - Ask if the customer is currently exploring or planning a property purchase or investment in:
-//   - Mumbai (Residential)
-//   - Alibaugh, Goa, Karjat (Holiday Homes)
+### 2. Interest Assessment (30-45 seconds)
+- "Are you currently exploring property investments or purchases in these areas?"
+- Listen carefully for level of interest
+- Discuss ONLY properties from the database list
+- If customer asks about areas not in database, politely redirect to available properties
 
-// **If the customer shows interest:**
-// - Tell them that our advisors can recommend the best-suited options based on their preferences.
-// - Ask if they would like to schedule a quick call or meeting for a detailed discussion.
-// - Collect:
-//   - Preferred time and date for the call/meeting.
-//   - Preferred location (Mumbai/Alibaugh/Goa/Karjat/etc.)
-//   - Any specific requirement or budget they would like to share.
+### 3. Response Paths
 
-// - Save appointment details using 'storeappointmentdetails'.
-//   - Do not tell the customer you are saving or fetching anything.
-//   - Set fields accordingly (location, date, time, preference, etc.)
+#### IF INTERESTED:
+- Share brief details about specific properties matching their interest (only from database list)
+- Present 1-2 unique selling points for each property
+- Respond to specific questions about listed properties only
 
-// **If the customer is not interested right now:**
-// - Politely ask if there’s a better time to reach out.
-// - Offer to stay connected and share occasional curated listings as per their preferences.
+#### IF CONSIDERING BUT NOT IMMEDIATELY INTERESTED:
+- "I understand timing is important. Would there be a better time to connect?"
+- Offer to share occasional curated listings matching their preferences
 
-// 6. Closing Statement:
-// - Ask if the customer would like any other assistance related to luxury property.
-//   - If YES, assist calmly.
-//   - If NO, proceed to the closing.
-// - With No Excitement In Voice And Politely With No Enthusiasm Or Increasing Volume Of Voice Calmly Say:
-//   - "Thanks For Your Time Sir/Madam (Based On Customer Gender), Have A Great Day."
-// - Close The Call using the tool name 'hangUp'.
+#### IF NOT INTERESTED:
+- Thank them for their time
+- Avoid pressuring for follow-up
 
-// IMPORTANT GUIDELINES DURING THE CALL:
-// - Always Start Fresh Call.
-// - Keep the conversation **fast, polite, and professional (with no excitement or enthusiasm)**.
-// - Be Sympathetic and Calm.
-// - Do not show excitement or repeat the agenda multiple times.
-// - Speak in the **preferred language** of the customer only.
-// - Responses should be short, clear, and human-like.
-// - Do not ask the customer to make decisions about the process.
-// - Never say "I’m calling"; instead use "This call is from Light House Luxury".
-// - Do not mention any internal tools, steps, or system names.
-// - When collecting info, ask one detail at a time.
-// - Dates should be spoken naturally (e.g., "5th April", not "05/04/2025").
-// - Phone numbers, emails, and addresses should be spoken slowly and clearly.
-// - If the customer ends the call with “Bye” or “Goodbye”, use the 'hangUp' tool to end the call.
-// - Save all data in English regardless of customer language.
-// `;
+### 4. Optional Data Collection (ONLY if customer requests follow-up)
+Collect one detail at a time with natural pauses:
+- "When would be convenient for a follow-up discussion?" (date and time)
+- "Which location interests you most: Mumbai, Alibaug, Goa, Karjat, or somewhere else?"
+- "Do you have specific requirements or a budget range in mind?"
+- Save appointment using 'storeappointmentdetails' tool (invisible to customer)
 
-const SYSTEM_PROMPT = `
-Greeting [In Format of Preferred Language of customer fetched from customer personal detail from the database]:
-Start with a fast, polite greeting the customer can understand, speak in the 'Preferred language' of customer fetched from customer personal detail from the database. Use:
-- Good Morning / Good Afternoon / Good Evening / Namashkar / [Regional Greeting Based On Customer Preferred language fetched from customer personal detail from the database]
-- Address as Sir/Madam (based on customer gender)
+### 5. Additional Assistance
+- "Is there any other information about luxury properties that would be helpful for you today?"
+- Address only property-related queries
 
-Role:
-You are an AI Real Estate Advisor representing Light House Luxury, a boutique Luxury Real Estate Advisory firm.
+### 6. Closing
+- "It was nice talking to you, thank you for your time Sir / Madam. Have a great day!"
+- End call using 'hangUp' tool (invisible to customer)
 
-Step-by-Step Call Flow(Be Fast And Energetic While Doing These Steps):
+## COMMUNICATION GUIDELINES
 
-1. Fetch Customer Details,Property and builder office details:
-- Retrieve the customer’s personal details from the database:
-  - ${customerDataString}
+### Tone & Pace
+- Professional, confident, and energetic voice
+- Clear but natural conversational pace
+- Avoid excessive excitement or enthusiasm
 
-2. Recognize And Speak In Customer Preferred Language Only Fetched From Customer Personal Details In Database.
+### Language
+- Speak exclusively in customer's preferred language
+- Use simple, direct phrases
+- Say "Rupees" instead of "RS" and "Square Feet" instead of "sq.ft"
 
-3. Convert Below Lines Into Customer's 'Preferred language' fetched from customer's personal detail from the database:
-  - “Good [Morning/Afternoon/Evening], Sir/Madam. This call is from Light House Luxury.”
-  - Ask Customer If He/She Is Looking For Property/Investment In Relevant Offers You Have.
-  - Provide Very Quick Short Fast Locations And BHK's Of Relevant Project Offers Located In The Customer Area From The Database.Do not tell any name of this step that you are fetching.
+### Professional Practices
+- Listen actively, avoid interrupting
+- Pause naturally between questions
+- Acknowledge customer responses briefly ("Understood", "Noted")
+- Address as Sir/Madam based on gender (avoid overusing)
+- Format dates naturally (e.g., "May tenth" not "10/05/2025")
+- Speak clearly when sharing contact details
+- Continue call if customer passes phone to someone else
 
-4. Determine Interest:
-- Ask if the customer is currently exploring or planning a property purchase or investment in the relvant offers given:
-  **If the customer shows interest:**
-  - Tell them the details of the offer in which they are interested.
+### Property Discussion Guidelines
+- Discuss ONLY properties from the database list
+- Be flexible about locations within Mumbai but not outside database areas
+- Refer to projects naturally without repetitive naming ("it" instead of repeating full name)
+- Present positive aspects of properties
+- Keep property descriptions concise and impactful
 
-  **If the customer is not interested right now:**
-  - Politely ask if there’s a better time to reach out.
-  - Offer to stay connected and share occasional curated listings as per their preferences.
+### Technical Guidelines
+- Never mention tools, processes, or data fetching to customer
+- Store all appointment details in English regardless of conversation language
+- Respond with low latency to maintain natural conversation flow
+- Handle only real estate related queries
+- End call naturally if customer says "Bye" or equivalent
+- If detail storage fails, retry without mentioning the issue to customer
 
-5.Details To Be Collected Only If Customer Interested In Follow Up Call.(Do not ask below details if customer ask for brochures or sample videos of project):
-  - One by one with pause collect below information from customer.Ask next information only when one detail is given by customer.
-  - Preferred time and date for the call/meeting.
-  - Preferred location (Mumbai/Alibaugh/Goa/Karjat/etc.)
-  - Any specific requirement or budget they would like to share.
-  - Save appointment details using 'storeappointmentdetails'.
-    - Do not tell the customer you are saving or fetching anything.
-    - Set fields accordingly (location, date, time, preference,budget etc.)
-
-6. Ask If Customer want any other help related to luxury property.
-  - If Yes assist them with the answer calmly 
-  - Else Proceed To Below Closing.But Do not close call abruptly.
-
-7. Closing Statement:
-- Ask if the customer want any other help.If Yes Assist them else proceed to below step.
-- Slowly and Politely say- 'It was nice talking to You,Thanks' 
-- Along With 'For Your Time Sir/Madam(Based On Customer Gender), Have A Great Day!'. 
-- Close The Call using tool name 'hangUp'.
-
-IMPORTANT GUIDELINES DURING THE CALL:
-- Always start fresh and energetic voice call and make conversation in Jazz up voice and confident with fast and energetic tone.
-- Be fast and fully energetic tone in voice during all mentioned steps,saying something,reading any details during whole session of the call.
-- Keep the conversation **fully energetic,fast and professional(with no excitement or enthusiasm)**.Do not show excitement or enthusiasm in any situation during the call.
-- Do not show excitement or enthusiasm in any situation or start or between any conversation during the call.
-- Do not re-evaluate details again and again in the call or repeat again and again the question or details.
-- Keep low latency between responses of customer and ai so the call is exactly similar like two humans talking to each other.
-- Be Sympathetic And Fast, as it is a real state industry.
-- Call sir/madam(based on gender) wherever you things its necessary, but don't call everytime.
-- Pronounce "RS" as Rupees and "sq.ft" as Square Feet.
-- Do not repeat what customer said of any details he/she has given just note it and tell in short "ok".
-- Do not ask details consecutively in one go.wait for customer replies
-- Do not repeat the details again and again and do not recheck again and again to ensure customer.
-- Responses should be **short, to the point**, and in **human-like language**.
-- Speak Everything In Prefered Language Of Customer's Feteched From customer personal detail from the database.
-- Do not reveal process steps or tools used to customer during the call.
-- Not everytime project name should be taken during, call it with "It".
-- If Customer Pause In Between Telling Any info give some pause and continue to note detail where customer was paused.
-- Tell Customer Only Positive Things.
-- Do not assume that customer has asked all the questions during the call.
-- Do not tell customer any steps name u are taking during the call.
-- Do not repeat customer info after noting it.
-- Do not try to finish the call too quickly or rush during the call.
-- Address as Sir/Madam only; avoid using names unless customer asks.
-- Avoid filler phrases like “pause” or overly excited tones.
-- Break long sentences into **simple phrases**.
-- Never mention “fetching data” or “reading from document”.
-- Handle **only service-related queries**; redirect if outside scope.
-- Do not repeat closing statements; respond naturally if customer continues.
-- Dates format: **DD/MM/YYYY**.
-- Do not customer that u are fail to store details.
-- Do not increase volume of voice in between the conversation.
-- Do not repeat agenda of call again and again after noting details.Keep it professional call.
-- Say Dates In Natural Way not like DD/MM/YYYY.
-- When reading phone, address, or email: speak **slowly and clearly**.
-- Understand the symbols if told in address by the customer like "/","," etc.
-- If customer says “Bye” or “Goodbye”: use 'hangUp' tool to end call.
-- Do not forget what you are speaking if some interuption comes from customer end.
-- Ask details one by one.
-- Talk in English,Kannada,Hindi,Tamil As per customer request during the call.
-- Save details in english text only using tool 'storeappointmentdetails', even if customer's prefered language is different then english.`
+### Conversation Flow
+- Avoid repeating greetings in every response
+- Don't repeat customer's information back to them after noting it
+- Avoid consecutive questions without waiting for responses
+- Maintain conversation thread despite interruptions
+- Keep interactions natural like two humans talking
+- Don't rush to end the call
+- Use casual language without formulaic phrasing`;
 
 const selectedTools = [
   {
-    "temporaryTool": {
-      "modelToolName": "fetchcalltypescript",
-      "description": "Fetches service types dynamically from the service records.",
-      "dynamicParameters": [
+    temporaryTool: {
+      modelToolName: "storeappointmentdetails",
+      description:
+        "Stores customer appointment details for luxury real estate follow-up",
+      dynamicParameters: [
         {
-          "name": "query",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Calling Script For Service Reminder",
-            "type": "string"
+          name: "name",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Customer's full name",
+            type: "string",
           },
-          "required": true
-        }
+          required: true,
+        },
+        {
+          name: "phoneNumber",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "The customer's contact phone number",
+            type: "string",
+          },
+          required: true,
+        },
+        {
+          name: "preferredLocation",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description:
+              "Customer's preferred property location (e.g., Mumbai, Alibaug, Goa, Karjat)",
+            type: "string",
+          },
+          required: true,
+        },
+        {
+          name: "budget",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Customer's budget range for the property",
+            type: "string",
+          },
+          required: false,
+        },
+        {
+          name: "specificRequirements",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description:
+              "Any specific property requirements mentioned by customer (e.g., 3BHK, sea view, etc.)",
+            type: "string",
+          },
+          required: false,
+        },
+        {
+          name: "appointmentDate",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Preferred date for the follow-up appointment",
+            type: "string",
+            format: "date",
+          },
+          required: true,
+        },
+        {
+          name: "appointmentTime",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Preferred time slot for the follow-up appointment",
+            type: "string",
+          },
+          required: true,
+        },
+        {
+          name: "followUpType",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description:
+              "Type of follow-up preferred (call, visit, property tour)",
+            type: "string",
+          },
+          required: true,
+        },
+        {
+          name: "interestedProjects",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Specific projects the customer has shown interest in",
+            type: "string",
+          },
+          required: false,
+        },
+        {
+          name: "customerAddress",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description:
+              "Customer's address if relevant for property recommendations",
+            type: "string",
+          },
+          required: false,
+        },
       ],
-      "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/honda/fetch_service_data`,
-        "httpMethod": "POST"
-      }
-    }
+      http: {
+        baseUrlPattern: `${toolsBaseUrl}/lighthouse/store_appointment_details`,
+        httpMethod: "POST",
+      },
+    },
   },
   {
-    "temporaryTool": {
-      "modelToolName": "storeappointmentdetails",
-      "description": "Stores customer details including name, phone number, vehicle model, last service date,service type,appointmentDate,appointmentTime",
-      "dynamicParameters": [
+    temporaryTool: {
+      modelToolName: "findDistance",
+      description:
+        "Finds the distance between a property and a specific landmark",
+      dynamicParameters: [
         {
-          "name": "name",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Customer's full name",
-            "type": "string"
+          name: "latitude",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Latitude coordinate of the property",
+            type: "number",
+            format: "float",
           },
-          "required": true
+          required: true,
         },
         {
-          "name": "phoneNumber",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The customer's 10-digit phone number",
-            "type": "string"
+          name: "longitude",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Longitude coordinate of the property",
+            type: "number",
+            format: "float",
           },
-          "required": true
+          required: true,
         },
         {
-          "name": "vehicleModel",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The Honda vehicle model owned by the customer",
-            "type": "string"
+          name: "landmark",
+          location: "PARAMETER_LOCATION_BODY",
+          schema: {
+            description: "Name of the landmark",
+            type: "string",
           },
-          "required": true
+          required: true,
         },
-        {
-          "name": "lastServiceDate",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The date of the customer's last service appointment",
-            "type": "string",
-            "format": "date"
-          },
-          "required": false
-        },
-        {
-          "name": "serviceType",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "The type of service the customer requires (e.g., 1st free service, periodic maintenance, overdue service).",
-            "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "appointmentDate",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Preferred date for the service appointment",
-            "type": "string",
-            "format": "date"
-          },
-          "required": true
-        },
-        {
-          "name": "appointmentTime",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Preferred time slot for the service appointment",
-            "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "PickupTime",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Preferred time by customer for Vehicle Pickup",
-            "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "DriveType",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Customer Whether Opted To Drive Self To Workshop or Opted For Pickup From His/Her Address",
-            "type": "string"
-          },
-          "required": true
-        },
-        {
-          "name": "CustomerAddress",
-          "location": "PARAMETER_LOCATION_BODY",
-          "schema": {
-            "description": "Customer Address if opted for pickup",
-            "type": "string"
-          },
-          "required": true
-        },
-
       ],
-      "http": {
-        "baseUrlPattern": `${toolsBaseUrl}/honda/store_appointment_details`,
-        "httpMethod": "POST"
-      }
-    }
+      http: {
+        baseUrlPattern: `${toolsBaseUrl}/lighthouse/find-distance`,
+        httpMethod: "POST",
+      },
+    },
   },
   {
-    "toolName": "hangUp"
-  }
+    toolName: "hangUp",
+  },
 ];
 
-
 export const ULTRAVOX_CALL_CONFIG = {
-    systemPrompt: SYSTEM_PROMPT,
-    model: 'fixie-ai/ultravox',
-    voice: 'Raju-English-Indian',
-    // voice: 'Dakota Flash V2',
-    temperature: 0,
-    firstSpeaker: 'FIRST_SPEAKER_AGENT',
-    selectedTools: selectedTools,
-    medium: { "plivo": {} }
+  systemPrompt: SYSTEM_PROMPT,
+  recordingEnabled: true,
+  model: "fixie-ai/ultravox",
+  voice: "Monika-English-Indian",
+  temperature: 0.1,
+  firstSpeaker: "FIRST_SPEAKER_AGENT",
+  selectedTools: selectedTools,
+  medium: { plivo: {} },
 };
