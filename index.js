@@ -10,9 +10,11 @@ app.use(express.urlencoded({ extended: true }));
 // Import our routes and mount them
 import { router as plivoRoutes } from "./routes/plivo.js";
 import { router as makeRoutes } from "./routes/make.js";
+import { router as realmRoutes } from "./routes/location.js";
 
 app.use("/plivo/", plivoRoutes);
 app.use("/make/", makeRoutes);
+app.use("/realm/", realmRoutes);
 
 // Start server
 app.listen(port, () => {

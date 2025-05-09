@@ -257,7 +257,7 @@ const selectedTools = [
         },
       ],
       http: {
-        baseUrlPattern: `${toolsBaseUrl}/lighthouse/find-distance`,
+        baseUrlPattern: `${toolsBaseUrl}/realm/find-distance`,
         httpMethod: "POST",
       },
     },
