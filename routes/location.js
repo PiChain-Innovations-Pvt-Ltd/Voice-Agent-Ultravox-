@@ -115,14 +115,21 @@ function findClosestCoordinate(candidates, target) {
 // Body: { latitude: number, longitude: number, placeName: string }
 router.post("/find-distance", async (req, res) => {
   const { latitude, longitude, placeName } = req.body;
+  // if they came in as strings, try to parse them
+  if (typeof latitude === "string") latitude = parseFloat(latitude);
+  if (typeof longitude === "string") longitude = parseFloat(longitude);
+
+  // now validate that we have real numbers
   if (
     typeof latitude !== "number" ||
+    Number.isNaN(latitude) ||
     typeof longitude !== "number" ||
+    Number.isNaN(longitude) ||
     typeof placeName !== "string"
   ) {
     return res.status(400).json({
       error:
-        "Request body must include numeric 'latitude', 'longitude' and string 'placeName'.",
+        "Request body must include numeric 'latitude', 'longitude', and string 'placeName'.",
     });
   }
 
