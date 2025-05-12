@@ -12,7 +12,7 @@ const router = express.Router();
 const activeCalls = new Map();
 
 // Handle incoming calls from Plivo
-router.post("/incoming", async (req, res) => {
+router.post("/mahe_incoming", async (req, res) => {
   try {
     console.log("Incoming call received");
     const plivoCallUuid = req.body.CallUUID;

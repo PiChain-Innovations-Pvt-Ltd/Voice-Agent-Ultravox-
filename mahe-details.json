@@ -1,0 +1,676 @@
+{
+  "MAHE": {
+    "name": "Manipal Academy of Higher Education",
+    "eligibility_admission_2025": {
+      "undergraduate_programs": [
+        {
+          "name": "Bachelor of Medicine & Bachelor of Surgery (MBBS)",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, Biology/Biotechnology and English individually",
+            "minimum_marks": "minimum 50% marks taken together in PCB",
+            "board": "recognized Board"
+          },
+          "admission_process": {
+            "general": "Register, appear and qualify in NEET UG 2025, online registration & counseling through MCC/KEA/JCECEB",
+            "foreign_nri": "Register, appear and qualify in NEET UG 2025, online registration & counseling through MCC"
+          }
+        },
+        {
+          "name": "Bachelor of Dental Surgery (BDS)",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "MCODS Manipal",
+            "MCODS Mangalore"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, Biology/Biotechnology and English individually",
+            "minimum_marks": "minimum 50% marks taken together in PCB",
+            "board": "recognized Board"
+          },
+          "admission_process": "Register, appear and qualify in NEET UG 2025, online registration & counseling through MCC"
+        },
+        {
+          "name": "Bachelor in Audiology & Speech Language Pathology (BASLP)",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "MCHP Manipal",
+            "KMC Mangalore"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry and English",
+            "subjects_optional": [
+              "Biology",
+              "Mathematics",
+              "Computer Science",
+              "Statistics",
+              "Electronics",
+              "Psychology"
+            ],
+            "minimum_aggregate": "50% aggregate in PCB/PCM/PCO"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET score and 50% from qualifying exam"
+        },
+        {
+          "name": "B.Sc. in Exercise and Sports Sciences",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "MCHP Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry and English",
+            "subjects_optional": [
+              "Biology",
+              "Mathematics"
+            ],
+            "minimum_aggregate": "45% aggregate in PCB/PCM"
+          },
+          "admission_process": "Online application, merit list based on PCB/PCM marks"
+        },
+        {
+          "name": "Bachelor of Optometry",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "MCHP Manipal",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry and English",
+            "subjects_optional": [
+              "Biology",
+              "Mathematics"
+            ],
+            "minimum_aggregate": "50% aggregate in PCB/PCM"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam"
+        },
+        {
+          "name": "Bachelor of Occupational Therapy/Bachelor of Physiotherapy",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "MCHP Manipal",
+            "KMC Mangalore"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, Biology and English",
+            "minimum_aggregate": "50% aggregate in PCB"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam"
+        },
+        {
+          "name": "Various B.Sc. Allied Health Programs",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "MCHP Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "programs_listed": [
+            "B.Sc. Cardiovascular Technology",
+            "Medical Imaging Technology",
+            "Medical Lab Technology",
+            "etc."
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, English and Biology",
+            "minimum_aggregate": "50% aggregate in PCB"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying Exam"
+        },
+        {
+          "name": "B.Sc. (Health Sciences)/B.Sc. Basic Medical Sciences",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "Department of Basic Medical Sciences, Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, Biology/Biotechnology and English",
+            "minimum_aggregate": "55% in PCB"
+          },
+          "admission_process": "Online application, merit list based on qualifying exam marks"
+        },
+        {
+          "name": "B.Sc. Biotechnology",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "Manipal School of Life Sciences, Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Biology, Chemistry, English",
+            "subjects_optional": [
+              "Physics",
+              "Biotechnology",
+              "Mathematics"
+            ],
+            "minimum_aggregate": "55% aggregate"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam"
+        },
+        {
+          "name": "B.Sc. Nursing/B.Sc. Nursing-UNB",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "Manipal College of Nursing, Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, Biology & English",
+            "minimum_aggregate": "45% aggregate in PCB",
+            "age_limit": "Minimum 17 years as of 31st December 2025"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying exam"
+        },
+        {
+          "name": "Post Basic B.Sc. Nursing",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "Manipal College of Nursing, Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in GNM after 10+2, registered Nurse and Midwife"
+          },
+          "admission_process": "Online application, merit list based on qualifying exam marks"
+        },
+        {
+          "name": "Bachelor of Pharmacy (B.Pharm)",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "Manipal College of Pharmaceutical Sciences, Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, English with Biology/Mathematics",
+            "age_limit": "Minimum 17 years as of 31st December 2025"
+          },
+          "lateral_entry": {
+            "eligibility": "Pass in Diploma (Pharmacy) from PCI recognized institution"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying exam"
+        },
+        {
+          "name": "Doctor of Pharmacy (PharmD)",
+          "faculty": "Health Sciences",
+          "institutions": [
+            "Manipal College of Pharmaceutical Sciences, Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry and English with Mathematics/Biology as optional OR DPharm recognized by PCI",
+            "age_limit": "Minimum 17 years as of 31st December 2025"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying Exam"
+        },
+        {
+          "name": "B.Tech Programs (All Engineering Disciplines)",
+          "faculty": "Technology & Science",
+          "institutions": [
+            "MIT Manipal",
+            "MIT Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Mathematics and English as compulsory subjects along with Chemistry/Biotechnology/Biology/technical vocational subject",
+            "minimum_aggregate": "50% aggregate"
+          },
+          "lateral_entry": {
+            "eligibility": "Pass in 3-year Diploma in respective Engineering stream with 45% OR Pass in BSc with Mathematics in 12th, 45% marks"
+          },
+          "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam"
+        },
+        {
+          "name": "Bachelor of Architecture (B.Arch)",
+          "faculty": "Technology & Science",
+          "institutions": [
+            "MSAP Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Mathematics and Chemistry/Biology/Technical/Computer subjects",
+            "minimum_aggregate": "45% marks"
+          },
+          "eligibility_alternative": {
+            "prerequisites": "3-year Diploma with Mathematics",
+            "minimum_aggregate": "45% marks"
+          },
+          "additional_requirement": "Must qualify NATA or JEE Paper II",
+          "admission_process": "Online application, merit list based on 50% qualifying exam marks and 50% NATA score"
+        },
+        {
+          "name": "Bachelor of Design Programs ",
+          "faculty": "Technology & Science",
+          "institutions": [
+            "DOD Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 or 3-year Diploma",
+            "minimum_aggregate": "45% aggregate"
+          },
+          "lateral_entry": {
+            "eligibility": "3-years Diploma in relevant design field with 50% marks"
+          },
+          "admission_process": "Online application, Home Based Test, Portfolio of work, Personal Interview"
+        },
+        {
+          "name": "B.Sc. Physics/B.Sc. Physics (Hons.)",
+          "faculty": "Technology & Science",
+          "institutions": [
+            "MIAP Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Chemistry, Mathematics and English",
+            "minimum_aggregate": "55% in PCM"
+          },
+          "admission_process": "Online application, merit list based on PCM marks"
+        },
+        {
+          "name": "B.Sc. Applied Sciences - International Transfer Program",
+          "faculty": "Technology & Science",
+          "institutions": [
+            "ICAS Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 with Physics, Mathematics, English and Chemistry/Biotechnology/Biology/technical subject",
+            "minimum_aggregate": "60% aggregate"
+          },
+          "admission_process": "Online application, Personal Interview, merit list based on PI"
+        },
+        {
+          "name": "Bachelor of Hotel Management (BHM)",
+          "faculty": "Technology & Science",
+          "institutions": [
+            "WGSHA Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in 10+2 or equivalent",
+            "minimum_aggregate": "45% aggregate"
+          },
+          "admission_process": "Online application, Personal Interview, merit list based on PI"
+        }
+      ],
+      "postgraduate_programs": [
+        {
+          "name": "MD/MS Courses",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "MBBS degree from NMC recognized university",
+            "notes": "completed internship by date specified"
+          },
+          "admission_process": {
+            "general": "NEET PG 2025 qualification; Online registration & choice filling on MCC/KEA portal",
+            "foreign_nri": "Same as General with MCC counseling"
+          }
+        },
+        {
+          "name": "M.Sc. Medical Programs",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "BSc (with Biological Sciences)/BSc Nursing/AHS/BAMS/MBBS/BHMS/BPT/BPharm",
+            "minimum_aggregate": "min. 50%"
+          },
+          "admission_process": {
+            "general": "Online application; Manipal Entrance Test (MET); Merit list based on scores",
+            "foreign_nri": "Online application with eligibility documents submission"
+          }
+        },
+        {
+          "name": "Clinical Specialties (Embryology, Genetics, etc.)",
+          "faculty": "Health Sciences - Medicine",
+          "eligibility": {
+            "notes": "Various eligibility requirements based on program (typically 50-60% in relevant bachelor's)"
+          },
+          "admission_process": "Through entrance tests, interviews, or merit-based selection"
+        },
+        {
+          "name": "MDS Programs",
+          "faculty": "Health Sciences - Dentistry",
+          "institutions": [
+            "MCODS Manipal",
+            "MCODS Mangalore"
+          ],
+          "eligibility": {
+            "prerequisites": "BDS from DCI recognized university",
+            "notes": "completed internship"
+          },
+          "admission_process": {
+            "general": "NEET PG 2025 qualification; MCC/KEA counseling",
+            "foreign_nri": "Same process through MCC"
+          }
+        },
+        {
+          "name": "Various M.Sc. Programs",
+          "faculty": "Health Sciences - Allied Health Sciences",
+          "programs_listed": [
+            "MIT",
+            "RT",
+            "MLT",
+            "CVT",
+            "etc."
+          ],
+          "eligibility": {
+            "prerequisites": "Bachelor's in relevant field",
+            "minimum_aggregate": "50% minimum"
+          },
+          "experience_requirements": [
+            "4 years (with 1-year internship): No additional experience",
+            "4 years (without internship): 6 months additional experience",
+            "3.5 years (6-month internship): 6 months additional experience",
+            "3 years: 1 year additional experience required"
+          ],
+          "admission_process": "Through entrance tests, interviews, or merit-based selection"
+        },
+        {
+          "name": "M.Sc. Nursing",
+          "faculty": "Health Sciences - Nursing",
+          "institutions": [
+            "MCON Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "BSc Nursing/PB BSc Nursing (INC recognized)",
+            "minimum_aggregate": "55%",
+            "experience": "1-year experience"
+          },
+          "admission_process": "MET, counseling"
+        },
+        {
+          "name": "MPharm Programs",
+          "faculty": "Health Sciences - Pharmacy",
+          "institutions": [
+            "MCOPS"
+          ],
+          "eligibility": {
+            "prerequisites": "BPharm (PCI recognized)",
+            "minimum_aggregate": "55%",
+            "notes": "state registration"
+          },
+          "admission_process": "Merit-based selection, counseling"
+        },
+        {
+          "name": "PharmD Post Baccalaureate",
+          "faculty": "Health Sciences - Pharmacy",
+          "institutions": [
+            "MCOPS"
+          ],
+          "eligibility": {
+            "notes": "Requirements similar to MPharm"
+          }
+        },
+        {
+          "name": "M.Tech/M.E Programs",
+          "faculty": "Technology & Science - Engineering",
+          "institutions": [
+            "MIT Manipal",
+            "MIT Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "BE/BTech in relevant branch",
+            "minimum_aggregate": "50%"
+          },
+          "admission_process": "MET, counseling",
+          "notes": "GATE qualified candidates given preference, Special study abroad programs available with ESIGELEC, France (pending AICTE approval)"
+        },
+        {
+          "name": "MCA",
+          "faculty": "Technology & Science - Computer Applications",
+          "eligibility": {
+            "prerequisites": "BCA/BSc (CS/IT)/Bachelor's in CS Engineering or BSc/BCom/BA with Mathematics"
+          },
+          "admission_process": "Merit-based selection"
+        },
+        {
+          "name": "MArch/MDes Programs",
+          "faculty": "Technology & Science - Architecture & Design",
+          "eligibility": {
+            "prerequisites": "BArch/relevant bachelor's degree",
+            "minimum_aggregate": "50%"
+          },
+          "admission_process": "PGETA qualification, portfolio submission, interview",
+          "notes": "Design programs require portfolios and statements of purpose"
+        }
+      ]
+    },
+    "entrance_tests": {
+      "met_btech": {
+        "name": "Manipal Entrance Test (MET) for B.Tech",
+        "purpose": "Entrance exam for All Bachelor of Technology (BTech) Programs",
+        "institutes": [
+          "MIT Manipal",
+          "SMIT Sikkim",
+          "MU Jaipur",
+          "MIT Bengaluru"
+        ],
+        "duration_minutes": 120,
+        "total_questions": 60,
+        "question_breakdown": {
+          "mcqs": {
+            "count": 45,
+            "subjects": {
+              "Mathematics": 15,
+              "Physics": 10,
+              "Chemistry": 10,
+              "English": 10
+            }
+          },
+          "nat": {
+            "count": 15,
+            "subjects": {
+              "Mathematics": 5,
+              "Physics": 5,
+              "Chemistry": 5
+            }
+          }
+        },
+        "max_marks": 240,
+        "marking_scheme": {
+          "mcq": "+4 (Correct), -1 (Wrong), 0 (Unanswered)",
+          "nat": "+4 (Correct), 0 (Wrong), 0 (Unanswered)",
+          "notes": "No negative marking for NAT"
+        },
+        "attempts_allowed": 2,
+        "syllabus": {
+          "mathematics": [
+            "SETS, RELATIONS AND FUNCTIONS",
+            "COMPLEX NUMBERS AND QUADRATIC EQUATIONS",
+            "MATRICES AND DETERMINANTS",
+            "PERMUTATIONS AND COMBINATIONS",
+            "BINOMIAL THEOREM AND ITS SIMPLE APPLICATIONS",
+            "SEQUENCE AND SERIES",
+            "LIMIT, CONTINUITY AND DIFFERENTIABILITY",
+            "INTEGRAL CALCULAS",
+            "DIFFRENTIAL EQUATIONS",
+            "CO-ORDINATE GEOMETRY",
+            "THREE-DIMENSIONAL GEOMETRY",
+            "VECTOR ALGEBRA",
+            "STATISTICS AND PROBABILITY",
+            "TRIGONOMETRY"
+          ],
+          "physics": [
+            "UNITS AND MEASUREMENTS",
+            "KINEMATICS",
+            "LAWS OF MOTION",
+            "WORK, ENERGY AND POWER",
+            "ROTATIONAL MOTION",
+            "GRAVITATION",
+            "PROPERTIES OF SOLIDS AND LIQUIDS",
+            "HEAT AND THERMODYNAMICS",
+            "KINETIC THEORY OF GASES",
+            "OSCILLATIONS AND WAVES",
+            "ELECTROSTATICS",
+            "CURRENT ELECTRICITY",
+            "MAGNETIC EFFECTS OF CURRENT AND MAGNETISM",
+            "ELECTROMAGNETIC INDUCTION AND ALTERNATING CURRENTS",
+            "ELECTROMAGNETIC WAVESOPTICS",
+            "DUAL NATURE OF MATTER AND RADIATION",
+            "ATOMS AND NUCLEI",
+            "ELECTRONIC DEVICES",
+            "EXPERIMENTAL SKILLS"
+          ],
+          "chemistry": [
+            "PHYSICAL CHEMISTRY",
+            "SOME BASIC CONCEPTS IN CHEMISTRY",
+            "ATOMIC STRUCTURE",
+            "CHEMICAL BONDING AND MOLECULAR STRUCTURE",
+            "CHEMICAL THERMODYNAMICS",
+            "SOLUTIONS",
+            "EQUILIBRIUM",
+            "REDOX REACTIONS AND ELECTROCHEMISTRY",
+            "CHEMICAL KINETICS",
+            "INORGANIC CHEMISTRY",
+            "CLASSIFICATION OF ELEMENTS AND PERIODICITY IN PROPERTIES",
+            "p- BLOCK ELEMENTS",
+            "d - and f - BLOCK ELEMENTS",
+            "COORDINATION COMPOUNDS",
+            "ORGANIC CHEMISTRY",
+            "PURIFICATION AND CHARACTERISATION OF ORGANIC COMPOUNDS",
+            "SOME BASIC PRINCIPLES OF ORGANIC CHEMISTRY",
+            "Nomenclature (Trivial and IUPAC)",
+            "HYDROCARBONS",
+            "ORGANIC COMPOUNDS CONTAINING HALOGENS",
+            "ORGANIC COMPOUNDS CONTAINING OXYGEN (Alcohols, Phenols, Ethers, Aldehydes, Ketones, Carboxylic Acids)",
+            "ORGANIC COMPOUNDS CONTAINING NITROGEN (Amines, Diazonium Salts)",
+            "BIOMOLECULES PRINCIPLES RELATED TO PRACTICAL CHEMISTRY"
+          ],
+          "english": [
+            "GRAMMAR AND LANGUAGE USE",
+            "VOCABULARY",
+            "PUNCTUATION, AND USAGES",
+            "READING COMPREHENSION"
+          ]
+        }
+      },
+      "met_mtech": {
+        "name": "Manipal Entrance Test (MET) for M-Tech",
+        "purpose": "Entrance exam for All Master of Technology (M. Tech) and Master of Engineering (M.E) Programs",
+        "institutes": [
+          "Manipal Institute of Technology (MIT)",
+          "Manipal School of Information Sciences (MSIS)"
+        ],
+        "duration_minutes": 90,
+        "total_questions": 60,
+        "marking_scheme": "+4 for correct, -1 for incorrect, 0 for unattempted.",
+        "max_marks": 240,
+        "subject_topics_covered": {
+          "main_areas": [
+            "Chosen Test Discipline (50 questions)",
+            "Engineering Mathematics (10 questions)"
+          ],
+          "chosen_discipline_options": [
+            "Biotechnology (BT)",
+            "Chemical Engineering (CH)",
+            "Civil Engineering (CV)",
+            "Computer Science (CS)",
+            "Electrical Engineering (EE)",
+            "Electronics & Communication Engineering (EC)",
+            "Instrumentation & Control Engineering (IC)",
+            "Mechanical Engineering (ΜΕ)"
+          ],
+          "notes": "Tested on core subjects of the chosen discipline and Engineering Mathematics. Detailed topics listed in document but not provided in this section."
+        },
+        "question_breakdown": {
+          "chosen_discipline": 50,
+          "engineering_mathematics": 10
+        },
+        "gate_score_benefit": "Candidates with a valid GATE score (meeting the General Category cutoff) receive 10% additional marks added to their MET score for ranking."
+      }
+    },
+    "scholarships": {
+      "overview": "Primarily merit-based or awarded based on specific criteria related to background or affiliation.",
+      "categories": [
+        {
+          "name": "High Merit Scholarships",
+          "types": [
+            "Kalam-Pai",
+            "Freeship",
+            "Scholar"
+          ],
+          "programs": "MBBS, BDS, B.Tech, B.Pharm, and some other UG/PG programs (listed in Annexures A, B)",
+          "benefit": "Significant fee waivers (ranging from 20% to 100% of program fee) and sometimes hostel fees and stipend (for Kalam-Pai).",
+          "eligibility": "Primarily based on high NEET (MBBS/BDS) or MET (B.Tech/B.Pharm/other UG/PG) ranks or high academic percentage in qualifying exams.",
+          "continuation": "Requires maintaining a minimum academic performance (usually 65% aggregate or 7/8 CGPA) and no backlogs/failures in the preceding academic year."
+        },
+        {
+          "name": "Performance-Based Scholarships",
+          "types": [
+            "Achiever"
+          ],
+          "programs": "B.Tech, B.Pharm, and various other UG/PG programs (listed in Annexures A, B).",
+          "benefit": "Typically a 20% waiver on the program fee.",
+          "eligibility": "Awarded from the second year onwards based on outstanding academic performance (high CGPA with no backlogs) in the immediate preceding year at MAHE.",
+          "continuation": null
+        },
+        {
+          "name": "Specific Background/Affiliation Scholarships",
+          "details": [
+            {
+              "type": "Wards of Military/CAPF Forces",
+              "benefit": "Merit scholarships (25% or 50% fee waiver + 25% hostel concession for Non-AC double room)",
+              "programs": "Eligible UG/PG programs",
+              "eligibility": "Based on parent's service status and student's academic merit."
+            },
+            {
+              "type": "Students from AGE/TMA Pai Foundation Institutions (SAGES/AGE)",
+              "benefit": "Scholarships (10% or 75% fee waiver)",
+              "programs": "Eligible UG/PG/B.Tech Lateral Entry programs",
+              "eligibility": "For students who studied in designated feeder institutions."
+            },
+            {
+              "type": "Children of MAHE Manipal Alumni",
+              "benefit": "10% fee waiver",
+              "programs": "All eligible UG/PG programs",
+              "eligibility": "Parent must be a full-time graduate from a MAHE Manipal institution (listed in Annexure C)."
+            },
+            {
+              "type": "Konkani Speaking Students",
+              "benefit": "10% fee waiver",
+              "programs": "Eligible UG/PG programs",
+              "eligibility": "Based on academic merit and Konkani as mother tongue."
+            }
+          ]
+        },
+        {
+          "name": "Manipal Foundation Scholar Program Alumni",
+          "programs": "Specific UG programs",
+          "benefit": "75% fee waiver",
+          "eligibility": "For students who completed the Manipal Foundation 'Scholar program' with required attendance and academic criteria."
+        },
+        {
+          "name": "Institution/Program Specific Scholarships",
+          "details": [
+            {
+              "type": "HBSF",
+              "institution": "MIT Manipal (B.Tech)",
+              "scholarship_type": "Merit-cum-Means",
+              "benefit": "100% waiver of Program, Hostel, Mess fees",
+              "eligibility": "For economically underprivileged and meritorious students from Government/PU Colleges. Based on MET rank, academic marks, and family income (< Rs. 12 lakhs)."
+            }
+          ]
+        },
+        {
+          "name": "Dr Ramdas Pai Scholarships based on Merit",
+          "given_for": "PG MBA",
+          "types": [
+            "Excellence",
+            "Achievers",
+            "Need (Economically Weaker Section)"
+          ],
+          "waiver_range": "20% to 100%",
+          "criteria": [
+            "entrance exam scores (CAT/XAT/GMAT/NMAT)",
+            "work experience",
+            "income",
+            "academic performance"
+          ]
+        }
+      ]
+    }
+  }
+}

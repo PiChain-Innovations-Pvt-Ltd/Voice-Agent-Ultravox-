@@ -10,13 +10,13 @@ import { JWT } from 'google-auth-library'; // ✅ Import JWT properly
 
 const router = express.Router();
 
-router.post('/store_appointment_details', async (req, res) => {
+router.post('/mahe_store_appointment_details', async (req, res) => {
  
     res.sendStatus(200);
 });
 
 
-router.post('/fetch_service_data', async (req, res) => {
+router.post('/mahe_fetch_service_data', async (req, res) => {
  
     res.sendStatus(200);
 });

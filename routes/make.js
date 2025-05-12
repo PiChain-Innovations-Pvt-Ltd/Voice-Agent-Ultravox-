@@ -4,7 +4,7 @@ import { getCallTranscript } from '../ultravox-utils.js';
 
 const router = express.Router();
 
-router.post('/webhook', async (req, res) => {
+router.post('/mahe_webhook', async (req, res) => {
   console.log('Incoming UV Webhook!');
 
   try {

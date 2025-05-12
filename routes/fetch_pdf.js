@@ -56,7 +56,7 @@ export { storeUserDetails };
 // Function to extract full text from PDFs
 const extractPDFs = async () => {
     const pdfFiles = [
-        { path: path.join(__dirname, "Light House Luxury - Real Estate Calling Script.pdf"), label: "Light House Luxury Calling Script"},
+        { path: path.join(__dirname, "MAHE-academic-details.pdf"), label: "MAHE-academic-details knowledge base"},
     ];
 
     let fullText = [];
@@ -99,7 +99,7 @@ const extractPDFs = async () => {
 extractPDFs(); // Run at startup
 
 // API to return full PDF data for AI searching
-router.post('/fetch_pdf', async (req, res) => {
+router.post('/mahe_fetch_pdf', async (req, res) => {
     console.log('📥 Incoming Fetch Request!');
     
     const { query } = req.body;

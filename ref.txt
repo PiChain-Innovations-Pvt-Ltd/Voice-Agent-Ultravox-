@@ -1,0 +1,1310 @@
+G. Campus Life & Facilities
+      ❓ Example Questions:
+      "Tell me about the Manipal campus."
+
+      "What facilities are available at MAHE Bengaluru?"
+
+      💬 Suggested Responses:
+      "The Manipal campus is one of MAHE's main campuses with comprehensive facilities including advanced labs, libraries, sports complexes, and accommodation options. The campus hosts institutions like MIT Manipal, KMC, MSAP, and many other prestigious colleges. Would you like more specific information about any particular facility?"
+
+      "MAHE Bengaluru campus houses several institutes including MIT Bengaluru, TAPMI Bengaluru, MLS, DLHS, and others. It offers modern educational facilities aligned with industry standards. The campus is designed to provide a conducive environment for learning and professional development."
+
+      ✅ Behavior Guidelines:
+      Use lively, visual language.
+
+      Personalize based on interests.
+
+      Offer to share galleries or tour links.
+
+      ⚠️ Pitfalls to Avoid:
+      Generic answers.
+
+      Not linking to student interests.
+
+
+
+
+      - Campus Information: (Provide very short information about different campuses - Manipal, Mangalore, Bengaluru, Jamshedpur, Dubai, and Malaysia - and be natural in giving information without going into detailed descriptions until asked by caller)
+  - Campus Facilities: (Provide very short information of facilities and be natural in giving information without going into detailed descriptions or sub course in any course until asked by caller)
+  - Faculty & Research: (Provide very short information without going into detailed and be natural in giving information descriptions or sub course in any course until asked by caller)
+
+
+
+
+  {
+    "university_info": {
+      "name": "Manipal Academy of Higher Education",
+      "abbreviation": "MAHE",
+      "formerly_known_as": "Manipal University",
+      "recognition": "Institution of Eminence Deemed to be University (granted 2020)",
+      "established": 1953,
+      "student_population": "35,000+ students from 60+ nations",
+      "faculty_strength": "3,000+ faculty members",
+      "website": "www.manipal.edu",
+      "contact": {
+        "general": "admissions@manipal.edu",
+        "foreign_nri": "intladm@manipal.edu"
+      }
+    },
+    "campuses": {
+      "manipal": {
+        "name": "MAHE Manipal Campus",
+        "location": "Manipal, Karnataka, India",
+        "area": "600 acres",
+        "type": "Main Campus",
+        "description": "The main university town campus nestled on a plateau in Karnataka's Udupi district, housing most of MAHE's premier institutions",
+        "institutes": [
+          "Kasturba Medical College (KMC)",
+          "Manipal Institute of Technology (MIT)",
+          "Manipal College of Dental Sciences (MCODS)",
+          "Manipal College of Pharmaceutical Sciences (MCOPS)",
+          "Manipal College of Health Professions (MCHP)",
+          "Manipal College of Nursing (MCON)",
+          "Manipal School of Architecture & Planning (MSAP)",
+          "T.A. Pai Management Institute (TAPMI)",
+          "Manipal Institute of Communication (MIC)",
+          "Manipal School of Life Sciences",
+          "Welcomgroup Graduate School of Hotel Administration (WGSHA)",
+          "Manipal Institute of Social Science, Humanities & Arts (MISHA)",
+          "Manipal School of Commerce and Economics (MSCE)",
+          "Department of Design (DOD)",
+          "Manipal International Institute of Applied Sciences (MIAP)",
+          "Manipal Centre for European Studies (MCES)"
+        ],
+        "facilities": {
+          "hostels": "Multiple hostel blocks with AC and non-AC accommodation options",
+          "libraries": "Asia's largest health sciences library and multiple specialized libraries",
+          "sports": "MARENA (indoor sports complex), swimming pools, courts for various sports",
+          "healthcare": "KMC Hospital on campus",
+          "other": "Food courts, banking facilities, shopping centers, recreational areas"
+        }
+      },
+      "mangalore": {
+        "name": "MAHE Mangalore Campus",
+        "location": "Mangalore, Karnataka, India",
+        "area": "35 acres",
+        "type": "Off-Campus Centre",
+        "description": "Urban campus with a focus on medical and dental education through partnership with local hospitals",
+        "institutes": [
+          "Kasturba Medical College (KMC) Mangalore",
+          "Manipal College of Dental Sciences (MCODS) Mangalore"
+        ],
+        "facilities": {
+          "hostels": "Hostel facilities near the colleges",
+          "libraries": "Medical and dental sciences libraries",
+          "sports": "Sports facilities including indoor and outdoor options",
+          "healthcare": "Access to affiliated teaching hospitals",
+          "other": "Cafeterias, study spaces, recreation areas"
+        }
+      },
+      "bengaluru": {
+        "name": "MAHE Bengaluru Campus",
+        "location": "Yelahanka, Bengaluru, Karnataka, India",
+        "area": "Not specified",
+        "type": "Off-Campus Centre",
+        "description": "Modern campus in India's tech capital offering diverse programs across technology, management, law, and design fields",
+        "institutes": [
+          "Manipal Institute of Technology (MIT) Bengaluru",
+          "T.A. Pai Management Institute (TAPMI) Bengaluru",
+          "Manipal Law School (MLS)",
+          "Department of Liberal Arts, Humanities & Social Sciences (DLHS)",
+          "Srishti Manipal Institute of Art, Design and Technology (SMI)",
+          "Department of Commerce (DOC)"
+        ],
+        "facilities": {
+          "hostels": "Contemporary hostel facilities",
+          "libraries": "Modern library resources",
+          "sports": "Sports and fitness facilities",
+          "other": "Design studios, technology labs, moot courts for law students"
+        }
+      },
+      "jamshedpur": {
+        "name": "MAHE Jamshedpur Campus",
+        "location": "Jamshedpur, Jharkhand, India",
+        "type": "Off-Campus Centre",
+        "description": "Campus focused on medical and allied health education in eastern India",
+        "institutes": [
+          "Manipal Tata Medical College (MTMC) Jamshedpur"
+        ],
+        "facilities": {
+          "hostels": "Hostel accommodations for students",
+          "libraries": "Medical library",
+          "healthcare": "Teaching hospital facilities",
+          "other": "Basic amenities and study spaces"
+        }
+      },
+      "dubai": {
+        "name": "MAHE Dubai Campus",
+        "location": "Dubai, United Arab Emirates",
+        "type": "International Campus",
+        "description": "MAHE's campus in Dubai offering selected programs with international certification",
+        "programs_offered": "Selected programs in Engineering, Management, and Health Sciences",
+        "facilities": {
+          "hostels": "Student accommodation options",
+          "libraries": "Modern library resources",
+          "labs": "State-of-the-art laboratories",
+          "other": "Recreational facilities"
+        }
+      },
+      "malaysia": {
+        "name": "MAHE Malaysia Campus",
+        "location": "Melaka, Malaysia",
+        "type": "International Campus",
+        "description": "MAHE's presence in Malaysia offering selected programs with international certification",
+        "programs_offered": "Selected programs in Health Sciences and other disciplines",
+        "facilities": {
+          "hostels": "Student accommodation options",
+          "libraries": "Library and learning resources",
+          "other": "Basic campus amenities"
+        }
+      }
+    },
+    "faculty_of_health_sciences": {
+      "medicine": {
+        "undergraduate": {
+          "mbbs": {
+            "full_name": "Bachelor of Medicine & Bachelor of Surgery",
+            "duration": "5.5 years",
+            "institutions": ["KMC Manipal", "KMC Mangalore", "MTMC Jamshedpur"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, Biology/Biotechnology and English individually from a recognized Board, with minimum 50% marks taken together in PCB",
+              "a_level": "Physics, Chemistry and Biology in 'A' Levels and English in 'AS' Level. Minimum requirement is 'D' grade individually in PCB",
+              "ib": "Physics, Chemistry, Biology and English. IB Diploma or Certificate with minimum 4 points in each subject and overall minimum 24 points. Minimum 3 subjects in HL and 3 in SL"
+            },
+            "admission_process": {
+              "general": "Register, appear and qualify in NEET UG 2025, online registration & counseling through MCC/KEA/JCECEB",
+              "foreign_nri": "Register, appear and qualify in NEET UG 2025, online registration & counseling through MCC"
+            },
+            "fees": {
+              "kmc_manipal": 7088500,
+              "kmc_mangalore": "Not specified",
+              "mtmc_jamshedpur": 6445000
+            }
+          }
+        },
+        "postgraduate": {
+          "md_ms": {
+            "full_name": "Doctor of Medicine/Master of Surgery",
+            "duration": "3 years",
+            "institutions": ["KMC Manipal", "KMC Mangalore", "MTMC Jamshedpur"],
+            "eligibility": "MBBS degree from NMC recognized university; completed internship by date specified",
+            "admission_process": "NEET PG 2025 qualification; Online registration & choice filling on MCC/KEA portal",
+            "fees": {
+              "range": "1,465,000 - 10,174,000"
+            }
+          },
+          "dm_mch": {
+            "full_name": "Doctorate of Medicine/Master of Chirurgiae (Super Specialities)",
+            "duration": "3 years",
+            "institutions": ["KMC Manipal"],
+            "fees": {
+              "range": "4,960,000 - 8,722,000"
+            }
+          },
+          "msc_medical": {
+            "full_name": "Master of Science (Medical)",
+            "duration": "2 years",
+            "institutions": ["KMC Manipal"],
+            "eligibility": "BSc (with Biological Sciences)/BSc Nursing/AHS/BAMS/MBBS/BHMS/BPT/BPharm with min. 50%",
+            "admission_process": "Online application; Manipal Entrance Test (MET); Merit list based on scores",
+            "fees": {
+              "range": "203,000 - 1,660,000"
+            }
+          }
+        }
+      },
+      "dentistry": {
+        "undergraduate": {
+          "bds": {
+            "full_name": "Bachelor of Dental Surgery",
+            "duration": "5 years",
+            "institutions": ["MCODS Manipal", "MCODS Mangalore"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, Biology/Biotechnology and English individually from a recognized Board, with minimum 50% marks taken together in PCB",
+              "a_level": "Physics, Chemistry and Biology in 'A' Levels and English in 'AS' Level. Minimum requirement is 'D' grade individually in PCB",
+              "ib": "Physics, Chemistry, Biology and English. IB Diploma or Certificate with minimum 4 points in each subject and overall minimum 24 points. Minimum 3 subjects in HL and 3 in SL"
+            },
+            "admission_process": "Register, appear and qualify in NEET UG 2025, online registration & counseling through MCC",
+            "fees": {
+              "mcods_manipal": 2210000,
+              "mcods_mangalore": 1970000
+            }
+          }
+        },
+        "postgraduate": {
+          "mds": {
+            "full_name": "Master of Dental Surgery",
+            "duration": "3 years",
+            "institutions": ["MCODS Manipal", "MCODS Mangalore"],
+            "eligibility": "BDS from DCI recognized university; completed internship",
+            "admission_process": "NEET PG 2025 qualification; MCC/KEA counseling",
+            "fees": {
+              "range": "2,605,000 - 5,806,000"
+            }
+          }
+        }
+      },
+      "allied_health": {
+        "undergraduate": {
+          "baslp": {
+            "full_name": "Bachelor in Audiology & Speech Language Pathology",
+            "duration": "4 years",
+            "institutions": ["MCHP Manipal", "KMC Mangalore"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry and English with Biology/Mathematics/Computer Science/Statistics/Electronics/Psychology, 50% aggregate in PCB/PCM/PCO",
+              "a_level": "Physics, Chemistry and Biology/Mathematics/Psychology in 'A' Levels and English at 'AS' level, minimum 'D' grade average in PCB/PCM/PCO",
+              "ib": "English, Physics, Chemistry, Biology/Mathematics/Psychology with average 4 points in PCB/PCM/PCO and minimum 24 points overall"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET score and 50% from qualifying exam"
+          },
+          "bsc_exercise_sports": {
+            "full_name": "B.Sc. in Exercise and Sports Sciences",
+            "duration": "Not specified",
+            "institutions": ["MCHP Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry and English with Biology/Mathematics, 45% aggregate in PCB/PCM",
+              "a_level": "Physics, Chemistry and Mathematics or Biology with at least 2 subjects at 'A' level, minimum 'D' grade average",
+              "ib": "English, Physics, Chemistry and Biology or Mathematics, minimum 4 points average in PCB or PCM"
+            },
+            "admission_process": "Online application, merit list based on PCB/PCM marks"
+          },
+          "boptom": {
+            "full_name": "Bachelor of Optometry",
+            "duration": "Not specified",
+            "institutions": ["MCHP Manipal", "MTMC Jamshedpur"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry and English with Biology/Mathematics, 50% aggregate in PCB/PCM",
+              "a_level": "Physics, Chemistry and Biology or Mathematics with at least 2 subjects at 'A' level, minimum 'D' grade",
+              "ib": "English, Physics, Chemistry and Biology or Mathematics, average 4 points in PCB or PCM"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam"
+          },
+          "bot_bpt": {
+            "full_name": "Bachelor of Occupational Therapy/Bachelor of Physiotherapy",
+            "duration": "4-4.5 years",
+            "institutions": ["MCHP Manipal", "KMC Mangalore"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, Biology and English, 50% aggregate in PCB",
+              "a_level": "Physics, Chemistry and Biology in 'A' levels and English at 'AS' level, minimum 'D' grade average",
+              "ib": "English, Physics, Chemistry and Biology, average 4 points in PCB with minimum 24 points overall"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam",
+            "fees": {
+              "range": "556,000 - 1,186,000"
+            }
+          },
+          "bsc_allied_health": {
+            "full_name": "Various B.Sc. Allied Health Programs",
+            "programs": ["B.Sc. Cardiovascular Technology", "Medical Imaging Technology", "Medical Lab Technology", "etc."],
+            "institutions": ["MCHP Manipal", "KMC Mangalore", "MTMC Jamshedpur"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, English and Biology, 50% aggregate in PCB",
+              "a_level": "Physics, Chemistry and Biology with at least 2 subjects at 'A' level, minimum 'D' grade average",
+              "ib": "English, Physics, Chemistry and Biology, average 4 points in PCB with minimum 24 points overall"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying exam"
+          },
+          "bsc_health_sciences": {
+            "full_name": "B.Sc. (Health Sciences)/B.Sc. Basic Medical Sciences",
+            "institutions": ["Department of Basic Medical Sciences, Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, Biology/Biotechnology and English, 55% in PCB",
+              "a_level": "Physics, Chemistry and Biology/Biotechnology in 'A' Levels, English at 'AS' level, 'C' grade average",
+              "ib": "Physics, Chemistry, Biology and English, minimum 4 points each with 24 points overall"
+            },
+            "admission_process": "Online application, merit list based on qualifying exam marks"
+          }
+        },
+        "postgraduate": {
+          "msc_programs": {
+            "full_name": "Various M.Sc. Programs (MIT, RT, MLT, CVT, etc.)",
+            "duration": "2 years",
+            "eligibility": "Bachelor's in relevant field (50% minimum)",
+            "experience_requirements": {
+              "4_years_with_internship": "No additional experience",
+              "4_years_without_internship": "6 months additional experience",
+              "3.5_years_with_6month_internship": "6 months additional experience",
+              "3_years": "1 year additional experience required"
+            },
+            "admission_process": "Entrance tests, interviews, or merit-based selection",
+            "fees": {
+              "range": "380,000 - 958,000"
+            }
+          },
+          "mphil_clinical_psychology": {
+            "full_name": "MPhil Clinical Psychology",
+            "duration": "2 years",
+            "institutions": ["MCHP Manipal"],
+            "eligibility": "Must have passed MA Psychology or MSc Psychology from a recognized University with minimum 55% aggregate marks",
+            "fees": 1000000
+          },
+          "mphil_psychiatric_social_work": {
+            "full_name": "MPhil Psychiatric Social Work",
+            "institutions": ["KMC Manipal"],
+            "eligibility": "Must have passed a full time MSW (Social Work) from a recognized University with minimum 55% aggregate marks"
+          }
+        },
+        "lateral_entry": {
+          "allied_health_programs": {
+            "programs": [
+              "B.Sc. Anaesthesia and Operation Theater Technology",
+              "B.Sc. Emergency Medical Technology",
+              "B.Sc. Medical Imaging Technology",
+              "B.Sc. Medical Laboratory Technology",
+              "B.Sc. Respiratory Therapy",
+              "B.Sc. Optometry"
+            ],
+            "institutions": ["MCHP, Manipal & Mangaluru"],
+            "eligibility": {
+              "option1": "2-year diploma in respective field after 10+2 with 50% aggregate in diploma AND 50% in Physics, Chemistry, Biology in 10+2",
+              "option2": "3-year diploma in respective field after 10th with 50% aggregate marks"
+            },
+            "admission_process": {
+              "general": "Online application, Merit list based on qualifying exam marks, Provisional admission notice, Admission formalities",
+              "foreign_nri": "Online application, Submission of eligibility documents, Admission notice, Fee payment, Provisional admission order, Final admission"
+            }
+          }
+        }
+      },
+      "nursing": {
+        "undergraduate": {
+          "bsc_nursing": {
+            "full_name": "B.Sc. Nursing",
+            "duration": "4 years",
+            "institutions": ["Manipal College of Nursing, Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, Biology & English, 45% aggregate in PCB",
+              "a_level": "Physics, Chemistry and Biology in 'A' levels and English at 'AS' level, 'D' grade average",
+              "ib": "English, Physics, Chemistry and Biology, average 4 points in PCB and 24 points overall",
+              "age": "Minimum 17 years as of 31st December 2025"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying exam",
+            "fees": 810000
+          },
+          "bsc_nursing_unb": {
+            "full_name": "B.Sc. Nursing-UNB",
+            "duration": "4 years",
+            "institutions": ["Manipal College of Nursing, Manipal"],
+            "fees": 1030000
+          },
+          "post_basic_bsc_nursing": {
+            "full_name": "Post Basic B.Sc. Nursing",
+            "duration": "2 years",
+            "institutions": ["Manipal College of Nursing, Manipal"],
+            "eligibility": "Pass in GNM after 10+2, registered Nurse and Midwife",
+            "admission_process": "Online application, merit list based on qualifying exam marks",
+            "fees": 230000
+          }
+        },
+        "postgraduate": {
+          "msc_nursing": {
+            "full_name": "M.Sc. Nursing Programs",
+            "duration": "2 years",
+            "institutions": ["MCON Manipal"],
+            "eligibility": "BSc Nursing/PB BSc Nursing (INC recognized) with 55%; 1-year experience",
+            "admission_process": "MET, counseling",
+            "fees": 356000
+          }
+        }
+      },
+      "pharmacy": {
+        "undergraduate": {
+          "bpharm": {
+            "full_name": "Bachelor of Pharmacy (B.Pharm)",
+            "duration": "4 years",
+            "institutions": ["Manipal College of Pharmaceutical Sciences, Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, English with Biology/Mathematics",
+              "a_level": "Physics, Chemistry and Biology/Mathematics in 'A' Levels, English at 'AS' level, 'D' grade average",
+              "ib": "English, Physics, Chemistry, Biology/Mathematics, average 4 points in PCB/PCM, 24 points overall",
+              "lateral_entry": "Pass in Diploma (Pharmacy) from PCI recognized institution",
+              "age": "Minimum 17 years as of 31st December 2025"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying exam",
+            "fees": 1550000
+          },
+          "pharmd": {
+            "full_name": "Doctor of Pharmacy (PharmD)",
+            "duration": "6 years",
+            "institutions": ["Manipal College of Pharmaceutical Sciences, Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry and English with Mathematics/Biology as optional OR DPharm recognized by PCI",
+              "a_level": "Physics, Chemistry and Biology/Mathematics in the 'A' Levels, English at 'AS' level, 'D' grade average",
+              "ib": "English, Physics, Chemistry, and Biology/Mathematics, average 4 points in PCB/PCM, 24 points overall",
+              "age": "Minimum 17 years as of 31st December 2025"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET and 50% qualifying exam",
+            "fees": 2805000
+          },
+          "dpharm": {
+            "full_name": "Diploma in Pharmacy",
+            "duration": "2 years",
+            "institutions": ["Manipal College of Pharmaceutical Sciences"],
+            "fees": 145000
+          }
+        },
+        "postgraduate": {
+          "mpharm": {
+            "full_name": "M.Pharm Programs",
+            "duration": "2 years",
+            "institutions": ["MCOPS"],
+            "eligibility": "BPharm (PCI recognized) with 55%; state registration",
+            "admission_process": "Merit-based selection, counseling",
+            "fees": {
+              "range": "862,000 - 970,000"
+            }
+          },
+          "pharmd_post_baccalaureate": {
+            "full_name": "PharmD Post Baccalaureate",
+            "eligibility": "Similar to MPharm requirements"
+          }
+        },
+        "lateral_entry": {
+          "bpharm": {
+            "full_name": "Bachelor of Pharmacy (B.Pharm)",
+            "institutions": ["MCOPS, Manipal"],
+            "eligibility": "Diploma in Pharmacy from PCI-recognized institution",
+            "admission_process": {
+              "general": "Online application, Merit list based on qualifying exam marks, Provisional admission notice, Admission formalities",
+              "foreign_nri": "Not applicable"
+            }
+          }
+        }
+      },
+      "life_sciences": {
+        "undergraduate": {
+          "bsc_biotechnology": {
+            "full_name": "B.Sc. Biotechnology",
+            "institutions": ["Manipal School of Life Sciences, Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Biology, Chemistry, English, and Physics/Biotechnology/Mathematics, 55% aggregate",
+              "a_level": "Biology, Chemistry and Physics/Biotechnology/Mathematics in 'A' Levels, 'C' grade average",
+              "ib": "Biology, Chemistry, Physics/Biotechnology/Mathematics with minimum average 4 points and 24 points overall"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam"
+          }
+        },
+        "postgraduate": {
+          "msc_life_sciences": {
+            "full_name": "M.Sc. Programs (Life Sciences)",
+            "duration": "2 years",
+            "institutions": ["Manipal School of Life Sciences"],
+            "fees": {
+              "range": "418,000 - 728,000"
+            }
+          },
+          "msc_regenerative_medicine": {
+            "full_name": "M.Sc. Programs (Regenerative Medicine)",
+            "duration": "2 years",
+            "institutions": ["Manipal Institute of Regenerative Medicine"],
+            "fees": 822000
+          },
+          "msc_by_research": {
+            "full_name": "M.Sc. by Research",
+            "duration": "2 years",
+            "institutions": ["Manipal Center for Biotherapeutics Research"],
+            "fees": 578000
+          }
+        }
+      },
+      "other_health_science_programs": {
+        "postgraduate": {
+          "public_health_and_specialized": {
+            "full_name": "Public Health/Regenerative Medicine/Virology/Biotherapeutics",
+            "eligibility": "50-60% in relevant bachelor's",
+            "admission_process": "Entrance tests, interviews, or merit-based selection"
+          }
+        }
+      }
+    },
+    "faculty_of_technology_science": {
+      "engineering": {
+        "undergraduate": {
+          "btech": {
+            "full_name": "B.Tech Programs (All Engineering Disciplines)",
+            "duration": "4 years",
+            "institutions": ["MIT Manipal", "MIT Bengaluru"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Mathematics and English as compulsory subjects along with Chemistry/Biotechnology/Biology/technical vocational subject, 50% aggregate",
+              "a_level": "Physics, Mathematics and Chemistry/Biotechnology/Biology/Computer Science in 'A' Levels, English at 'AS' level, 'D' grade average",
+              "ib": "English, Physics, Mathematics and Chemistry/Biotechnology/Biology/Computer Science, average 4 points with 24 points overall",
+              "lateral_entry": "Pass in 3-year Diploma in respective Engineering stream with 45% OR Pass in BSc with Mathematics in 12th, 45% marks"
+            },
+            "admission_process": "Online application, MET, merit list based on 50% MET score and 50% qualifying exam",
+            "fees": {
+              "mit_manipal": {
+                "range": "1,374,000 - 2,210,000"
+              },
+              "mit_bengaluru": {
+                "range": "2,054,000 - 2,210,000"
+              }
+            },
+            "met_details": {
+              "duration": "120 minutes",
+              "total_questions": 60,
+              "question_breakdown": {
+                "mcq": "45 questions (Mathematics 15, Physics 10, Chemistry 10, English 10)",
+                "nat": "15 questions (Mathematics 5, Physics 5, Chemistry 5)"
+              },
+              "max_marks": 240,
+              "marking_scheme": {
+                "mcq": "+4 (Correct), -1 (Wrong), 0 (Unanswered)",
+                "nat": "+4 (Correct), 0 (Wrong), 0 (Unanswered) - No negative marking for NAT"
+              },
+              "attempts": "2 attempts allowed",
+              "attempt_details": {
+                "phase1": "Candidates applying on or before the 1st attempt deadline are eligible for a 2nd attempt",
+                "phase2": "Additional fee of Rs. 1400 for 2nd attempt booking in Phase 2",
+                "restriction": "Candidates giving first attempt in Phase 2 are NOT eligible for a second attempt",
+                "center": "Test Center City for second attempt will be same as the first"
+              }
+            }
+          }
+        },
+        "postgraduate": {
+          "mtech_me": {
+            "full_name": "M.Tech/M.E Programs",
+            "duration": "2 years",
+            "institutions": ["MIT Manipal", "MIT Bengaluru"],
+            "eligibility": "BE/BTech in relevant branch with 50%",
+            "admission_process": "MET, counseling",
+            "additional_benefits": "GATE qualified candidates given preference",
+            "special_programs": "Special study abroad programs available with ESIGELEC, France (pending AICTE approval)",
+            "fees": {
+              "mit_manipal": {
+                "range": "360,000 - 448,000"
+              },
+              "msis": 472000
+            },
+            "met_details": {
+              "duration": "90 minutes",
+              "total_questions": 60,
+              "marking_scheme": "+4 for correct, -1 for incorrect, 0 for unattempted",
+              "max_marks": 240,
+              "subject_selection": "Candidates must select ANY ONE of 8 Test Disciplines during slot booking",
+              "disciplines": [
+                "Biotechnology (BT)",
+                "Chemical Engineering (CH)",
+                "Civil Engineering (CV)",
+                "Computer Science (CS)",
+                "Electrical Engineering (EE)",
+                "Electronics & Communication Engineering (EC)",
+                "Instrumentation & Control Engineering (IC)",
+                "Mechanical Engineering (ME)"
+              ],
+              "question_breakdown": {
+                "chosen_discipline": "50 questions",
+                "engineering_mathematics": "10 questions"
+              },
+              "gate_benefit": "Candidates with valid GATE score (meeting General Category cutoff) receive 10% additional marks added to MET score for ranking",
+              "ranking": "Two ranks allotted - General Rank (overall test score) and Stream Rank (within chosen discipline). Counseling based on General Rank"
+            }
+          }
+        },
+        "lateral_entry": {
+          "btech": {
+            "full_name": "All B.Tech programs",
+            "institutions": ["MIT, Manipal & Bengaluru"],
+            "eligibility": {
+              "option1": "3-year Diploma in respective Engineering stream from State Board of Technical Education with minimum 45% aggregate marks",
+              "option2": "B.Sc. Degree with Mathematics in 12th standard from recognized University with minimum 45% aggregate marks"
+            },
+            "admission_process": {
+              "general": "Online application, Merit list based on qualifying exam marks, Provisional admission notice, Admission formalities",
+              "foreign_nri": "Not applicable"
+            }
+          }
+        }
+      },
+      "computer_applications": {
+        "postgraduate": {
+          "mca": {
+            "full_name": "MCA",
+            "duration": "2 years",
+            "institutions": ["MIT Manipal"],
+            "eligibility": "BCA/BSc (CS/IT)/Bachelor's in CS Engineering or BSc/BCom/BA with Mathematics",
+            "admission_process": "Merit-based selection",
+            "fees": 440000
+          }
+        }
+      },
+      "architecture_design": {
+        "undergraduate": {
+          "barch": {
+            "full_name": "Bachelor of Architecture (B.Arch)",
+            "duration": "5 years",
+            "institutions": ["MSAP Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Mathematics and Chemistry/Biology/Technical/Computer subjects, 45% marks OR 3-year Diploma with Mathematics, 45% marks",
+              "a_level": "Physics, Mathematics and Chemistry/Biology/Technical/Computer in 'A' Levels, English at 'AS' level, 'D' grade average",
+              "ib": "Physics, Mathematics along with Chemistry/Biology/Technical/Computer, minimum 4 points each with 24 points overall",
+              "additional": "Must qualify NATA or JEE Paper II"
+            },
+            "admission_process": "Online application, merit list based on 50% qualifying exam marks and 50% NATA score",
+            "fees": 2195000
+          },
+          "bdes_fashion_interior": {
+            "full_name": "Bachelor of Design Programs (Fashion/Interior Design)",
+            "duration": "4 years",
+            "institutions": ["DOD Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or 3-year Diploma, 45% aggregate",
+              "a_level": "Minimum 3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall",
+              "lateral_entry": "3-years Diploma in relevant design field with 50% marks"
+            },
+            "admission_process": "Online application, Home Based Test, Portfolio of work, Personal Interview OR UCEED score",
+            "fees": {
+              "range": "982,000 - 1,006,000"
+            }
+          },
+          "bdes_bfa_bvoc": {
+            "full_name": "B.Des/BFA/B.Voc Programs",
+            "institutions": ["SMI Bengaluru"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 45% aggregate",
+              "a_level": "Minimum 3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, SMEAT Test, merit list based on test score",
+            "fees": {
+              "bdes_bfa": 3082000,
+              "bvoc": 1355000
+            }
+          }
+        },
+        "postgraduate": {
+          "march_mdes": {
+            "full_name": "MArch/MDes Programs",
+            "duration": "2 years",
+            "institutions": ["MSAP Manipal", "DOD Manipal", "SMI Bengaluru"],
+            "eligibility": "BArch/relevant bachelor's degree with 50%",
+            "admission_process": "PGETA qualification, portfolio submission, interview",
+            "special_requirements": "Design programs require portfolios and statements of purpose",
+            "fees": {
+              "march_mdes_msap": {
+                "range": "362,000 - 418,000"
+              },
+              "mdes_ma_dod": {
+                "range": "266,000 - 436,000"
+              },
+              "ma_mdes_smi": {
+                "range": "958,000 - 1,280,000"
+              }
+            }
+          }
+        },
+        "lateral_entry": {
+          "design": {
+            "full_name": "Bachelor of Design (Fashion Design/Interior Design)",
+            "institutions": ["DOD, Manipal"],
+            "eligibility": {
+              "fashion_design": "3-year Diploma in Fashion Design from recognized Central/State government Board with minimum 50% aggregate marks",
+              "interior_design": "3-year Diploma in Interior Design/Architecture/Civil from recognized Central/State government Board with minimum 50% aggregate marks"
+            },
+            "admission_process": {
+              "general": "Online application, Merit list based on qualifying exam marks, Provisional admission notice, Admission formalities",
+              "foreign_nri": "Not applicable"
+            }
+          }
+        }
+      },
+      "basic_applied_sciences": {
+        "undergraduate": {
+          "bsc_physics": {
+            "full_name": "B.Sc. Physics/B.Sc. Physics (Hons.)",
+            "institutions": ["MIAP Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Chemistry, Mathematics and English, 55% in PCM",
+              "a_level": "Physics, Chemistry and Mathematics in 'A' Level, English at 'AS' level, 'C' grade average",
+              "ib": "English, Physics, Chemistry and Mathematics, average 4 points in PCM, 24 points overall"
+            },
+            "admission_process": "Online application, merit list based on PCM marks"
+          },
+          "bsc_applied_sciences": {
+            "full_name": "B.Sc. Applied Sciences - International Transfer Program",
+            "institutions": ["ICAS Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 with Physics, Mathematics, English and Chemistry/Biotechnology/Biology/technical subject, 60% aggregate",
+              "a_level": "Physics, Mathematics and Chemistry/Biotechnology/Biology/Computer Science in 'A' Levels, 'C' grade average",
+              "ib": "English, Physics, Mathematics and Chemistry/Biotechnology/Biology/Computer Science, average 4 points, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI"
+          }
+        },
+        "postgraduate": {
+          "msc_programs": {
+            "full_name": "M.Sc. Programs",
+            "eligibility": "BSc with relevant major subject (50% minimum)",
+            "admission_process": "Merit-based selection"
+          }
+        }
+      },
+      "hospitality": {
+        "undergraduate": {
+          "bhm": {
+            "full_name": "Bachelor of Hotel Management (BHM)",
+            "duration": "4 years",
+            "institutions": ["WGSHA Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 45% aggregate",
+              "a_level": "Minimum 3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI",
+            "fees": {
+              "range": "1,240,000 - 1,782,000"
+            }
+          },
+          "bsc_culinary": {
+            "full_name": "B.Sc./B.Sc.(Hons) Culinary Science and Hospitality Programs",
+            "duration": "3 years",
+            "institutions": ["WGSHA Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent",
+              "a_level": "Minimum 2/3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI"
+          }
+        },
+        "postgraduate": {
+          "master_programs": {
+            "full_name": "Master Programs",
+            "duration": "2 years",
+            "institutions": ["WGSHA Manipal"],
+            "fees": {
+              "range": "430,000 - 620,000"
+            }
+          }
+        }
+      }
+    },
+    "faculty_of_management_liberal_arts_humanities_social_sciences_law": {
+      "management": {
+        "undergraduate": {
+          "bba": {
+            "full_name": "BBA Programs",
+            "duration": "3-4 years",
+            "institutions": ["MSCE Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 50% aggregate",
+              "a_level": "Minimum 3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI",
+            "fees": {
+              "range": "658,000 - 958,000"
+            }
+          },
+          "bcom": {
+            "full_name": "B.Com Programs (All Specializations)",
+            "duration": "3 years",
+            "institutions": ["MSCE Manipal", "DOC Bengaluru"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 50% aggregate",
+              "a_level": "Minimum 2/3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI"
+          },
+          "ipm": {
+            "full_name": "Integrated Program in Management (IPM)",
+            "duration": "5 years",
+            "institutions": ["TAPMI Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2, 60% aggregate, 60% in 10th standard, English as compulsory subject",
+              "a_level": "Minimum 3 subjects in 'A' Levels, 'C' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall",
+              "additional": "Appearance in MET/IPMAT/JIPMAT/JEE Mains/SAT/CLAT"
+            },
+            "admission_process": "Online application, Statement of Purpose, Personal Interview, merit list based on entrance test, SOP & PI",
+            "fees": 2890000
+          },
+          "bba_hons": {
+            "full_name": "BBA (Hons)",
+            "duration": "4 years",
+            "institutions": ["TAPMI Bengaluru"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2, 60% aggregate, 60% in 10th standard, English as compulsory subject",
+              "a_level": "Minimum 3 subjects in 'A' Levels, 'C' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall",
+              "additional": "Appearance in MET/IPMAT/JIPMAT/JEE Mains/SAT/CLAT"
+            },
+            "admission_process": "Online application, Personal Interview & Micro-presentation",
+            "fees": 1614000
+          }
+        },
+        "postgraduate": {
+          "mba": {
+            "full_name": "MBA Programs",
+            "duration": "2 years",
+            "institutions": ["TAPMI Manipal", "TAPMI Bengaluru"],
+            "eligibility": "Bachelor's degree with 50%",
+            "entrance_exams": {
+              "general": "Valid CAT/XAT/GMAT/NMAT scores",
+              "nri": "Valid CAT/XAT/GMAT/NMAT/SNAP/ATMA/CMAT/MAT scores",
+              "foreign": "GMAT required, IELTS if applicable"
+            },
+            "admission_process": "Written test, group discussion, personal interview",
+            "selection_criteria": "Entrance scores, academic profile, work experience",
+            "fees": 1840000
+          },
+          "mba_technology_management": {
+            "full_name": "MBA Technology Management",
+            "duration": "2 years",
+            "institutions": ["TAPMI Bengaluru"],
+            "fees": 1840000
+          },
+          "masters_programs": {
+            "full_name": "Master's Programs",
+            "duration": "2 years",
+            "institutions": ["MSCE Manipal"],
+            "fees": {
+              "range": "207,000 - 572,000"
+            }
+          }
+        }
+      },
+      "liberal_arts_humanities": {
+        "undergraduate": {
+          "ba_ba_hons": {
+            "full_name": "BA/BA(Hons) Programs",
+            "duration": "3-4 years",
+            "institutions": ["MISHA Manipal", "DLHS Bengaluru"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 55% aggregate for MISHA, 50% for DLHS",
+              "a_level": "Minimum 2/3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'C'/'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI",
+            "fees": {
+              "misha_ba_hons": 1210000,
+              "dlhs_ba": {
+                "range": "494,000 - 670,000"
+              }
+            }
+          }
+        },
+        "postgraduate": {
+          "ma_programs": {
+            "full_name": "Various MA programs in English, History, Sociology, Philosophy, etc.",
+            "eligibility": "Bachelor's degree with 50-55%",
+            "admission_processes": "Interviews, statements of purpose",
+            "fees": {
+              "misha": 171000,
+              "dlhs": {
+                "range": "171,000 - 396,000"
+              }
+            }
+          }
+        }
+      },
+      "law": {
+        "undergraduate": {
+          "ba_bba_llb": {
+            "full_name": "Law Programs (BA LLB/BBA LLB/LL.B Hons)",
+            "duration": "5 years (BA LLB/BBA LLB), 3 years (LL.B Hons)",
+            "institutions": ["MLS Bengaluru"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 50% aggregate. For LL.B: Bachelor's degree, 50% aggregate",
+              "a_level": "Minimum 3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI",
+            "fees": {
+              "ba_bba_llb_hons": 1660000,
+              "llb_hons": 484000
+            }
+          }
+        },
+        "postgraduate": {
+          "llm": {
+            "full_name": "LLM Programs",
+            "duration": "1 year",
+            "institutions": ["MLS Bengaluru"],
+            "eligibility": "LLB with 50%",
+            "admission_process": "Personal interview",
+            "fees": 231000
+          },
+          "pg_diploma": {
+            "full_name": "PG Diploma",
+            "duration": "1 year",
+            "institutions": ["MLS Bengaluru"],
+            "fees": 158000
+          }
+        }
+      },
+      "media_communication": {
+        "undergraduate": {
+          "ba_media": {
+            "full_name": "BA Media & Communication/BA(Hons) Media & Communication",
+            "institutions": ["MIC Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent, 45% aggregate",
+              "a_level": "Minimum 2/3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Personal Interview, merit list based on PI",
+            "fees": {
+              "range": "640,000 - 1,146,000"
+            }
+          },
+          "bsc_animation": {
+            "full_name": "B.Sc. Animation",
+            "institutions": ["MIC Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent",
+              "a_level": "Minimum 2/3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Home Based Test, Portfolio submission, Personal Interview"
+          },
+          "ba_graphic_design": {
+            "full_name": "BA in Graphic Design and Digital Media Marketing",
+            "institutions": ["MIC Manipal"],
+            "eligibility": {
+              "indian_boards": "Pass in 10+2 or equivalent",
+              "a_level": "Minimum 2/3 subjects in 'A' Levels and 5 passes in IGCSE/GCSE including English, 'D' grade average",
+              "ib": "IB Diploma/Certificate with 3 subjects at HL and 3 at SL, 24 points overall"
+            },
+            "admission_process": "Online application, Portfolio submission, Personal Interview"
+          }
+        },
+        "postgraduate": {
+          "ma_programs": {
+            "full_name": "MA Programs",
+            "duration": "1-2 years",
+            "institutions": ["MIC Manipal"],
+            "eligibility": "Bachelor's degree with 50%",
+            "admission_process": "Entrance test, SOP, interview",
+            "fees": {
+              "range": "345,000 - 776,000"
+            }
+          }
+        }
+      }
+    },
+    "admission_categories": {
+      "general": {
+        "name": "General Category",
+        "description": "Indian nationals"
+      },
+      "foreign": {
+        "name": "Foreign Category",
+        "description": "Foreign nationals",
+        "documents_required": "Passport copy (including personal information and address pages)"
+      },
+      "oci_pio": {
+        "name": "OCI/PIO Category",
+        "description": "Overseas Citizens of India/Persons of Indian Origin",
+        "documents_required": "OCI/PIO card of the candidate and passport copy of the parent",
+        "special_note": "As per a specific Supreme Court decision (Feb 03, 2023), OCI/PIO candidates who secured their card after 04.03.2021 shall be considered for admission under the Foreign category only"
+      },
+      "nri": {
+        "name": "NRI Category",
+        "description": "Non-Resident Indians",
+        "documents_required": "Passport copy of the candidate and parent, and the parent's Permanent Resident (PR) card / Letter from the Indian Embassy or Consulate / Valid Employment VISA"
+      },
+      "nri_sponsored": {
+        "name": "NRI Sponsored",
+        "description": "Candidates sponsored by NRI relatives",
+        "eligible_sponsors": "Parents, siblings, spouse, grandparents, aunt, uncle, cousins",
+        "documents_required": [
+          "Proof of Sponsor's NRI Status (PR card/Letter/Valid Employment VISA)",
+          "Passport copy of the Sponsor",
+          "Notary affidavit from the Sponsor proving relationship and sponsorship"
+        ]
+      }
+    },
+    "application_process": {
+      "general_steps": [
+        "Apply online through the MAHE website",
+        "Upload required documents",
+        "Take entrance test (if applicable)",
+        "Personal interview/portfolio submission (if applicable)",
+        "Merit list publication",
+        "Counseling and seat allocation",
+        "Fee payment",
+        "Provisional admission order",
+        "Final admission after document verification"
+      ],
+      "document_requirements": {
+        "educational": [
+          "Educational qualification documents (10+2 marksheet, certificate)",
+          "Entrance exam scores (NEET/MET/NATA/other as applicable)"
+        ],
+        "identification": [
+          "Identity proof",
+          "Passport copy (for Foreign/NRI/OCI categories)",
+          "Proof of Foreign/NRI status as applicable"
+        ],
+        "foreign_documents": "Foreign language documents must be translated to English by authorized translator"
+      },
+      "important_notes": [
+        "Candidates must submit 10+2 results before the last date specified for merit list finalization",
+        "Minimum pass marks in each subject as per respective board requirements",
+        "False information or concealed information will lead to admission cancellation",
+        "MAHE reserves the right to change eligibility and admission process",
+        "MAHE has no agents or middlemen for admissions",
+        "Jurisdiction for disputes is Udupi court only"
+      ]
+    },
+    "scholarships": {
+      "high_merit_scholarships": {
+        "name": "High Merit Scholarships (Kalam-Pai, Freeship, Scholar)",
+        "programs": ["MBBS", "BDS", "B.Tech", "B.Pharm", "various other UG/PG programs"],
+        "benefits": "Significant fee waivers (ranging from 20% to 100% of program fee) and sometimes hostel fees and stipend (for Kalam-Pai)",
+        "eligibility": "Primarily based on high NEET (MBBS/BDS) or MET (B.Tech/B.Pharm/other UG/PG) ranks or high academic percentage in qualifying exams",
+        "continuation": "Requires maintaining a minimum academic performance (usually 65% aggregate or 7/8 CGPA) and no backlogs/failures in the preceding academic year"
+      },
+      "performance_based_scholarships": {
+        "name": "Performance-Based Scholarships (Achiever)",
+        "programs": ["B.Tech", "B.Pharm", "various other UG/PG programs"],
+        "benefits": "Typically a 20% waiver on the program fee",
+        "eligibility": "Awarded from the second year onwards based on outstanding academic performance (high CGPA with no backlogs) in the immediate preceding year at MAHE"
+      },
+      "background_affiliation_scholarships": {
+        "military_capf": {
+          "name": "Wards of Military/CAPF Forces",
+          "benefit": "Merit scholarships (25% or 50% fee waiver + 25% hostel concession for Non-AC double room)",
+          "eligibility": "Based on parent's service status and student's academic merit"
+        },
+        "sages_age": {
+          "name": "Students from AGE/TMA Pai Foundation Institutions",
+          "benefit": "Scholarships (10% or 75% fee waiver)",
+          "eligibility": "For students who studied in designated feeder institutions"
+        },
+        "alumni_children": {
+          "name": "Children of MAHE Manipal Alumni",
+          "benefit": "10% fee waiver for all eligible UG/PG programs",
+          "eligibility": "Parent must be a full-time graduate from a MAHE Manipal institution"
+        },
+        "konkani": {
+          "name": "Konkani Speaking Students",
+          "benefit": "10% fee waiver for eligible UG/PG programs",
+          "eligibility": "Based on academic merit and Konkani as mother tongue"
+        },
+        "manipal_foundation": {
+          "name": "Manipal Foundation Scholar Program Alumni",
+          "benefit": "75% fee waiver for specific UG programs",
+          "eligibility": "For students who completed the Manipal Foundation 'Scholar program' with required attendance and academic criteria"
+        }
+      },
+      "program_specific_scholarships": {
+        "hbsf_btech": {
+          "name": "HBSF (B.Tech MIT Manipal)",
+          "benefit": "Merit-cum-Means scholarship (100% waiver of Program, Hostel, Mess fees)",
+          "eligibility": "For economically underprivileged and meritorious students from Government/PU Colleges. Based on MET rank, academic marks, and family income (< Rs. 12 lakhs)"
+        },
+        "tapmi_mba": {
+          "name": "TAPMI (PG MBA): Dr Ramdas Pai Scholarships",
+          "types": ["Merit (Excellence, Achievers)", "Need (Economically Weaker Section)"],
+          "benefit": "Waivers range from 20% to 100%",
+          "criteria": "Based on criteria including entrance exam scores (CAT/XAT/GMAT/NMAT), work experience, income, and academic performance"
+        },
+        "allied_health_jamshedpur": {
+          "name": "Allied Health (MTMC Jamshedpur)",
+          "benefit": "20% program fee waiver for eligible programs under the General category. Additional 15% waiver for domicile students from specific North-Eastern states + Jharkhand/Manipur/Sikkim"
+        },
+        "nursing": {
+          "name": "Nursing (B.Sc, M.Sc, Post Basic B.Sc)",
+          "benefit": "Merit scholarships with fee waivers (20% or 50%)",
+          "criteria": "B.Sc based on MET rank, M.Sc based on merit in qualifying exam, Post Basic B.Sc for top rank holders from Manipal School of Nursing batch"
+        },
+        "barch": {
+          "name": "B.Arch (MSAP Manipal)",
+          "benefit": "20% program fee waiver",
+          "criteria": "Based on NATA score (>= 150)"
+        },
+        "aicte_tfw": {
+          "name": "AICTE TFW (B.Tech)",
+          "benefit": "Tuition Fee Waiver (up to 5% of intake)",
+          "eligibility": "For economically weaker students (income < Rs. 8 lakhs), based on MET rank"
+        },
+        "aicte_pg": {
+          "name": "AICTE PG",
+          "benefit": "Financial assistance",
+          "eligibility": "For M.Tech (GATE qualified) and M.Pharm (GPAT qualified)"
+        },
+        "itc_hotels": {
+          "name": "ITC Hotels (BHM WGSHA)",
+          "benefit": "Scholarship (fixed amount)",
+          "eligibility": "For top BHM students"
+        }
+      },
+      "interest_subsidy_scheme": {
+        "benefit": "Partial reimbursement of interest on education loans from nationalized/scheduled banks",
+        "eligibility": "Available to specific student categories (Konkani speaking, certain Merit-cum-Means/SAGES awardees, children of employees/MF awardees) based on parental income level and student's academic progress"
+      },
+      "general_conditions": [
+        "Most scholarships require candidates to pay the full first year fee and a refundable caution deposit upfront, with the excess amount refunded later after verification",
+        "Continuation of scholarships in subsequent years is generally contingent on maintaining academic performance (minimum CGPA/percentage) and having no failures or disciplinary issues",
+        "Students who leave the program before completion may be required to reimburse the scholarship amount received",
+        "A student is generally eligible for only one scholarship at any given time",
+        "Application process and required documents vary per scholarship"
+      ]
+    },
+    "fees_and_financial_info": {
+      "fee_components": {
+        "caution_deposit": "Typically ₹10,000 (Refundable)",
+        "first_installment": "Includes Tuition Fee + Other Fee",
+        "remaining_installments": "For subsequent years",
+        "batch_total": "Complete course fee"
+      },
+      "notes": [
+        "All fees are in Indian Rupees (₹)",
+        "Fee ranges indicate variation based on specialization",
+        "A refundable caution deposit is generally required",
+        "Students going abroad for second year study must pay 20% of the Total Course Fee as registration fee"
+      ]
+    },
+    "international_collaborations": {
+      "overview": "Manipal Academy of Higher Education is a globally engaged institution with active partnership with more than 250+ leading universities around the globe",
+      "benefits": "Relations with institutions, government agencies and organizations in study, research and service provide faculty and students access to world-class institutions, experiences and resources",
+      "specific_programs": {
+        "bsc_applied_sciences": "International Transfer Program at ICAS Manipal",
+        "engineering": "Special study abroad options, including collaborations with ESIGELEC, France (for M.Tech/M.E)"
+      },
+      "types_of_collaboration": [
+        "Study abroad programs",
+        "International transfer programs",
+        "Exchange opportunities",
+        "Research collaborations"
+      ]
+    },
+    "campus_facilities": {
+      "manipal_main_campus": {
+        "hostels": "Multiple hostel blocks with AC and non-AC accommodation options",
+        "libraries": "Asia's largest health sciences library and multiple specialized libraries",
+        "sports": "MARENA (indoor sports complex), swimming pools, courts for various sports",
+        "healthcare": "KMC Hospital on campus",
+        "other": "Food courts, banking facilities, shopping centers, recreational areas"
+      },
+      "research_facilities": {
+        "simulation_lab": "State-of-the-art simulation facilities for healthcare education",
+        "innovation_centre": "Innovation Center for entrepreneurship and research",
+        "anatomy_museum": "World-class anatomy museum",
+        "business_incubation": "Business incubation center for startups"
+      },
+      "student_life": {
+        "student_clubs": "Numerous student clubs covering technical interests, cultural activities, sports, social service",
+        "events": "Annual technical and cultural festivals organized by students",
+        "sports_facilities": "MARENA sports complex offering a range of sports facilities",
+        "cultural_activities": "Regular cultural events and performances"
+      }
+    },
+    "faculty_and_research": {
+      "faculty_strength": "Nearly 2500 faculty members",
+      "research_focus": "Interdisciplinary research with emphasis on scientific knowledge development",
+      "research_achievements": {
+        "publications": "Numerous international research publications across disciplines",
+        "patents": "Patents in healthcare, engineering, and pharmaceutical sciences",
+        "collaborations": "Research partnerships with international universities and industry"
+      },
+      "research_centers": [
+        "Centre for Integrative Medicine and Research",
+        "Centre for Cardiac Sciences",
+        "Manipal-McGill Centre for Infectious Diseases",
+        "Manipal Centre for Natural Sciences",
+        "Manipal Centre for European Studies",
+        "Centre for Internet of Things",
+        "Centre for Philosophy and Humanities"
+      ],
+      "faculty_qualifications": "Highly qualified faculty with doctoral degrees and industry experience"
+    },
+    "contact_information": {
+      "general": {
+        "email": "admissions@manipal.edu",
+        "website": "www.manipal.edu"
+      },
+      "foreign_nri": {
+        "email": "intladm@manipal.edu"
+      },
+      "campuses": {
+        "manipal": {
+          "address": "Manipal Academy of Higher Education, Madhav Nagar, Manipal, Karnataka 576104, India"
+        },
+        "mangalore": {
+          "address": "Kasturba Medical College, Light House Hill Road, Mangalore 575001, Karnataka, India"
+        },
+        "bengaluru": {
+          "address": "Manipal Academy of Higher Education (MAHE), Bengaluru Campus, Govindapura, Yelahanka, Bengaluru 560063, Karnataka, India",
+          "phone": "+91 74117 47070 / 080 2449 4100 / 080 2449 4141"
+        },
+        "jamshedpur": {
+          "address": "Manipal Tata Medical College, Jamshedpur, Jharkhand, India"
+        }
+      }
+    },
+    "entrance_exams": {
+      "met": {
+        "full_name": "Manipal Entrance Test",
+        "programs": [
+          "B.Tech",
+          "M.Tech/M.E",
+          "B.Pharm",
+          "Pharm.D",
+          "Allied Health Programs",
+          "Nursing Programs",
+          "Various other UG/PG programs"
+        ],
+        "general_info": "Online computer-based test conducted at multiple centers across India"
+      },
+      "neet": {
+        "full_name": "National Eligibility cum Entrance Test",
+        "programs": [
+          "MBBS",
+          "BDS",
+          "AYUSH courses"
+        ],
+        "conducted_by": "National Testing Agency (NTA)",
+        "requirement": "Mandatory for medical/dental admissions"
+      },
+      "nata": {
+        "full_name": "National Aptitude Test in Architecture",
+        "programs": [
+          "B.Arch"
+        ],
+        "additional_note": "JEE Paper II can also be considered for B.Arch admission"
+      },
+      "cat_xat_gmat_nmat": {
+        "applicable_for": "MBA and management programs",
+        "conducted_by": "Various national testing bodies"
+      },
+      "gpat": {
+        "full_name": "Graduate Pharmacy Aptitude Test",
+        "applicable_for": "M.Pharm programs"
+      }
+    },
+    "miscellaneous": {
+      "important_dates": {
+        "last_updated": "April 11, 2025",
+        "application_opening": "Varies by program, typically starts in November/December",
+        "entrance_exams": "Typically scheduled between February and May",
+        "counseling_admission": "Usually between May and July"
+      },
+      "documents_for_admission": {
+        "educational": [
+          "Mark cards of all years/semesters",
+          "Transfer Certificate",
+          "Migration Certificate (if applicable)",
+          "10th and 12th standard mark sheets"
+        ],
+        "identification": [
+          "Aadhaar Card/Passport",
+          "Passport-size photographs"
+        ],
+        "entrance_scores": [
+          "NEET/MET/CAT/XAT/GMAT/NATA scorecard as applicable"
+        ],
+        "category_specific": {
+          "foreign_national": "Passport copy",
+          "oci_pio": "OCI/PIO card and parent's passport",
+          "nri": "Passport, PR card/Embassy letter/Employment visa",
+          "nri_sponsored": "Sponsor documents and notary affidavit"
+        }
+      },
+      "refund_policy": "If a program is not offered, fees will be refunded in full"
+    }
+  }

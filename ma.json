@@ -1,0 +1,1642 @@
+"MAHE": {
+    "eligibility_admission_2025_pg": {
+      "postgraduate_programs": [
+        {
+          "name": "MD/MS Courses",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in MBBS degree from an Institution / University recognized by National Medical Council (NMC) / the erstwhile Medical Council of India (MCI)",
+            "notes": "The internship completion date should be on or before the date specified by NMC. Candidates holding foreign degree must be a registered practitioner in the Country from where they have obtained their degree and MUST obtain a temporary registration certificate from National Medical Council (NMC). Indian citizens or overseas citizens of India who have obtained their Primary Medical Qualifications from Medical Colleges outside India should have qualified the Foreign Medical Graduate Examination (Screening Test) as per Screening Test Regulations, 2002."
+          },
+          "admission_process": {
+            "general": "Register, Appear and Qualify in NEET PG 2025, Online Registration & Choice Filling by candidates on MCC / KEA portal, Online counseling & Seat allotment by MCC / KEA, Reporting to the Institute, Admission Formalities",
+            "foreign_nri": "Register, Appear and Qualify in NEET PG 2025, Online Registration & Choice Filling by candidates on MCC portal, Online counseling & Seat allotment by MCC, Reporting to the Institute, Admission Formalities"
+          }
+        },
+        {
+          "name": "M.Sc. Medical Programs (Anatomy, Biochemistry, Microbiology, Pharmacology, Physiology)",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (with at least one subject of Biological Sciences) / BSc Nursing / BSc in Allied Health Sciences / BAMS / MBBS / BHMS / BPT / BPharm from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (By Research) in Neuroscience",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (with at least one subject of Biological Sciences) / BSc Nursing / BSc in Allied Health Sciences / BAMS / MBBS / BHMS / BPT / BPharm from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Clinical Embryology / Reproductive & Developmental Biology / Reproductive Genetics",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Reproduction / Zoology / Microbiology / Biochemistry / Biotechnology / Bioscience / Physiology as one of the subjects from a recognized University",
+            "minimum_aggregate": "minimum 60% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Provisional Admission Notice to shortlisted candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "M.Sc. Forensic Science",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (with at least one subject of Biological Sciences) / BAMS / BHMS / BPT / BPharm from a recognized University"
+            // Minimum aggregate not explicitly stated in this row
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI) for the shortlisted candidates, Merit List based on qualifying exam marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Genetic Counseling",
+          "faculty": "Health Sciences - Medicine",
+          "institutions": [
+            "KMC Manipal",
+            "KMC Mangalore",
+            "MTMC Jamshedpur"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in MBBS / BDS / BSc Nursing / BSc with (Human Genetics / Human Biology / Medical Biotechnology / Molecular Biology) / Allied Health Sciences programs from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Department Test (DT), Personal Interview (PI), Merit List based on DT & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Department Test (DT), Personal Interview (PI) for the shortlisted candidates, Merit List based on DT & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "MDS Programs",
+          "faculty": "Health Sciences - Dentistry",
+          "institutions": [
+            "MCODS Manipal",
+            "MCODS Mangalore"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BDS degree from a university recognized by Dental Council of India (DCI)",
+            "notes": "Internship completion date should be on or before the date specified by DCI, Permanent Registration Certificate of BDS qualification issued by the Dental Council of India (DCI) / State Dental Council"
+          },
+          "admission_process": {
+            "general": "Register, Appear and Qualify in NEET PG 2025, Online Registration & Choice Filling by candidates on MCC / KEA portal, Online counseling & Seat allotment by MCC / KEA, Reporting to the Institute, Admission Formalities",
+            "foreign_nri": "Register, Appear and Qualify in NEET PG 2025, Online Registration & Choice Filling by candidates on MCC portal, Online counseling & Seat allotment by MCC, Reporting to the Institute, Admission Formalities"
+          }
+        },
+        {
+          "name": "M.Sc. Yoga Therapy",
+          "faculty": "Health Sciences - Integrative Medicine",
+          "institutions": [
+            "Centre for Integrative Medicine & Research (CIMR) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Candidates in any degree or its equivalent, from a recognized University",
+            "minimum_aggregate": "minimum 50% marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Merit List based on qualifying exam marks, Personal Interview (PI), Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (MLT) Programs (Clinical Biochemistry, Haematology and Immuno-Haematology, Microbiology & Immunology)",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc MLT / BMLT from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit list based on qualifying exam marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (RT) Programs (Adult Respiratory Care, Neonatal & Paediatric Respiratory Care)",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Respiratory Therapy / BSc Respiratory Care Technology / BSc Medical Technology (Respiratory Therapy) from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply online, Submission of Eligibility documents, Personal interview (PI)",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Anaesthesia & Operation Theatre Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Anaesthesia & Operation Theatre Technology / BSc Anaesthesia Technology / BSc Operation Theatre Technology from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply online, Submission of Eligibility documents, Department Test (DT), Personal Interview (PI), Merit List based on qualifying exam marks, DT & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Audiology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BASLP / BSc (Speech & Hearing) / BSLH degree from a University recognized by the Rehabilitation Council of India (RCI)",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Cardiac Catheterization & Intervention Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Cardiac Care / Cardiovascular Technology from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Candidate MUST have completed their internship before class commencement, refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply online, Manipal Entrance Test (MET), Merit List based on MET Score, Physical / Online Counseling, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Provisional Admission Notice to shortlisted candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "M.Sc. Clinical Psychology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BA / BSc Degree in Psychology from a recognized university",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Provisional Admission Notice to shortlisted candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "M.Sc. (Genomic Counseling)",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in B.Sc in Genetics / Human Genetics/Nursing /Biotechnology / Molecular Biology / Medical Laboratory Technology / Nuclear Medical Technology / Cardiovascular Technology / MBBS / BDS",
+            "minimum_aggregate": "minimum of 60% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on Qualifying Examination marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Echocardiography",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Cardiac Care / Cardiovascular Technology from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Candidate MUST have completed their internship before class commencement, refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply online, Manipal Entrance Test (MET), Merit List based on MET Score, Physical / Online Counseling, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Emergency Medical Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Emergency Medical Technology from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply online, Submission of Eligibility documents, Department Test (DT), Personal Interview (PI), Merit List based on qualifying exam marks, DT & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Exercise & Sports Sciences",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in MBBS / BPT / BOT / BSc (Exercise & Sports Sciences) or equivalent from a recognized University, with a minimum 50% aggregate marks or equivalent OR B.Sc. Sports Science / B.Sc. Physical Education / B.P.Ed with a minimum 50% aggregate marks or equivalent, with at least 3 credits in Anatomy, physiology, Biochemistry and biomechanics/Kinesiology",
+            "notes": "Candidate MUST have completed their internship/ externship before class commencement. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit list based on qualifying exam marks & PI, Provisional Admission Notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Health Informatics (Healthcare IT Management)",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in MBBS / BDS / Nursing / Allied Health courses / BE or BTech in Computer Science stream / BCA / МСА from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Health Information Management",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with graduation in any discipline (3 years duration), from a recognized University, in the qualifying exam",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Medical Imaging Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc MIT (3 years duration) from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "1 year of compulsory internship or clinical experience, refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit list based on qualifying exam marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Medical Radiation Physics",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Physics as a major subject from a recognized University",
+            "minimum_aggregate": "minimum 60% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Nuclear Medicine Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Nuclear Medicine Technology / BSc NMT + PGDNMT / Medical Imaging Technology / Medical Laboratory Technology / Medical Radiation Technology or equivalent",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET Score",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Perfusion Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Perfusion Technology or BSc in any science stream with 2 year Diploma in Perfusion Technology from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit list based on qualifying exam marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Radiotherapy Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in B.Sc. Radiotherapy Technology or equivalent examination from a recognized University",
+            "minimum_aggregate": "minimum 60% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (Medial Radiochemistry) with Integrated PhD",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in B.Sc. Nuclear Medicine Technology /B Pharm / B.Sc Chemistry as one of the major subjects from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Department test (DT)",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Renal Replacement Therapy & Dialysis Technology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc RRT & DT from a recognized University",
+            "minimum_aggregate": "minimum 45% aggregate marks or equivalent",
+            "notes": "Refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit list based on qualifying exam marks & PI, Provisional Admission Notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Speech Language Pathology",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BASLP / BSc (Speech & Hearing) / BSLH from any university recognized by the Rehabilitation Council of India (RCI)",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "notes": "Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Master of Optometry",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in Bachelors in Optometry (B.Optom / B.Sc. Optometry / BS Optom / B.Sc. (Hons.) Ophthalmic Techniques) (Full time inclusive of 1 year internship) from a recognized university",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply online, Submission of Eligibility documents",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MOT Programs (Children and Adolescents, Hand & Musculoskeletal Conditions, Mental Health & Psychosocial Rehabilitation, Neuro-rehabilitation, Ageing Adult)",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BOT / BSc OT / B OTh, with minimum 50% aggregate marks or equivalent",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Candidate MUST have completed their internship before class commencement, refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MPT Programs (Cardiopulmonary Sciences, Community Physiotherapy, Geriatrics, Neurosciences, Obstetrics & Gynaecology, Musculoskeletal Sciences, Paediatrics, Oncology)",
+          "faculty": "Health Sciences - Allied Health",
+          "institutions": [
+            "Manipal College of Health Professions (MCHP) Manipal",
+            "Manipal College of Health Professions (MCHP) Mangalore",
+            "Manipal College of Health Professions (MCHP) Bangalore",
+            "Manipal College of Health Professions (MCHP) Jamshedpur Campus"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BPT from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Candidate MUST have completed their internship before class commencement, refer course details in prospectus. Includes Internship / Additional Internship / Clinical Experience Requirements#"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (by Research) in Biotherapeutics",
+          "faculty": "Health Sciences - Biotherapeutics",
+          "institutions": [
+            "Manipal Centre for Biotherapeutics Research (MCBR) Manipal"
+          ],
+          "eligibility": {
+            "options": [
+              {
+                "prerequisites": "Bachelor's degree (B.Sc.) in Zoology / Biotechnology / Microbiology / Biochemistry / Life Sciences / MLT / Food Science / Nutrition from a recognized University",
+                "minimum_aggregate": "minimum 60% aggregate marks or equivalent"
+              },
+              {
+                "prerequisites": "Bachelor's degree in Medical Sciences (M.B.B.S. / B.A.M.S) / Veterinary Sciences (B.V. Sc.) / Pharmacy (B.Pharm) / Β.Ε. / B.Tech in Biomedical Engineering / Biotechnology",
+                "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+              },
+              {
+                "prerequisites": "Bachelor's degree for Biotechnology Industry sponsored candidates",
+                "minimum_aggregate": "55% aggregate marks or equivalent",
+                "notes": "Industry sponsored candidates should be employees of the sponsoring industry with a minimum of 2 years of experience"
+              }
+            ]
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on qualifying exam marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Bioinformatics",
+          "faculty": "Health Sciences - Life Science",
+          "institutions": [
+            "Manipal School of dLife Sciences (MSLS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (Bioinformatics / Basic Sciences / Life Sciences) / BPharm / PharmD / MBBS / BDS / BE or BTech (Computer Science / Biomedical / Electronics / Biotechnology or related Engineering Sciences) from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. by Research in Life Sciences",
+          "faculty": "Health Sciences - Life Science",
+          "institutions": [
+            "Manipal School of dLife Sciences (MSLS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (Botany / Zoology / Biotechnology / Food Science / Nutrition / Agricultural Sciences) / MBBS / BDS / BPharm / PharmD / BVSC / BE or BTech (Biotechnology / Biomedical) / BAMS / BHMS from a recognized University",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply online, Manipal Entrance Test (MET), Personal Interview (PI), Merit List based on MET & PI, Provisional Admission Notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Programs (Biomolecular Physics, Genome Engineering, Medical Biotechnology, Molecular Biology & Human Genetics, Systems Biology, Tissue Engineering)",
+          "faculty": "Health Sciences - Life Science",
+          "institutions": [
+            "Manipal School of dLife Sciences (MSLS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (Botany / Zoology / Biotechnology / Food Science / Nutrition / Agricultural Sciences or any other branches of Life Sciences) / MBBS / BDS / BPharm / PharmD / BVSC / BAMS / BHMS / BE or BTech (Biotechnology / Biomedical) from a recognized University",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Nursing Programs (Child Health (Paediatric) Nursing, Community Health Nursing, Medical Surgical Nursing, Obstetrics & Gynaecology Nursing, Psychiatric (Mental Health) Nursing)",
+          "faculty": "Health Sciences - Nursing",
+          "institutions": [
+            "Manipal College of Nursing (MCON) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in Indian Nursing Council (INC) recognized BSc Nursing / PB BSc Nursing from a recognized university",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "experience": "1 year of experience as on August 31, 2025, after BSc Nursing in a hospital of at least 100 beds / in a community health program or in a school or college of nursing. PB BSc Degree holders need to have 1-year experience either before or after Post Basic BSc Nursing degree"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Provisional Admission notice to shortlisted candidates",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Nurse Practitioner Critical Care PG Residency Programme",
+          "faculty": "Health Sciences - Nursing",
+          "institutions": [
+            "Manipal College of Nursing (MCON) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc Nursing from an institution recognized by the Indian Nursing Council",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "experience": "Minimum of 1-year clinical experience, preferably in any Critical care setup"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MPharm Programs (Industrial Pharmacy, Pharmaceutical Analysis, Pharmaceutical Biotechnology, Pharmaceutical Chemistry, Pharmaceutical Quality Assurance, Pharmaceutical Regulatory Affairs, Pharmaceutics, Pharmacognosy, Pharmacology, Pharmacy Practice)",
+          "faculty": "Health Sciences - Pharmacy",
+          "institutions": [
+            "Manipal College of Pharmaceutical Sciences (MCOPS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BPharm from a university recognized by the Pharmacy Council of India (PCI)",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "notes": "Candidate should have obtained registration with the State Pharmacy Council or should obtain the same within one month from the date of admission, Mandatory to submit a migration certificate obtained from the university where the candidate had passed the BPharm qualifying degree"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on Qualifying Examination, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MPH Programs (One Health, Maternal Child Health & Nutrition, Global Health Policy, Non-communicable Diseases & Occupational Health)",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline (preferably health Sciences) from a recognized University",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply online, Submission of Eligibility documents, Personal Interview (PI)",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MSW Programs (Community Development, Human Resource, Medical and Psychiatric Social Work)",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent",
+            "notes": "Applicants are expected to complete all the academic requirements (Classes, Examinations, and other assessments) of their Undergraduate programs on or before 31 July of the year of Admission)"
+          },
+          "admission_process": {
+            "general": "Merit List based on PI, Provisional Admission Notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Master of Hospital Administration (MHA)",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline (preferably Health Sciences) from a recognized University",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "notes": "Applicants are expected to complete all the academic requirements (Classes, Examinations, and other assessments) of their Undergraduate programs on or before 31 July of the year of Admission)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI)",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Biostatistics",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (Statistics / Mathematics / Computer Science) / BE or BTech / BCA or any other graduation from a recognized University with minimum 2 years learning of Mathematics / Statistics",
+            "minimum_aggregate": "60% aggregate marks or equivalent",
+            "notes": "Applicants are expected to complete all the academic requirements (Classes, Examinations, and other assessments) of their Undergraduate programs on or before 31 July of the year of Admission)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on qualifying exam marks & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Data Science",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BCA / BSc (Statistics / Mathematics / Computer Science / Information Technology) / BE or BTech or any other graduation from a recognized University with minimum 2 years learning of Mathematics / Statistics with basic software programming skills",
+            "minimum_aggregate": "60% aggregate marks or equivalent",
+            "notes": "Applicants are expected to complete all the academic requirements (Classes, Examinations, and other assessments) of their Undergraduate programs on or before 31 July of the year of Admission)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Personal Interview (PI), Merit List based on MET score & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Digital Epidemiology",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in Bachelor of Science with Mathematics and basic programming skills / BTech / BCA with mathematics",
+            "minimum_aggregate": "minimum 60% aggregate marks",
+            "notes": "Applicants are expected to complete all the academic requirements (Classes, Examinations, and other assessments) of their Undergraduate programs on or before 31 July of the year of Admission)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Statement of Purpose (SOP), Personal Interview (PI), Merit List based on qualifying exam marks, SOP and PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Health Technology Assessment",
+          "faculty": "Health Sciences - Public Health",
+          "institutions": [
+            "Prasanna School of Public Health (PSPH) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline (preferably Health Sciences) from a recognized University",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent",
+            "notes": "Applicants are expected to complete all the academic requirements (Classes, Examinations, and other assessments) of their Undergraduate programs on or before 31 July of the year of Admission)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on PI",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Stem Cell Technology & Regenerative Biology",
+          "faculty": "Health Sciences - Regenerative Medicine",
+          "institutions": [
+            "Manipal Institute of Regenerative Medicine (MIRM) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in Bachelor's Degree in Life Sciences / MBBS / BDS/BVSC / Allied Health Science / BE or BTech (Biotechnology) or any other professional graduate program with at least one subject of biological sciences from a recognized University with",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on qualifying exam marks, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. by Research in Translational Immunology",
+          "faculty": "Health Sciences - Regenerative Medicine",
+          "institutions": [
+            "Manipal Institute of Regenerative Medicine (MIRM) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in Bachelor's Degree in Allied Health Science / MBBS/ BDS/BPharm / BE or B.Tech (Biotechnology) / B.V. Sc / B.Sc in Life Sciences from a recognized University with",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on qualifying exam marks and PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. by Research in Translational Neuroscience",
+          "faculty": "Health Sciences - Regenerative Medicine",
+          "institutions": [
+            "Manipal Institute of Regenerative Medicine (MIRM) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in Bachelor's Degree in Allied Health Science / MBBS/ BDS/BPharm / BE or B.Tech (Biotechnology) / B.Sc with at least one subject of biological sciences from a recognized University with",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI)",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Clinical Virology",
+          "faculty": "Health Sciences - Virology",
+          "institutions": [
+            "Manipal Institute of Virology (MIV) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Bachelor's degree in Life Sciences (Microbiology / Biotechnology / Biochemistry / Botany / Zoology Molecular Biology/ Virology and Immunology) or MBBS / BVSC / BSc-MLT from a recognized University",
+            "minimum_aggregate": "minimum 60% aggregate marks or an equivalent CGPA"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on qualifying examination marks and PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Personal interview (PI) on MS Teams / Skype, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Tech/M.E Programs (Various Disciplines) - MIT Manipal",
+          "faculty": "Technology & Science - Engineering",
+          "institutions": [
+            "Manipal Institute of Technology (MIT) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BE / BTech in a relevant branch from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks",
+            "notes": "Weightage will be given to candidates who have qualified GATE under General Category only. Refer course details in prospectus."
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Tech Programs (Various Disciplines) - MIT Bengaluru",
+          "faculty": "Technology & Science - Engineering",
+          "institutions": [
+            "Manipal Institute of Technology (MIT) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BE / BTech in a relevant branch from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks",
+            "notes": "Weightage will be given to candidates who have qualified GATE under General Category only. Refer course details in prospectus."
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Master of Computer Applications (MCA)",
+          "faculty": "Technology & Science - Computer Applications",
+          "institutions": [
+            "Manipal Institute of Technology (MIT) Manipal",
+            "Manipal Institute of Technology (MIT) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Passed BCA / BSc (Computer Science / IT) / Bachelor Degree in Computer Science Engineering or equivalent Degree. OR passed B.Sc. / B.Com./B.A. from a recognized University with Mathematics at 10+2 Level or Graduation Level (with additional bridge Courses as per the norms of the University)",
+            "minimum_aggregate": "at least 50% aggregate marks in the qualifying Examination"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Applied Mathematics & Computing",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Institute of Technology, Manipal",
+            "Manipal Institute of Applied Physics (MIAP), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Mathematics as major subject from a recognized University or B.Tech",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Chemistry",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Institute of Technology, Manipal",
+            "Manipal Institute of Applied Physics (MIAP), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Chemistry as major subject from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Geology",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Institute of Technology, Manipal",
+            "Manipal Institute of Applied Physics (MIAP), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Geology as a subject from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Physics",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Institute of Technology, Manipal",
+            "Manipal Institute of Applied Physics (MIAP), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Physics as major subject from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (Immersive Technologies)",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Institute of Technology, Manipal",
+            "Manipal Institute of Applied Physics (MIAP), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Candidates in any degree or its equivalent, from a recognized University",
+            "minimum_aggregate": "minimum 50% marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (Computational Molecular Science)",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Institute of Technology, Manipal",
+            "Manipal Institute of Applied Physics (MIAP), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc with Chemistry (Organic, Inorganic, Analytical, Physical), Biology (Zoology, Botany, Bioinformatics, Biotechnology) Materials Science, Physics, Medicine, Dentistry, Horticulture, Forestry, Veterinary Science, BPharm, Computer Science and Mathematics (with a minor in Physics or Chemistry or Biology) from a recognized University",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent from a recognized university"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Merit List based on qualifying exam marks, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.E Programs (MSIS - Computer Science & Engineering, Electronics & Communication)",
+          "faculty": "Technology & Science - Engineering",
+          "institutions": [
+            "Manipal School of Information Sciences (MSIS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Candidate with BE / BTech in Electrical or Circuit Stream or Computer Science Stream or equivalent from a recognized university",
+            "minimum_aggregate": "minimum of 50% pass",
+            "notes": "A programming skills test will be conducted at the Institute to select the candidate in this category. Admission to this category is based on the availability of seats. An optional bridge course will be conducted. Note: *awaiting for the AICTE approval for some programs"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Merit List based on MET score, Physical / Online Counseling, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Integrated M.Sc. - PhD - Natural Science",
+          "faculty": "Technology & Science - Basic & Applied Sciences",
+          "institutions": [
+            "Manipal Centre for Natural Sciences (MCNS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BSc (Physics / Electronics / Mathematics / Applied Mathematics / Computational Science / Geology or equivalent) / BE or BTech (Applied Physics / E & E / Vacuum Engineering / Cryogenic / Computation Science / Mechanical / Design / Instrumentation / Systems Engineering or equivalent) / BA (Mathematics / Applied Mathematics) from a recognized University",
+            "minimum_aggregate": "minimum of 75% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Department test (DT), Personal Interview (PI), Merit List based on DT & PI, Provisional Admission notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MArch Urban Design & Development",
+          "faculty": "Technology & Science - Architecture",
+          "institutions": [
+            "Manipal School of Architecture & Planning (MSAP) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BArch or its equivalent from a recognized University as approved by Council of Architecture (COA)",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Appear and Qualify in PGETA 2025, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Personal Interview (PI) at MSAP, Manipal, Merit List based on qualifying exam score, SOP, POW & PI, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Des Sustainable Design",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Manipal School of Architecture & Planning (MSAP) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Bachelor's degree in the field of Architecture/ Interior Design / Planning/ Engineering (Civil / Electrical / Computer Science) or equivalent from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks",
+            "notes": "Weightage will be given to GATE qualified applicants. Requires Submission of Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Research experience (if any) & thesis portfolios, Personal Interview (PI)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Research experience (if any) & thesis portfolios, Personal Interview (PI), Merit List based on qualifying exam score, SOP, POW & PI, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Des Interior Design",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Dept of Design (DOD) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BDes (Interior Design) / BArch / BE Civil / BTech Civil from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Requires Submission of Eligibility documents, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Personal Interview (PI)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Merit List based on qualifying exam score, SOP & POW, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA Fashion Management",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Dept of Design (DOD) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Graduation in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Requires Submission of Eligibility documents, Submit Curriculum Vitae (CV) & Statement of Purpose (SOP)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Submit Curriculum Vitae (CV) & Statement of Purpose (SOP)",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M. Des (Product Design)",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Dept of Design (DOD) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in BArch / BDes / BTech from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+            "notes": "Requires Submission of Eligibility documents, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Personal Interview (PI)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Portfolio of work (POW), Merit List based on qualifying exam score, SOP & POW, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Des (Design Computation)",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Dept of Design (DOD) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in B.Des. (Interior Design) / B.Arch. / Β.Ε. (Civil) / B.Tech. (Civil) from a recognized university",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent",
+            "notes": "Weightage will be given to GATE/ CEED qualified applicants. Requires Submission of Eligibility documents, Submit Curriculum Vitae (CV), Statement of Purpose (SOP), Personal Interview (PI)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.A Programs (SMI - Animation, Experience Design, Visual Communication, Contemporary Art Practice, Filmmaking)",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Srishti Manipal Institute of Art, Design and Technology Bengaluru"
+          ],
+          "eligibility": {
+            "options": [
+              {
+                "prerequisites": "NSQF Certification",
+                "level": "Level 8 in relevant industry sector"
+              },
+              {
+                "prerequisites": "3-year Undergraduate Degree + 1-year Postgraduate Diploma Program (PGDP) from a recognized university",
+                "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+              },
+              {
+                "prerequisites": "4-year Undergraduate Degree"
+              },
+              {
+                "prerequisites": "5-year Undergraduate Degree"
+              }
+            ]
+          },
+          "admission_process": {
+            "general": "Apply Online, SMEAT Tests, Merit List based on SMEAT Test scores, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, SMEAT Tests, Merit List based on SMEAT Test scores, Provisional Admission Notice to shortlisted candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "M.Des Programs (SMI - Design-Led Innovation, Human Centered Design, Industrial Arts and Design Practices, Information Arts and Information Design Practices)",
+          "faculty": "Technology & Science - Arts, Design & Technology",
+          "institutions": [
+            "Srishti Manipal Institute of Art, Design and Technology Bengaluru"
+          ],
+          "eligibility": {
+            "options": [
+              {
+                "prerequisites": "NSQF Certification",
+                "level": "Level 8 in relevant industry sector"
+              },
+              {
+                "prerequisites": "3-year Undergraduate Degree + 1-year Postgraduate Diploma Program (PGDP) from a recognized university",
+                "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+              }
+            ]
+          },
+          "admission_process": {
+            "general": "Apply Online, SMEAT Tests, Merit List based on SMEAT Test scores, Provisional Admission Admission Notice",
+            "foreign_nri": "Apply Online, SMEAT Tests, Merit List based on SMEAT Test scores, Provisional Admission Notice to shortlisted candidates"
+          }
+        },
+        {
+          "name": "MA Indian Cuisine and Food Culture",
+          "faculty": "Technology & Science - Hotel Management & Culinary Arts",
+          "institutions": [
+            "Welcomgroup Graduate School of Hotel Administration (WGSHA) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 45% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Department Test (DT) through Remote Proctored Test, Panel Interview (PI1), Personal Interview (P12), Merit List based on DT, PI1 & PI2, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Dietetics & Applied Nutrition",
+          "faculty": "Technology & Science - Hotel Management & Culinary Arts",
+          "institutions": [
+            "Welcomgroup Graduate School of Hotel Administration (WGSHA) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in Home Science / Nutrition / Dietetics / Food Science / Biology / Microbiology / Clinical Biochemistry / Life Sciences / Sports & Exercise Science / BNYS (Naturopathy) / BAMS (Ayurveda) / BUMS (Unani) / BHMS (Homeopathy) / MBBS / PG Diploma in Dietetics (after Bachelor Degree) and, other Health Science and Allied Health Science courses, with any of these subjects as majors, from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Department Test (DT) through Remote Proctored Test, Panel Interview (PI1), Personal Interview (P12), Merit List based on DT, PI1 & PI2",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Master of Hotel Management (MHM)",
+          "faculty": "Technology & Science - Hotel Management & Culinary Arts",
+          "institutions": [
+            "Welcomgroup Graduate School of Hotel Administration (WGSHA) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Merit List based on DT, PI1 & PI2, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Com Programs (Fintech and Analytics, Professional)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in Management or Commerce from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit list based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Business Analytics",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with Bachelor's degree in BBA / BCom / BSc/ BCA / BE or BTech qualification with Statistics or Mathematics as one of the subject / modules or any equivalent qualification, from a recognized University",
+            "minimum_aggregate": "minimum of 50% marks in aggregate or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Screening based on PI and Previous Academic Records, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Financial Economics",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with Bachelors / Master's degree in Management / Commerce / Economics / Mathematics / Social Science / Engineering / Science (with Statistics as one of the subjects) from a recognized University",
+            "minimum_aggregate": "minimum of 50% marks in aggregate or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. Health Economics",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with Bachelor's / Master's degree in Management / Commerce / Economics / Social work / Social Science / Nursing / Medicine / Dental / Pharmacy / Physiotherapy / Health Science / Occupational therapy / Public Health / Life Sciences / Community Medicine / Biomedical / Biotechnology / Mathematics / Statistics or equivalent from a recognized University",
+            "minimum_aggregate": "minimum of 50% marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Submission of Eligibility documents, Personal Interview (PI), Screening based on PI and Previous Academic Records, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Sc. (Supply Chain Management)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in Management or Commerce from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit list based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA Digital & Creative Marketing",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Screening based on PI and Previous Academic Records",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Personal Interview (PI), Merit List based on qualifying examination marks & PI, Admission Notice, Fee Payment"
+          }
+        },
+        {
+          "name": "Masters of Sports Management (M.S.M.)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Manipal School of Commerce and Economics (MSCE), Manipal",
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with bachelor's degree in any discipline from a recognized university",
+            "minimum_aggregate": "50% marks in aggregate"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Personal Interview (PI), Screening based on PI and Previous Academic Records, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "M.Com Finance & Accounting Integrated with PhD program",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Commerce & Economics",
+          "institutions": [
+            "Dept of Commerce (DOC) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in Commerce from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit list based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA Programs (MISHA - English, History, Sociology)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Manipal Institute of Social Science, Humanities & Arts, (MISHA), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submit MCH Admission Form (AF), Personal Interview (PI)",
+            "foreign_nri": "Apply Online, Submit MCH Admission Form (AF)"
+          }
+        },
+        {
+          "name": "M.Sc. (Applied Psychology)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Manipal Institute of Social Science, Humanities & Arts, (MISHA), Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a BA / BSc degree in Psychology from a recognized University",
+            "minimum_aggregate": "minimum 55% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit List based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA Multimedia and Communication",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Media & Communication",
+          "institutions": [
+            "Manipal Institute of Communication (MIC) Manipal",
+            "Department of Liberal Arts, Humanities and Social Sciences (DLHS) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit List based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA English Language and Literature",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Dept of Library & Information Science (DLIS) Manipal",
+            "Manipal Institute of Social Science, Humanities & Arts, (MISHA), Manipal",
+            "Department of Liberal Arts, Humanities and Social Sciences (DLHS) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit List based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA European Studies",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Manipal Center for European Studies (MCES) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submit Letter of Motivation (LOM), Personal Interview (PI), Merit List based on LOM & PI, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Submit Letter of Motivation (LOM), Personal Interview (PI), Merit List based on LOM & PI, Provisional Admission notice to selected candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "MA European Literature and Culture",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Manipal Center for European Studies (MCES) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submit Letter of Motivation (LOM), Personal Interview (PI), Merit List based on LOM & PI, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Submit Letter of Motivation (LOM), Personal Interview (PI), Merit List based on LOM & PI, Provisional Admission notice to selected candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "MA in Indian Philosophy",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Dept of Philosophy (DOP) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelors' Degree or equivalent (BA or Shastri or Vidvat Madhyama / MA or Acharya or Vidvat Uttama / MPhil or Vishishtacharya etc.) in any discipline from a recognized University/college",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent",
+            "notes": "Requires Submit Detailed CV, Personal Interview (PI)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Letter of Motivation (LOM) / Statement of Purpose (SOP), Submit Detailed CV, Personal Interview (PI), Merit list based on LOM / SOP, CV and PI, Provisional Admission notice to selected candidate, Admission Formalities",
+            "foreign_nri": "Letter of Motivation (LOM) / Statement of Purpose (SOP), Submit Detailed CV, Personal Interview (PI), Merit list based on LOM / SOP, CV and PI, Provisional Admission notice to selected candidate, Admission Formalities"
+          }
+        },
+        {
+          "name": "MA Sanskrit Studies",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Dept of Philosophy (DOP) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelors' or equivalent (BA or Shastri or Vidvat Madhyama) degree in any discipline from a recognized University/college",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent",
+            "notes": "Requires Submit Detailed CV, Personal Interview (PI)"
+          },
+          "admission_process": {
+            "general": "Apply Online, Letter of Motivation (LOM) / Statement of Purpose (SOP), Submit Detailed CV, Personal Interview (PI), Merit list based on LOM / SOP, CV and PI, Provisional Admission notice to selected candidate, Admission Formalities",
+            "foreign_nri": "Letter of Motivation (LOM) / Statement of Purpose (SOP), Submit Detailed CV, Personal Interview (PI), Merit list based on LOM / SOP, CV and PI, Provisional Admission notice to selected candidate, Admission Formalities"
+          }
+        },
+        {
+          "name": "MA Geopolitics & International Relations",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Department of Geopolitics & International Relations (DGIR) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Submit Statement of Purpose (SOP), Personal Interview (PI), Merit list based on SOP & PI",
+            "foreign_nri": "Provisional Admission notice to selected candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "MA in Art & Peace Studies",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Gandhian Centre for Philosophical Arts and Sciences (GCPAS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University"
+            // Minimum aggregate not explicitly stated
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA in Ecosophical Aesthetics",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Gandhian Centre for Philosophical Arts and Sciences (GCPAS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University"
+            // Minimum aggregate not explicitly stated
+          },
+          "admission_process": {
+            "general": "Apply Online, Submission of Eligibility documents, Merit List based on qualifying exam marks, Provisional Admission notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "Master of Library and Information Sciences (M.Lib.I.Sc.)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Humanities, Liberal Arts and Social Sciences",
+          "institutions": [
+            "Department of Library & Information Science (DLIS) Manipal"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University"
+            // Minimum aggregate not explicitly stated
+          },
+          "admission_process": {
+            "general": "Apply Online, Merit List based on qualifying exam marks, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "LL.M Programs (Data Privacy Law and Information Technology Laws, International Investment and Commercial Arbitration, Construction Law and Arbitration)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Law",
+          "institutions": [
+            "Manipal Law School (MLS) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass in LL.B degree from a recognized University",
+            "minimum_aggregate": "minimum of 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit list based on PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment, Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MBA Programs (TAPMI Manipal - Banking and Financial Services, Human Resource Management, Marketing, International Business, AI & Data Science)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Management",
+          "institutions": [
+            "T A Pai Institute of Management (TAPMI) Manipal"
+          ],
+          "eligibility": {
+            "general": {
+              "prerequisites": "Pass with Bachelor's degree from a recognized university",
+              "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+              "entrance_exams": "valid CAT 2024 / ХАТ 2025/ GMAT (January 1, 2020- January 31, 2025) / NMAT by GMAC™ 2024 score"
+            },
+            "nri": {
+              "prerequisites": "Pass with Bachelor's degree from a recognized university",
+              "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+              "entrance_exams": "valid CAT / XAT / GMAT / NMAT / SNAP / АТМА / СМAT / MAT score"
+            },
+            "foreign": {
+              "prerequisites": "Pass with Bachelor's degree from a recognized university",
+              "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+              "entrance_exams": "valid GMAT (compulsory) and IELTS (if required)"
+            }
+          },
+          "admission_process": {
+            "general": "Apply Online, Group Discussions (GD), Written Aptitude Test(WAT), Personal Interview (PI), Merit list is based on Entrance Exam Score + academic profile + work experience (if any) + GD Score +WAT Score + PI Score, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Group Discussions (GD), Written Aptitude Test(WAT), Personal Interview (PI), Merit list is based on Entrance Exam Score + academic profile + work experience (if any) + GD Score +WAT Score + PI Score, Provisional Admission notice to selected candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "MBA Technology Management (TAPMI Bengaluru)",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Management",
+          "institutions": [
+            "T A Pai Institute of Management (TAPMI) Bengaluru"
+          ],
+          "eligibility": {
+            "general": {
+              "prerequisites": "Pass with Bachelor's degree from a recognized university",
+              "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+              "entrance_exams": "valid CAT 2024 / XAT 2025/ GMAT (January 1, 2020- January 31, 20254) / NMAT by GMACTM 2024 score"
+            },
+            "nri": {
+              "prerequisites": "Pass with Bachelor's degree from a recognized university",
+              "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+              "entrance_exams": "valid CAT / XAT / GMAT / NMAT / SNAP / АТМА / СМAT / MAT score"
+            },
+            "foreign": {
+              "prerequisites": "Pass with Bachelor's degree from a recognized university",
+              "minimum_aggregate": "minimum 50% aggregate marks or equivalent",
+              "entrance_exams": "valid GMAT (compulsory) and IELTS (if required)"
+            }
+          },
+          "admission_process": {
+            "general": "Apply Online, Group Discussions (GD), Written Aptitude Test(WAT), Personal Interview (PI), Merit list is based on Entrance Exam Score + academic profile + work experience (if any) + GD Score +WAT Score + PI Score, Provisional Admission notice to selected candidates, Admission Formalities",
+            "foreign_nri": "Apply Online, Group Discussions (GD), Written Aptitude Test(WAT), Personal Interview (PI), Merit list is based on Entrance Exam Score + academic profile + work experience (if any) + GD Score +WAT Score + PI Score, Provisional Admission notice to selected candidates, Admission Formalities"
+          }
+        },
+        {
+          "name": "MA Film Art & Film Making",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Media & Communication",
+          "institutions": [
+            "Manipal Institute of Communication (MIC) Manipal",
+            "Department of Liberal Arts, Humanities and Social Sciences (DLHS) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Manipal Entrance Test (MET), Submission of Statement of Purpose (SOP), Personal Interview (PI) for the shortlisted candidates, Merit List based on MET Score, SOP & PI, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        },
+        {
+          "name": "MA Media & Communication",
+          "faculty": "Management, Liberal Arts, Humanities, Social Sciences & Law - Media & Communication",
+          "institutions": [
+            "Manipal Institute of Communication (MIC) Manipal",
+            "Department of Liberal Arts, Humanities and Social Sciences (DLHS) Bengaluru"
+          ],
+          "eligibility": {
+            "prerequisites": "Pass with a Bachelor's degree in any discipline from a recognized University",
+            "minimum_aggregate": "minimum 50% aggregate marks or equivalent"
+          },
+          "admission_process": {
+            "general": "Apply Online, Personal Interview (PI), Merit List based on Pl, Provisional Admission Notice to shortlisted candidates, Admission Formalities",
+            "foreign_nri": "Apply online, Submission of Eligibility documents*, Admission Notice, Fee Payment and Issue of Provisional Admission Order, Submission of final results, Admission Order"
+          }
+        }
+      ]
+    }
+  }
+}
