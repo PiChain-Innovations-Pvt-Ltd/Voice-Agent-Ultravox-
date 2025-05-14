@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import fs from 'fs';
 const toolsBaseUrl = process.env.BASE_URL; // Load from .env
-const rawData = fs.readFileSync('/home/devanshu.m/optimo-voice-agent/Voice-Agent-Ultravox-/routes/company_database.json', 'utf-8');
+const rawData = fs.readFileSync('C:/Intern/Voice bot/Voice-Agent-Ultravox-/routes/company_database.json', 'utf-8');
 const companyDatabase = JSON.parse(rawData);
 const customerDataString = JSON.stringify(companyDatabase, null, 2);
 const currentDate = new Date();

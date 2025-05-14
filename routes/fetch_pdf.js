@@ -56,7 +56,7 @@ export { storeUserDetails };
 // Function to extract full text from PDFs
 const extractPDFs = async () => {
     const pdfFiles = [
-        { path: path.join(__dirname, "Light House Luxury - Real Estate Calling Script.pdf"), label: "Light House Luxury Calling Script"},
+        { path: path.join(__dirname, "Lifestyle_call_script.pdf"), label: "Lifestyle Call Script" },
     ];
 
     let fullText = [];
