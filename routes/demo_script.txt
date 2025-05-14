@@ -1,0 +1,335 @@
+Pneumonia Use Case
+1. General Discharge Instructions:
+Medication Adherence:
+Prescribed antibiotics (e.g., Amoxicillin, Azithromycin) – complete the full course.
+Antipyretics (e.g., Paracetamol) – for fever management.
+Bronchodilators (e.g., Albuterol) – if prescribed, for wheezing or breathing difficulty.
+Inhaled corticosteroids (e.g., Budesonide) – to reduce lung inflammation.
+Pain management (e.g., Acetaminophen) – for chest discomfort.
+Antitussives (e.g., Dextromethorphan) – to manage coughing if needed.
+Medication schedule, dosage, and any potential side effects.
+Hydration and Nutrition:
+Maintain fluid intake (2-3 liters per day) to thin mucus.
+Nutrient-rich diet – high in protein, fruits, and vegetables.
+Avoid alcohol and smoking.
+
+2. Respiratory Care and Exercises:
+Breathing Exercises:
+Deep breathing exercises (3 sets daily) to increase lung capacity.
+Incentive spirometer usage – typically every hour while awake.
+Coughing techniques to clear mucus (e.g., controlled coughing).
+Postural Drainage:
+Techniques to help clear mucus from the lungs, if prescribed.
+Positions for optimal drainage (e.g., lying on side, prone).
+Oxygen Therapy (if required):
+Use of home oxygen equipment – frequency, flow rate, and safety precautions.
+Monitoring oxygen saturation using a pulse oximeter.
+Action plan if saturation drops below 92%.
+
+3. Infection Control:
+Personal Hygiene:
+Regular hand washing with soap and water.
+Use of disposable tissues for coughing or sneezing.
+Disinfection of frequently touched surfaces.
+Isolation Precautions (if contagious):
+Limit close contact with family members or roommates.
+Use of masks when in communal spaces.
+
+4. Mobility and Activity:
+Gradual Increase in Activity:
+Start with light activities like walking or stretching.
+Avoid strenuous activities until cleared by a physician.
+Fall Prevention:
+Clear walking paths, use assistive devices (like canes), and non-slip footwear.
+Positioning:
+Keep the head elevated (30-45 degrees) to ease breathing.
+
+5. Monitoring and Self-Assessment:
+Vital Signs Tracking:
+Temperature – monitor for fever.
+Heart rate – watch for tachycardia (>100 bpm).
+Oxygen saturation – ensure it stays above 92%.
+Respiratory rate – monitor for rapid breathing (>20 breaths per minute).
+Symptom Watch:
+Increased coughing, purulent sputum, or chest pain.
+Difficulty breathing or worsening shortness of breath.
+New or persistent fever (above 100.4°F or 38°C).
+Dizziness or confusion (indicating possible hypoxia).
+
+6. Follow-Up and Appointments:
+Scheduled Appointments:
+Primary care follow-up within 7 days post-discharge.
+Pulmonologist appointment (if applicable) within 2-4 weeks.
+Home health nurse visit schedule (e.g., daily or every other day).
+Diagnostic Tests:
+Follow-up chest X-ray (usually 6-8 weeks after discharge).
+Blood work to check for infection markers (CRP, WBC count).
+
+7. Emergency Instructions:
+When to Seek Immediate Help:
+Difficulty breathing or persistent chest pain.
+Confusion or extreme drowsiness.
+Blue lips or face (sign of hypoxia).
+High fever not responding to medication.
+Contact Information:
+Home health nurse contact.
+Primary care or pulmonologist emergency line.
+Nearest emergency department.
+
+8. Psychosocial and Mental Health Support:
+Mental Health Monitoring:
+Watch for signs of depression or anxiety post-hospitalization.
+Support groups for respiratory illness recovery.
+Patient Education:
+Importance of medication adherence and symptom monitoring.
+Resources for family caregivers on managing respiratory care.
+
+9. Documentation and Handover:
+Care Plan Document:
+Discharge summary with all prescribed therapies and follow-up instructions.
+Contact information for all care providers involved (doctors, home health team, family).
+Data Sharing with Home Care Team:
+Provide home health or nursing facility with the patient’s discharge notes.
+Include medication list, oxygen requirements, and any special care instructions.
+
+
+Demo Script
+1. Objective:
+To assist MedSetGo’s AI voice agent in conducting effective follow-up calls with patients discharged with pneumonia, ensuring adherence to discharge instructions and identifying any complications.
+
+2. Script Flow:
+Step 1: Call Initiation and Greeting
+Agent:
+"Hello, this is [Agent Name] from MedSetGo. Am I speaking with [Patient Name]?"
+If Yes:
+"Great! I’m calling to check in after your recent discharge from [Hospital Name] for pneumonia. Is this a good time to talk?"
+If No:
+"I understand. When would be a more convenient time to reach you?"
+If Patient Unavailable:
+"I’ll call back later. Thank you!"
+
+Step 2: Verification and Consent
+Agent:
+"Before we continue, I just need to verify a few details for security. Could you please confirm your date of birth?"
+If Confirmed:
+"Thank you! Let’s go through a few important points to make sure your recovery is on track."
+If Not Confirmed:
+"That’s okay. Please contact us at [Support Number] when you’re available to verify."
+
+Step 3: Medication Adherence Check
+Agent:
+"Since your discharge, have you been taking your prescribed medication, [Medication Name], as instructed?"
+If Yes:
+"That’s good to hear! Have you noticed any side effects or issues while taking it?"
+If No:
+"Can you share what the challenge was? Sometimes it helps to set reminders or schedule doses around meals."
+Agent Note: Log the reason for non-compliance and escalate if necessary.
+Follow-Up Questions:
+"Have you been able to take your inhaler or bronchodilator as prescribed?"
+"Have you been consistent with your cough suppressants or pain relievers if needed?"
+
+Step 4: Breathing and Exercise Check
+Agent:
+"Part of your recovery includes some breathing exercises. Have you been doing the recommended sets of deep breathing and coughing exercises each day?"
+If Yes:
+"That’s fantastic! These exercises are important to keep your lungs clear."
+If No:
+"Would you like tips on how to fit them into your routine?"
+Specific Exercise Checks:
+"Have you been using the incentive spirometer as directed?"
+"Are you performing your posture and drainage exercises regularly?"
+
+Step 5: Health and Symptom Monitoring
+Agent:
+"Have you experienced any of the following symptoms since your discharge: difficulty breathing, chest pain, fever, or persistent cough?"
+If Yes:
+"Thank you for sharing. I’ll make a note of that. Based on what you’ve described, it might be helpful for your healthcare provider to check in with you. Would you like me to arrange a call?"
+If No:
+"That’s reassuring. Remember, if you experience any of these symptoms later, please contact us immediately."
+
+Step 6: Oxygen Therapy Check (if applicable)
+Agent:
+"Are you using your home oxygen equipment as instructed? Is the oxygen saturation level staying above the recommended [Percentage]%?"
+If Yes:
+"Perfect. Please continue to monitor your levels regularly."
+If No:
+"Please ensure that your oxygen equipment is working correctly and positioned properly. Let me know if you need help setting it up."
+Escalate if oxygen levels are critically low.
+
+Step 7: Follow-Up Care and Next Appointment
+Agent:
+"Your next follow-up appointment with [Doctor Name] is scheduled for [Date]. Is that still convenient for you?"
+If Yes:
+"Great, I’ll mark that as confirmed."
+If No:
+"Would you like assistance rescheduling the appointment?"
+Home Care Check:
+"Has your home nurse been visiting as planned for vitals and check-ups?"
+"Have you received support for tasks like medication administration and mobility assistance?"
+
+Step 8: Nursing Home Specific Questions (if applicable)
+Agent:
+"Since moving to the nursing home, has the staff been assisting with your prescribed exercises and medication schedules?"
+"Are you feeling comfortable with the care you’re receiving there?"
+"Do you need any additional support that hasn’t been arranged yet?"
+
+Step 9: Support and Resources
+Agent:
+"Would you like me to send you links to some helpful videos or guides on managing pneumonia recovery?"
+"If you have any questions or concerns later, you can always reach us at [Support Number]."
+
+Step 10: Closing and Feedback
+Agent:
+"Thank you for taking the time to talk to me today, [Patient Name]. Your well-being is our priority, and we’re here to support you throughout your recovery. Take care and stay healthy!"
+Optional:
+"If you’d like to rate your experience with this call, just press 1 for satisfied, 2 for neutral, or 3 for unsatisfied."
+
+Key Considerations:
+Tone and Empathy:
+The agent must use a calm, patient, and empathetic tone, especially when discussing health complications.
+Data Accuracy:
+Ensure that all patient-specific data is dynamically pulled from the API before initiating the call.
+Escalation Protocol:
+If a critical symptom is reported (e.g., difficulty breathing), the agent should immediately escalate to a human healthcare professional.
+Data Handover:
+All call logs and patient responses should be stored in the Salesforce CRM for future reference.
+
+
+Additional Details
+1. Detailed Patient Profiles:
+Having rich and structured patient profiles helps the agent personalize interactions. Consider the following data points:
+Category
+Data Points
+Personal Information
+Full name, age, gender, preferred language
+Contact Details
+Primary phone number, alternate contact, preferred contact method (call, text, WhatsApp)
+Medical History
+Relevant previous conditions (e.g., chronic lung disease), history of pneumonia
+Discharge Summary
+Diagnosis, discharge date, hospital name, attending physician
+Care Instructions
+Prescribed medications, dosage, frequency, physical therapy routine
+Social Determinants
+Living conditions (alone, with family, nursing home), mobility aids, caregiver contact
+Support Team Contacts
+Nurse, physician, case manager, emergency contacts
+Previous Interactions
+Past issues logged, feedback from earlier follow-ups, satisfaction ratings
+Risk Factors
+Smoking status, co-morbidities (e.g., COPD, diabetes), vaccination history
+
+
+2. Common Patient Queries & Responses:
+Prepare the agent for frequently asked questions or concerns that may arise during the call:
+Query
+Suggested Response
+"Why do I need to keep doing these exercises?"
+"Regular breathing exercises help clear your lungs and prevent complications like fluid buildup."
+"What if I missed a dose of my medication?"
+"Take it as soon as you remember, but do not double the dose. Always follow your doctor’s advice on this."
+"I still feel tired. Is that normal?"
+"Fatigue can persist as your body heals. Make sure to rest, hydrate, and follow your care plan."
+"My oxygen level dropped once. Should I worry?"
+"If your level remains below [92%], contact your healthcare provider immediately. Let’s monitor it closely."
+"Who do I call if my symptoms worsen?"
+"You can reach your primary care physician at [Phone Number], or dial 911 if you experience severe symptoms."
+
+
+3. Scenario-Based Training Data:
+Include variations of scenarios to train the agent on decision-making and response patterns:
+Scenario
+Training Focus
+Patient is feeling better, no issues
+Reinforce medication adherence and encourage continued breathing exercises.
+Patient missed medication or exercise
+Suggest ways to build routine, use reminders, and offer guidance on why consistency matters.
+Patient reports side effects (e.g., nausea)
+Empathetic response, document symptoms, and escalate to a human agent for medical advice.
+Patient struggles with oxygen therapy
+Troubleshoot common issues (e.g., equipment positioning), escalate if saturation is critically low.
+Patient is unhappy with nursing home care
+Record feedback, notify the care coordinator, and offer to arrange a follow-up from the healthcare team.
+
+
+4. Sentiment and Tone Detection:
+Train the agent to detect patient sentiment based on voice cues or text responses:
+Sentiment
+Example Phrases
+Suggested Action
+Anxious/Concerned
+"I'm really worried about my breathing."
+Offer reassurance, escalate to human if persistent.
+Frustrated/Angry
+"I keep getting these calls, it’s too much!"
+Apologize, note preference, adjust follow-up frequency.
+Sad/Low
+"I’m feeling down and tired."
+Show empathy, offer support resources, flag for follow-up.
+Grateful/Positive
+"Thank you for checking in, I’m doing well."
+Acknowledge positively, reinforce good practices.
+
+
+5. Natural Language Understanding (NLU) Enhancements:
+The AI should understand common phrases, synonyms, and contextual variations:
+Patient Statement
+Interpreted Meaning
+"I couldn’t do the exercises yesterday."
+Missed exercise session – flag for follow-up.
+"My oxygen is fine today."
+No issues with oxygen therapy.
+"Can someone help me with my meds?"
+Request for assistance – flag as non-compliance.
+"I feel dizzy sometimes."
+Possible side effect or complication – escalate.
+
+
+6. Contextual Memory:
+The agent should remember previous interactions to maintain continuity:
+Example Context
+How to Use it
+Patient missed medication last call
+"Last time, you mentioned you missed a dose. Were you able to follow the schedule this week?"
+Patient reported low energy
+"How have you been feeling lately? Any improvements in your energy levels?"
+Caregiver was present last time
+"Is [Caregiver Name] available to discuss your progress as well?"
+
+
+7. Escalation Protocols:
+Establish clear criteria for when the AI agent should transfer to a human representative:
+Situation
+Escalation Requirement
+Difficulty Breathing
+Immediate escalation to healthcare professional.
+Medication Side Effects
+Notify physician and log symptoms.
+Oxygen Levels Below Threshold
+Immediate alert to medical team and recommend emergency action.
+Emotional Distress (depression/anxiety)
+Offer support contacts and flag for healthcare follow-up.
+
+
+8. Data Privacy and Compliance:
+Ensure that the agent is trained on data protection guidelines:
+Guideline
+Implementation
+HIPAA Compliance
+Ensure secure handling of health information, with data encryption and secure transmission.
+Consent Verification
+Always ask for patient consent at the start of every call.
+Data Minimization
+Collect only necessary information and delete after the required retention period.
+
+
+9. Voice Modulation and Emotional Tone:
+Use a calm, reassuring, and clear voice.
+Moderate pacing to accommodate elderly or hearing-impaired patients.
+Avoid overly robotic or clinical language.
+Train the agent to handle interruptions politely and resume the previous topic.
+
+10. Feedback and Learning Loop:
+Collect feedback from healthcare staff after AI interactions.
+Continuously update the agent with new protocols, discharge guidelines, and best practices based on real-world feedback.
+

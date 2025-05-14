@@ -1,0 +1,85 @@
+Objective 1
+Assist with the handoff once a patient is discharged, all the follow ups that happen between the case manager and the vendor management.
+Current Process:
+Patience with pneumonia goes home
+Agent calls - Did you take your medication, did you do these exercises, etc.
+(Currently there are discharge instructions which can be leveraged but needs to be customized) 
+Notes:
+Tracker of the patient exists within Medsetgo. This data needs to feed into this platform
+They will build the APIs and we will consume that data
+We build the AI agent that reads the notes, and based on that the next steps of the calling etc happens and then we handover data back to them.
+HIPPA Compliance + other regulatory issues
+
+Objective 2
+To illustrate how the case management module and the conversational AI voice agent can work together to streamline support for MedSetGo’s platform users.
+
+Input Channels:
+Voice Calls (via AI Voice Agent)
+AI Chatbot - Website/WhatsApp/iMessage Chat
+Email Support
+Support Portal (Direct Ticket Submission)
+
+Assumptions:
+Users primarily need support for using the MedSetGo platform.
+The AI Voice Agent will handle basic, repetitive queries and initial triaging.
+Complex issues may require human intervention. This can either be handed off the a live agent in real time OR
+Salesforce integration allows for seamless tracking and escalation.
+
+Step 1: User Interaction Initiation
+Voice Call/WhatsApp/Email/Portal Entry
+Users can initiate support through multiple channels.
+Voice agent handles initial triaging of calls and queries.
+The voice agent is integrated with the case management back end (Salesforce based) to fetch user details, previous support history and log active discussion
+Chatbot Interaction
+Chat Session Initialization:
+User initiates a chat via the web or app interface.
+Quick Responses:
+Uses NLP to recognize common issues and offers solutions from the knowledge base.
+Redirection to Self-Help:
+Provides links to detailed guides, video tutorials, or help articles.
+Issue Escalation:
+If unresolved, chatbot creates a case in Salesforce and informs the user that a support agent will follow up.
+
+Step 2: AI Voice Agent Interaction
+Call Routing and Basic Support:
+Gather user information (Contact details, purpose of call).
+Stores or verifies identity
+Responds to basic queries using pre-configured responses.
+Intelligent Query Handling:
+For complex issues or unresolved queries, the agent hands off to a human support representative.
+Uses the case management solution (Salesforce based) to log the call, create a ticket, and tag it with the issue type.
+Follow up by sharing a link or document which offers solutions from the knowledge base and provides links to detailed guides, video tutorials, or help articles.
+
+Step 3: Case Management via Salesforce
+Automatic Ticket Creation:
+Ticket is created through any of the input channels
+If AI Voice Agent, it creates a case with all call details.
+Case Routing:
+Based on the issue type (technical, administrative, billing), the case is routed to the appropriate support flow or hand off to human agent
+Automated Status Updates:
+Users receive updates via WhatsApp, iMessage, SMS, or email based on the chosen communication preference
+
+Step 4: Human Agent Involvement (if required)
+Case Assignment:
+If the issue requires manual intervention, it is assigned to a human agent.
+Agent Actions:
+Review the case, contact the user if needed, and resolve the issue.
+Update case status and resolution notes.
+Escalation Protocol:
+If unresolved within a predefined time, the case is escalated to higher-tier support.
+
+Step 5: Resolution and Closure
+Automatic Notification:
+Once resolved, users are notified via their preferred channel.
+Feedback Collection:
+An automated prompt for feedback on the support experience is sent.
+Data Logging:
+Case details are stored in the case management system for future reference and analytics.
+
+Step 6: Monitoring and Reporting
+Dashboard View:
+Real-time updates on open, in-progress, and resolved cases.
+Performance Metrics:
+Average handling time, first response rate, and resolution rate.
+Insights:
+Use data for optimizing AI responses and identifying common support issues.
