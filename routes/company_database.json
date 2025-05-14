@@ -1,81 +1,152 @@
-{
-  "Company_Advisor_Details": {
-    "Address": "Light House Luxury, 11th Floor, BKC One, Bandra Kurla Complex, Mumbai, Maharashtra - 400051",
-    "Email": "luxury@lighthouseadvisory.in",
-    "Contact_Number": "02240089911"
-  },
-  "Projects": [
-    {
-      "Project_Name": "Lodha Sea Breeze Villas",
-      "Location": "Mandwa, Alibaug",
-      "Configuration": "4 BHK Villa,5 BHK Villas",
-      "Super_Built_Up_Area": "3800 sq.ft.",
-      "Carpet_Area": "2900 sqft. (approx)",
-      "StartingPrice": "Rs 4.8 Crores All Inclusive",
-      "Developer": "Lodha Group",
-      "Status": "Ready to Move",
-      "Property_Type": "Luxury Villa",
-      "Project_Highlights": [
-        "Private Garden",
-        "Sea-Facing Views",
-        "Gated Community",
-        "Walkable distance to Mandwa Jetty"
-      ]
-    },
-    {
-      "Project_Name": "Godrej Horizon Estate",
-      "Location": "Kihim, Alibaug",
-      "Configuration": "3 BHK Villa,4 BHK Villas",
-      "Super_Built_Up_Area": "2800 sq. ft.",
-      "Carpet_Area": "2100 sq.ft. (approx)",
-      "StartingPrice": "Rs 3.9 Crores All Inclusive",
-      "Developer": "Godrej Properties",
-      "Status": "Under Construction",
-      "Property_Type": "Premium Villa",
-      "Project_Highlights": [
-        "Clubhouse & Infinity Pool",
-        "5 mins from Kihim Beach",
-        "Private Landscaped Lawn",
-        "Completion by Q2 2026"
-      ]
-    },
-    {
-      "Project_Name": "Rustomjee Coastline Retreat",
-      "Location": "Revdanda, Alibaug",
-      "Configuration": "5 BHK Villa with Pool,4 BHK Villas With Pool",
-      "Super_Built_Up_Area": "4200 sq.ft.",
-      "Carpet_Area": "3200 sq.ft. (approx)",
-      "StartingPrice": "Rs 5.2 Crores All Inclusive",
-      "Developer": "Rustomjee",
-      "Status": "Possession in Dec 2025",
-      "Property_Type": "Ultra-Luxury Villa",
-      "Project_Highlights": [
-        "Private Swimming Pool",
-        "Sea View Decks",
-        "Fully Automated Smart Home",
-        "Signature Interiors by Rustomjee Design Studio"
-      ]
+[
+  {
+    "customerId": "CUST1001",
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta@example.com",
+    "phone": "+91-9876543210",
+    "order": {
+      "orderId": "ORD001",
+      "orderDate": "2025-05-10",
+      "items": [
+        {
+          "productName": "Code by Lifestyle Men's Formal Shirt",
+          "category": "Men's Fashion",
+          "price": 1499,
+          "quantity": 1
+        },
+        {
+          "productName": "Fame Forever Casual Shoes",
+          "category": "Men's Fashion",
+          "price": 1999,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "UPI",
+      "totalAmount": 3498,
+      "deliveryAddress": "Flat 301, Greenwoods Apt, Bengaluru, 560100",
+      "status": "Delivered"
     }
-  ],
-  "Customer_Personal_Details": {
-    "Name": "Mr. Sanjay",
-    "Gender": "Male",
-    "Preferred_Location": "Alibaug",
-    "Interested_Property_Type": "Holiday Home",
-    "Preferred_Budget": "Rs 3–5 Cr",
-    "Preferred_Call_Time": "Evening",
-    "Preferred_Language": "English",
-    "Developer_Interest": [
-      "Lodha",
-      "Godrej",
-      "Rustomjee"
-    ],
-    "Follow_up_Dates": [
-      "05/04/2025",
-      "07/04/2025",
-      "10/04/2025"
-    ],
-    "Lead_Source": "Call Campaign - WhatsApp Audio",
-    "Current_Status": "Interested in Options"
+  },
+  {
+    "customerId": "CUST1002",
+    "name": "Sneha Reddy",
+    "email": "sneha.reddy@example.com",
+    "phone": "+91-9012345678",
+    "order": {
+      "orderId": "ORD002",
+      "orderDate": "2025-05-12",
+      "items": [
+        {
+          "productName": "Ginger by Lifestyle Women's Top",
+          "category": "Women's Fashion",
+          "price": 799,
+          "quantity": 2
+        }
+      ],
+      "paymentMethod": "Credit Card",
+      "totalAmount": 1598,
+      "deliveryAddress": "12, Palm Grove Rd, Bengaluru, 560047",
+      "status": "Shipped"
+    }
+  },
+  {
+    "customerId": "CUST1003",
+    "name": "Kunal Sharma",
+    "email": "kunal.sharma@example.com",
+    "phone": "+91-9988776655",
+    "order": {
+      "orderId": "ORD003",
+      "orderDate": "2025-05-08",
+      "items": [
+        {
+          "productName": "Adidas Running Shoes",
+          "category": "Footwear",
+          "price": 4999,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "Net Banking",
+      "totalAmount": 4999,
+      "deliveryAddress": "B-14, Lakeview Residency, Bengaluru, 560048",
+      "status": "Returned"
+    }
+  },
+  {
+    "customerId": "CUST1004",
+    "name": "Riya Das",
+    "email": "riya.das@example.com",
+    "phone": "+91-9765432109",
+    "order": {
+      "orderId": "ORD004",
+      "orderDate": "2025-05-09",
+      "items": [
+        {
+          "productName": "Melange by Lifestyle Kurti",
+          "category": "Women's Fashion",
+          "price": 1299,
+          "quantity": 1
+        },
+        {
+          "productName": "Lakme Matte Lipstick",
+          "category": "Beauty & Grooming",
+          "price": 499,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "Wallet",
+      "totalAmount": 1798,
+      "deliveryAddress": "25, Indiranagar, Bengaluru, 560038",
+      "status": "Out for Delivery"
+    }
+  },
+  {
+    "customerId": "CUST1005",
+    "name": "Vikram Iyer",
+    "email": "vikram.iyer@example.com",
+    "phone": "+91-9123456780",
+    "order": {
+      "orderId": "ORD005",
+      "orderDate": "2025-05-11",
+      "items": [
+        {
+          "productName": "Nike Sports T-shirt",
+          "category": "Men's Fashion",
+          "price": 1999,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "Cash on Delivery",
+      "totalAmount": 1999,
+      "deliveryAddress": "88, JP Nagar, Bengaluru, 560078",
+      "status": "Processing"
+    }
+  },
+  {
+    "customerId": "CUST1006",
+    "name": "Neha Kapoor",
+    "email": "neha.kapoor@example.com",
+    "phone": "+91-9876123456",
+    "order": {
+      "orderId": "ORD006",
+      "orderDate": "2025-05-13",
+      "items": [
+        {
+          "productName": "Colorbar Nail Polish Set",
+          "category": "Beauty & Grooming",
+          "price": 599,
+          "quantity": 1
+        },
+        {
+          "productName": "Curtains - Modern Design",
+          "category": "Home Decor",
+          "price": 1199,
+          "quantity": 2
+        }
+      ],
+      "paymentMethod": "Debit Card",
+      "totalAmount": 2997,
+      "deliveryAddress": "401, Prestige Lakeside, Bengaluru, 560076",
+      "status": "Order Confirmed"
+    }
   }
-}
+]
