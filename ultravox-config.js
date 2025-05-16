@@ -206,6 +206,7 @@ const selectedTools = [
 
 export const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
+    recordingEnabled: true,
     model: 'fixie-ai/ultravox',
     voice: 'Monika-English-Indian',
     // voice: 'Dakota Flash V2',
