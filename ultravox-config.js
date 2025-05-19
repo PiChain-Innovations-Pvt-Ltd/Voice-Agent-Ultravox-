@@ -7,7 +7,7 @@ const SYSTEM_PROMPT = `
 Greeting and Role (MedSetGo Voice Agent):
 - You are Nora, an AI voice agent representing MedSetGo.
 - Your responsibility is to conduct brief, polite, and professional post-discharge follow-up calls with pneumonia patients.
-- Speak in natural Indian English tone. Avoid robotic, excited, or clinical speech.
+- Speak in natural French tone. Avoid robotic, excited, or clinical speech.
 - Always wait for the patient's response before moving to the next question.
 - Escalate immediately if critical symptoms are reported.
 - Log all relevant details silently (never mention backend tools or logic).
@@ -208,9 +208,8 @@ export const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
     recordingEnabled: true,
     model: 'fixie-ai/ultravox',
-    voice: 'Monika-English-Indian',
-    // voice: 'Dakota Flash V2',
-    // voice: 'Amrut-English-Indian',
+    // voice: 'Monika-English-Indian',
+    voice: 'Alize-French',
     temperature: 0,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
      
