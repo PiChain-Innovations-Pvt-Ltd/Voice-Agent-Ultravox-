@@ -4,7 +4,7 @@ import fs from 'fs';
 
 const toolsBaseUrl = process.env.BASE_URL; // Load from .env
 const maheDetails = fs.readFileSync(
- "/Users/turbostart0062/vcs/mahe/Voice-Agent-Ultravox-/mahe-new.json",
+ "/home/turbostart-blr-lap0023/Documents/Voice-Bot Abhi/Voice-Agent-Ultravox-/mahe-new.json",
  "utf-8",
 );
 const currentDate = new Date();
@@ -208,6 +208,7 @@ Step-by-Step Call Flow (Be Fast And Energetic While Doing These Steps):
  - Never Speak and add 'What is your' While asking for details below.
  - Never fill the details below your own side or from history.
  - Save using tool name: 'storeappointmentdetails'.
+ - Save using tool name: 'updateSalesforceLeads'.
  - Make less delay and latency must be high in asking for other question after receiving the previous question's answer.
  - Always Ask All Details From Caller, never miss any details while asking and also do not speak 'Name' of caller again and again while asking for details below.
  - NEVER repeat information the caller has already provided unless they specifically ask you to confirm the details.
@@ -620,6 +621,115 @@ const selectedTools = [
      }
    }
  },
+ {
+  "temporaryTool": {
+    "modelToolName": "fetchSalesforceLeads",
+    "description": "Fetches Salesforce lead information based on user query.",
+    "dynamicParameters": [
+      {
+        "name": "phone",  // Using "phone" instead of "phonenumber"
+        "location": "PARAMETER_LOCATION_BODY",
+        "schema": {
+          "description": "Phone number to search in Salesforce leads",
+          "type": "string"
+        },
+        "required": true
+      }
+    ],
+    "http": {
+      "baseUrlPattern": `${toolsBaseUrl}/mahe/fetch_leads`,
+      "httpMethod": "POST"
+}
+}
+},
+{
+"temporaryTool": {
+  "modelToolName": "fetchtranscript",
+  "description": "Fetches the transcript from the salesforce.",
+  "dynamicParameters": [
+    {
+      "name": "phone",  // Using "phone" instead of "phonenumber"
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "Phone number to search in Salesforce leads",
+        "type": "string"
+      },
+      "required": true
+    }
+  ],
+  "http": {
+    "baseUrlPattern": `${toolsBaseUrl}/mahe/fetch_transcript`,
+    "httpMethod": "POST"
+}
+}
+},
+{
+"temporaryTool": {
+"modelToolName": "updateSalesforceLeads",
+"description": "Update salesforce information",
+"dynamicParameters": [
+    {
+      "name": "name",
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "Full name of the student or inquirer",
+        "type": "string"
+      },
+      "required": true
+    },
+    {
+      "name": "email",
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "Email address of the student/inquirer",
+        "type": "string"
+      },
+      "required": true
+    },
+    {
+      "name": "phoneNumber",
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "Valid 10-digit mobile number of the student/inquirer",
+        "type": "string"
+      },
+      "required": true
+    },
+    {
+      "name": "program",
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "Academic program or course the student is interested in (e.g., B.Tech in AI, MBA, BBA, M.Sc. Data Science)",
+        "type": "string"
+      },
+      "required": false
+    },
+    {
+      "name": "10thPercentage",
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "10th standard percentage",
+        "type": "string"
+      },
+      "required": false
+    },
+    {
+      "name": "12thPercentage",
+      "location": "PARAMETER_LOCATION_BODY",
+      "schema": {
+        "description": "12th standard percentage",
+        "type": "string"
+      },
+      "required": false
+    }
+],
+"http": {
+  "baseUrlPattern": `${toolsBaseUrl}/mahe/update_lead`,
+  "httpMethod": "PUT"
+}
+}
+},
+
  {
    "temporaryTool": {
      "modelToolName": "storeappointmentdetails",
