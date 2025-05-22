@@ -1,6 +1,6 @@
 import express from "express";
 import axios from "axios";
-
+import { fetch } from "undici";
 const router = express.Router();
 
 // Helper: pause for given ms
@@ -34,36 +34,51 @@ function calculateDistance(coord1, coord2) {
 // Geocode a place name via Nominatim, with retries
 async function geocodePlace(name, limit = 10, retries = 3) {
   let locations = [];
+  const baseUrl = "https://nominatim.openstreetmap.org/search";
+  const headers = {
+    "User-Agent": "curl-distance-debug"
+  };
+
   for (let attempt = 0; attempt < retries; attempt++) {
+    const params = new URLSearchParams({
+      q: name,
+      format: "json",
+      addressdetails: "1",
+      limit: limit.toString(),
+    });
+
+    const fullUrl = `${baseUrl}?${params.toString()}`;
+    console.log(`🌍 Geocoding request (attempt ${attempt + 1}):`);
+    console.log(`curl "${fullUrl}" -H "User-Agent: curl-distance-debug"`);
+
     try {
-      const { data } = await axios.get(
-        "https://nominatim.openstreetmap.org/search",
-        {
-          params: {
-            q: name,
-            format: "json",
-            addressdetails: 1,
-            limit,
-          },
-        },
-      );
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 4000); // 2s timeout
+
+      const response = await fetch(fullUrl, {
+        headers,
+        signal: controller.signal,
+      });
+      clearTimeout(timeout);
+
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
       locations = data;
       if (locations.length) break;
     } catch (err) {
-      if (attempt < retries - 1) {
-        console.log("Geocoding failed; retrying...");
-        await sleep(1000);
-      } else {
-        console.log(`Geocoding failed after ${retries} attempts.`);
-      }
+      console.log(`❌ Geocoding failed on attempt ${attempt + 1}: ${err.message}`);
+      if (attempt < retries - 1) await sleep(1000);
+      else console.log(`⛔ Geocoding failed after ${retries} attempts.`);
     }
   }
+
   return locations.map((loc) => ({
     name: loc.display_name,
     latitude: parseFloat(loc.lat),
     longitude: parseFloat(loc.lon),
   }));
 }
+
 
 // Reverse-geocode coords to address via Nominatim, with retries
 async function getAddressForCoord(lat, lon, retries = 3) {
@@ -78,6 +93,7 @@ async function getAddressForCoord(lat, lon, retries = 3) {
             format: "json",
             addressdetails: 1,
           },
+          timeout: 2000
         },
       );
       return data.display_name || "Address not found";
@@ -112,49 +128,60 @@ function findClosestCoordinate(candidates, target) {
 }
 
 // POST /find-distance
-// Body: { latitude: number, longitude: number, placeName: string }
+// Body: { placeA: string, placeB: string }
 router.post("/find-distance", async (req, res) => {
-  const { latitude, longitude, placeName } = req.body;
-  // if they came in as strings, try to parse them
-  if (typeof latitude === "string") latitude = parseFloat(latitude);
-  if (typeof longitude === "string") longitude = parseFloat(longitude);
-
-  // now validate that we have real numbers
-  if (
-    typeof latitude !== "number" ||
-    Number.isNaN(latitude) ||
-    typeof longitude !== "number" ||
-    Number.isNaN(longitude) ||
-    typeof placeName !== "string"
-  ) {
+  let { placeA, placeB } = req.body;
+  console.log(req.body)
+  console.log("inside find-distance")
+  if (typeof placeA !== "string" || typeof placeB !== "string") {
     return res.status(400).json({
-      error:
-        "Request body must include numeric 'latitude', 'longitude', and string 'placeName'.",
+      error: "Request body must include 'placeA' and 'placeB' as strings.",
     });
   }
 
   try {
-    const candidates = await geocodePlace(placeName);
-    if (candidates.length === 0) {
+    // const [candidatesA, candidatesB] = await Promise.all([
+    //   geocodePlace(placeA),
+    //   geocodePlace(placeB),
+    // ]);
+    const candidatesA = await geocodePlace(placeA);
+    await sleep(1000);
+    const candidatesB = await geocodePlace(placeB);
+
+
+    if (candidatesA.length === 0 || candidatesB.length === 0) {
       return res.status(404).json({
-        error: `No geocoding results found for place '${placeName}'.`,
+        error: `Could not find both locations. Missing: ${
+          candidatesA.length === 0 ? "placeA" : "placeB"
+        }`,
       });
     }
 
-    const closest = findClosestCoordinate(candidates, [latitude, longitude]);
-    const {
-      distance_km,
-      name: landmark,
-      latitude: lat,
-      longitude: lon,
-    } = closest;
-    const address = await getAddressForCoord(lat, lon);
+    const coordA = [candidatesA[0].latitude, candidatesA[0].longitude];
+    const coordB = [candidatesB[0].latitude, candidatesB[0].longitude];
+    const distance_km = calculateDistance(coordA, coordB);
 
-    return res.json({ landmark, distance_km, address });
+    const addressA = await getAddressForCoord(coordA[0], coordA[1]);
+    const addressB = await getAddressForCoord(coordB[0], coordB[1]);
+
+    return res.json({
+      from: {
+        name: candidatesA[0].name,
+        coordinates: coordA,
+        address: addressA,
+      },
+      to: {
+        name: candidatesB[0].name,
+        coordinates: coordB,
+        address: addressB,
+      },
+      distance_km,
+    });
   } catch (err) {
     console.error("Error in /find-distance:", err);
     return res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 export { router };
