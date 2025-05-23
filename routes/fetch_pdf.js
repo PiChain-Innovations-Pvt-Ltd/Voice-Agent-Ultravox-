@@ -56,7 +56,7 @@ export { storeUserDetails };
 // Function to extract full text from PDFs
 const extractPDFs = async () => {
     const pdfFiles = [
-        { path: path.join(__dirname, "Light House Luxury - Real Estate Calling Script.pdf"), label: "Light House Luxury Calling Script"},
+        { path: path.join(__dirname, "UPES_KB_Docs.pdf"), label: "UPES KB Docs" },
     ];
 
     let fullText = [];
@@ -121,6 +121,8 @@ router.post('/fetch_pdf', async (req, res) => {
 
     res.json({ response: prompt.trim() });
 });
+
+
 
 router.post('/store_user_details', async (req, res) => {
     // const { name, phoneNumber, selectedClass, day } = req.body;
