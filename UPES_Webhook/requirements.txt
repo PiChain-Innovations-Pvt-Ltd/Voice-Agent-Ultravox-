@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pymongo
+google-generativeai
+pydantic
+python-dotenv
+python-multipart
+python-dateutil
+pydantic-settings
+python-jose[cryptography]
+httpx
+gspread
+google-auth-oauthlib
+google-auth   
